@@ -40,17 +40,14 @@ for (( i=0; i<${#papers[@]}; i++ )); do
   echo "title: "${papers[$i]}"" >> "$filename"
   echo "collection: publications" >> "$filename"
   echo "permalink: /publication/${year}-10-01-${title}-number-${number}" >> "$filename"
-  echo "excerpt: 'This paper is about ${title}. The number ${number} is left for future work.'" >> "$filename"
   echo "date: ${year}-10-01" >> "$filename"
   echo "venue: 'Journal X'" >> "$filename"
-  echo "paperurl: 'http://academicpages.github.io/files/paper1.pdf'" >> "$filename"
   echo "citation: 'Your Name, You. (${year}). "${papers[$i]}" <i>Journal X</i>. 1(1).'" >> "$filename"
   echo "---" >> "$filename"
-  echo "This paper is about ${title}. The number ${number} is left for future work." >> "$filename"
   echo "" >> "$filename"
   echo "Download paper here" >> "$filename"
   echo "" >> "$filename"
-  echo "Recommended citation: Your Name, You. (${year}). "${papers[$i]}" <i>Journal X</i>. 1(1)." >> "$filename"
+  echo "Recommended citation: "${papers[$i]}" <i>Journal X</i>. 1(1)." >> "$filename"
 
 done
 
