@@ -29,7 +29,7 @@ for (( i=0; i<${#papers[@]}; i++ )); do
   # Extract the year, title, and number from the paper string
   year=$(echo "${papers[$i]}" | grep -oE '[0-9]{4}' | head -n1)
   title=$(echo "${papers[$i]}" | grep -oE '^.\d{4})\s(.)..*$' | sed 's/[[:punct:]]//g' | sed 's/\s/-/g' | tr '[:upper:]' '[:lower:]')
-  number=$(printf "%02d" $((i+1)))
+  number=$(printf $((i+1)))
 
   # Create the filename
   filename="${year}-10-01-${title}-number-${number}.md"
