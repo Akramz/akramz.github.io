@@ -244,6 +244,16 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _Profile
+  - scope:
+      path: ""
+      type: profile
+    values:
+      layout: single
+      author_profile: true
+    permalink: /profile/:title/
+    title: "Profile"
+    url: "https://www.microsoft.com/en-us/research/people/akramzaytar/"
 
 # Sass/SCSS
 sass:
