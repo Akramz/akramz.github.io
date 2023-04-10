@@ -11,7 +11,7 @@ redirect_from:
 
 Work experience
 ======
-* March 23’ — ... : Senior Applied Scientist • Microsoft Research
+* March 23’ — Present : Senior Applied Scientist • Microsoft Research
   * I am part of the [AI4G team](https://www.microsoft.com/en-us/research/group/ai-for-good-research-lab/) working on large-impact GeoSpatial problems.
 * December 21’ — February 23’: Research Staff Member • IBM Research
   * I led a project focused on building [EIS](https://www.ibm.com/products/environmental-intelligence-suite/geospatial-analytics)’s CIMF & PAIRS toolkits for climate informatics (ref: [article](https://research.ibm.com/blog/ai-for-climate-change-adaptation)).
