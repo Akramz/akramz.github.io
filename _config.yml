@@ -83,7 +83,7 @@ author:
   name             : "Akram Zaytar"
   avatar           : "profile.png"
   bio              : "Sr. Applied Research Scientist working on GeoSpatial ML."
-  location         : "Nairobi"
+  location         :
   employer         : "Microsoft Research"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=m1J5OaIAAAAJ&hl=en&authuser=2"
