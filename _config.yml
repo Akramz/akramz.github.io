@@ -188,10 +188,6 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-main:
-  - title: "Profile"
-    url: "https://www.microsoft.com/en-us/research/people/akramzaytar/"
-
 # Defaults
 defaults:
   # _posts

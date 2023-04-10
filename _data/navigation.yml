@@ -14,3 +14,7 @@ main:
     
   - title: "CV"
     url: /cv/
+
+  - Profile: "Profile"
+    color: "blue"
+    url: https://www.microsoft.com/en-us/research/people/akramzaytar/
