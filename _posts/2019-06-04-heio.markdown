@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Climate-aware Forecasting Of Agricultural Produce Across Large Regions."
+date:   2022-12-12
+image: /images/produce.jpeg
+categories: research
+authors: "Chengal Navin Kumar Twarakavi, Fred Otieno, Kamal Das, <strong>Akram Zaytar</strong>, Jitendra Singh"
+venue: "INFORMS Annual Meeting"
+abstract: https://research.ibm.com/publications/climate-aware-forecasting-of-agricultural-produce-across-large-regions
+---
+
+Amidst climate change, unpredictable extreme events and shifting weather patterns raise uncertainties in food supply. Addressing this, our study introduces an AI-driven methodology that integrates seasonal weather forecasts, extreme event data, and agronomy insights to anticipate large-scale food production risks. Through our case, we projected a four-month lead time corn supply in a major Indian state, also capturing vital metrics like harvest timing and water usage. Our findings underscore the transformative potential of AI combined with geospatial analytics to enhance future food production predictions.

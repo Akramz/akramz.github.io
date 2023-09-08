@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Sequence to sequence weather forecasting with long short-term memory recurrent neural networks."
+date:   2013-03-01 22:21:59 +00:00
+image: /images/seq2seq.png
+categories: research
+venue: "International Journal of Computer Applications"
+authors: "<strong>Akram Zaytar</strong>, Chaker El Amrani"
+arxiv: https://www.ijcaonline.org/archives/volume143/number11/zaytar-2016-ijca-910497.pdf
+---
+
+We present a deep neural network architecture and use it in time series weather prediction. It stacks multi-LSTMs to map sequences of weather values of the same length. The final goal is to produce two types of models per city (for 9 cities in Morocco) to forecast 24 and 72 hours worth of weather data (for Temperature, Humidity and Wind Speed). Approximately 15 years (2000-2015) of hourly meteorological data was used to train the model. The results show that LSTM based neural networks are competitive with the traditional methods and can be considered a better alternative to forecast general weather conditions.

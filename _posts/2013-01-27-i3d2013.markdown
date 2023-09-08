@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "A toolbox for weather and climate data discovery and extreme event analysis."
+date:    2022-12-15 22:21:59 +00:00
+image: /images/EIS.png
+categories: research
+authors: "Zaheed Gaffoor, Zubeida Patel, Etienne Eben Vos, Daniel Salles Civitarese, Campbell Watson, <strong>Akram Zaytar</strong>, Bianca Zadrozny"
+venue: "AGU Fall Meeting Abstracts"
+abstract: https://ui.adsabs.harvard.edu/abs/2022AGUFMGC41F..01G/abstract
+---
+
+Climate change impacts global societal and economic activities, necessitating informed adaptation strategies for stakeholders. Addressing this demand, we introduced a cloud-based toolbox that aggregates various geospatial datasets to evaluate extreme event probabilities across different time-scales. Our platform employs rigorous statistical methods, with options like ETCCDI, custom, or AI-driven climate indices. As a result, users gain insights into extreme climate metrics at multiple scales, aiding activities like asset management. Crucially, our toolbox offers alerts on looming extreme events, benefiting early warning and relief efforts. Our demonstration underscores the utility and the sophisticated tech underpinning this solution, with a spotlight on extreme indices.

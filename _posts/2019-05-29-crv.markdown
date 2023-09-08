@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Big Data Analytics for Climate-Resilient Food Supply Chains: Opportunities and Way Forward"
+date: 2022-09-30 22:21:59 +00:00
+image: /images/supply_chains.jpeg
+categories: research
+authors: "Navin Kumar C Twarakavi, Kamal Das, <strong>Akram Zaytar</strong>, Fred Otieno, Jitendra Singh, Bruno Silva, Komminist Weldemariam, Shantanu Godbole"
+venue: "Data Science in Agriculture and Natural Resource Management"
+arxiv: https://www.researchgate.net/publication/355182200_Big_Data_Analytics_for_Climate-Resilient_Food_Supply_Chains_Opportunities_and_Way_Forward
+---
+
+Traditional agricultural practices face increasing risks due to the changing climate and more frequent extreme events, making traditional food production forecasts unreliable. We introduce a methodology that merges seasonal weather predictions, geo-spatial data from remote sensing, extreme event risks, and crop growth models to assess regional production risks. This approach was successfully validated across multiple seasons in several Iowa counties.

@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Satellite Imagery Noising With Generative Adversarial Networks."
+date:   2021-01-01
+image: /images/noise.png
+categories: research
+authors: "<strong>Akram Zaytar</strong>, Chaker El Amrani"
+venue: "International Journal of Cognitive Informatics and Natural Intelligence (IJCINI)"
+arxiv: https://www.igi-global.com/article/satellite-imagery-noising-with-generative-adversarial-networks/267895
+---
+
+Satellite imagery and remote sensing data often contain gaps from natural atmospheric disturbances, hampering its utility in supervised and self-supervised learning contexts—a barrier to capitalizing on this invaluable resource in data-driven workflows. To tackle this, we introduce a generative adversarial network (GAN) model capable of simulating realistic atmospheric noise. This model serves as a data augmentation tool, generating augmented datasets that enhance the efficacy of supervised machine learning algorithms.

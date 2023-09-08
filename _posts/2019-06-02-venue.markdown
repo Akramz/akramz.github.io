@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Improving sub-seasonal to seasonal forecast using a time-series transformer"
+date:   2022-12-12
+image: /images/s2s.png
+categories: research
+authors: "Daniel Salles Civitarese, <strong>Akram Zaytar</strong>, Etienne Eben Vos, Johannes Schmude, Bianca Zadrozny, Campbell Watson."
+venue: "American Geophysical Union Fall Meeting"
+abstract: https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1158112
+---
+Sub-seasonal to seasonal (S2S) forecasting for temperature and precipitation faces challenges in accuracy. Leveraging attention-based transformer models can refine these forecasts, making them more reliable. We implemented a modified Temporal Fusion Transformer (TFT) that integrates multi-horizon sequences, spatiotemporal data, and ECMWF ensemble embeddings, enabling the model to adjust forecasts using past observations. Evaluations revealed the TFT outperformed the ECMWF S2S ensemble and recent climatology, demonstrating heightened sensitivity to climate anomalies.

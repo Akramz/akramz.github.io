@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "End-to-End Google Earth Engine with Python and Geemap."
+date:   2021-03-15
+image: /images/spatial_thoughts.png
+categories: other
+authors: "Akram Zaytar"
+code: https://github.com/Akramz/end-to-end-gee
+---
+
+Using satellite imagery and remote sensing data for supervised and self-supervised learning problems can be quite challenging when parts of the underlying datasets are missing due to natural phenomena (clouds, fog, haze, mist, etc.). Solving this problem will improve remote sensing data augmentation and make use of it in a world where satellite imagery represents a great resource to exploit in any big data pipeline setup. In this paper, the authors present a generative adversarial network (GANs) model that can generate natural atmospheric noise that serves as a data augmentation preprocessing tool to produce input to supervised machine learning algorithms.

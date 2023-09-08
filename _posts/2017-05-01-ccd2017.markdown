@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "ML-based Probabilistic Prediction of 2m Temperature and Total Precipitation"
+date:   2022-03-25 21:21:53 +00:00
+image: /images/s2s_ml.jpeg
+categories: research
+authors: "<strong>Akram Zaytar</strong>, Bianca Zadrozny, Campbell Watson, Daniel Salles Civitarese, Etienne Eben Vos, Thabang Michael Mathonsi, Thabang Lukhetho Mashinini"
+venue: "EGU 22, Copernicus Meetings"
+slides: https://meetingorganizer.copernicus.org/EGU22/EGU22-11063.html
+---
+
+With increasing extreme weather events, there's a pressing need for enhanced subseasonal to seasonal (S2S) weather forecasting. Addressing the disparity between numerical weather prediction and seasonal forecasting, we introduce a daily probabilistic forecast model predicting global 2-meter temperature and precipitation. This integrates multimodal data into feature vectors for three ML models: Extreme Gradient Boosting, U-Net, and Natural Gradient Boosting, optimized using Bayesian hyperparameter search. Our approach surpasses the ECMWF 46-day forecasts and climatology, demonstrating that blending physics-based forecasts with diverse predictability sources enhances model efficacy. This enhancement is hoped to refine forecasts of climate extremes, with subsequent models potentially assessing extreme event probabilities more adeptly.
