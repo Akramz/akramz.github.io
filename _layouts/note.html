@@ -42,6 +42,12 @@ layout: default
 
 <hr>
 
+<script>
+  Array.from(document.links)
+    .filter(link => link.hostname != window.location.hostname)
+    .forEach(link => link.target = '_blank');
+</script>
+
 <!-- <p>Here are all the notes in this garden, along with their links, visualized as a graph.</p>
 
 {% include notes_graph.html %} -->
