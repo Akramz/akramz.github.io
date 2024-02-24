@@ -3,7 +3,7 @@ layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-{% assign posts = site.posts  %}
+{% assign notes = site.notes  %}
 
  <title>{{ site.title }}</title>
  <link href="{{ site.url }}{{ site.baseurl }}/rss.xml" rel="self"/>
@@ -14,13 +14,13 @@ layout: null
    <name>{{ site.author }}</name>
  </author>
 
- {% for post in posts %}
+ {% for note in notes %}
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <title>{{ note.title }}</title>
+   <link href="{{ site.url }}{{ site.baseurl }}{{ note.url }}"/>
+   <updated>{{ note.date | date_to_xmlschema }}</updated>
+   <id>{{ site.url }}{{ note.id }}</id>
+   <content type="html">{{ note.content | xml_escape }}</content>
  </entry>
  {% endfor %}
 
