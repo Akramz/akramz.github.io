@@ -2,11 +2,11 @@
 title: How to Patchify & Index Overlapping Satellite Images
 last_modified_at: 2024-02-24
 ---
-Overlapping satellite images are difficult to index after [patchify](https://pypi.org/project/patchify/)-cation since the intersecting area patches will produce [Hash collisions](https://en.wikipedia.org/wiki/Hash_collision). This makes batch creation for deep learning challenging. We encounter this issue when processing multi-sensor data or stacked temporal images that cover the same region.
+Overlapping satellite images are difficult to index after [patchify](https://pypi.org/project/patchify/){:target="_blank"}-cation since the intersecting area patches will produce [Hash collisions](https://en.wikipedia.org/wiki/Hash_collision){:target="_blank"}. This makes batch creation for deep learning challenging. We encounter this issue when processing multi-sensor data or stacked temporal images that cover the same region.
 
 In the case of temporal datasets, there are two solutions that come to mind:
 1. Add a temporal index into the data samplers.
-2. Shift the the images randomly before using a standard sampler ([TorchGeo](https://github.com/microsoft/torchgeo)).
+2. Shift the the images randomly before using a standard sampler ([TorchGeo](https://github.com/microsoft/torchgeo){:target="_blank"}).
 
 In this post, I share code for randomly shifting & saving a new version of an existing satellite image:
 
