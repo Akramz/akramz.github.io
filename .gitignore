@@ -1,13 +1,15 @@
-_site
-.DS_Store
-.jekyll
+# Generated website directory
+_site/
+
+# Sass cache
+.sass-cache/
+
+# Jekyll cache & metadata
+.jekyll-cache/
 .jekyll-metadata
-.bundle
-.sass-cache
-Gemfile
-Gemfile.lock
-node_modules
-package.json
-tn/
-favicon.ico
-.idea/
+
+# Notes graph metadata
+_includes/notes_graph.json
+
+# Obsidian config
+.obsidian/
