@@ -13,7 +13,11 @@ As we iterate on the data processing pipeline, we can minimize the resulting `Ge
 I share a function that takes an input image path, applies the above steps, and saves the resulting image:
 
 ```python
-def compress_image(in_path, out_path, res_factor=5):
+from pathlib import Path
+import rasterio
+from rasterio.enums import Resampling
+
+def compress_image(in_path, out_path, res_factor=10, bands=[1]):
     """
     Compresses and resamples a raster image, saving the result in JPEG 2000 format.
 
@@ -27,6 +31,7 @@ def compress_image(in_path, out_path, res_factor=5):
     Returns:
     - None. The result is saved to the `out_path` as a JPEG 2000 compressed image.
     """
+
     # Convert to pathlib.Path
     in_path = Path(in_path)
     out_path = Path(out_path)
@@ -36,13 +41,14 @@ def compress_image(in_path, out_path, res_factor=5):
     
     # Open the source image
     with rasterio.open(in_path) as src:
+
         # Calculate the new resolution
         new_width = src.width // res_factor
         new_height = src.height // res_factor
         
         # Read the data from the first band and resample it
         data = src.read(
-            1, 
+            bands,
             out_shape=(
                 new_height,
                 new_width
@@ -65,7 +71,9 @@ def compress_image(in_path, out_path, res_factor=5):
             transform=transform,
             compress="JPEG 2000",
             dtype="uint8",
-            count=1,
+            count=len(bands),
+            crs=src.crs,
+            predictor=2
         )
         
         # If the original data is not uint8, conduct min-max normalization and convert to uint8
@@ -75,7 +83,8 @@ def compress_image(in_path, out_path, res_factor=5):
 
     # Write the resampled data to the output file
     with rasterio.open(out_path, "w", **out_meta) as dest:
-        dest.write(data, 1)
+        if len(bands) > 1: dest.write(data)
+        else: dest.write(data[bands[0]], 1)
 ```
 
 Notes:
