@@ -1,6 +1,6 @@
 ---
-title: Maximally compress GeoTIFF images for quick transfer & visualization
-last_modified_at: 2024-03-10
+layout: post
+slug: How to maximally compress GeoTIFFs
 ---
 Large satellite images can be difficult to transfer or visualize depending on internet speed and specs. This may result in slow data transfer/inspection/visualization when conducting data processing from a VM or attempting to share the imagery.
 

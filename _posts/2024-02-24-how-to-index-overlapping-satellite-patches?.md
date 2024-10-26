@@ -1,6 +1,6 @@
 ---
-title: How to Index Patches from Overlapping Satellite Images
-last_modified_at: 2024-02-24
+layout: post
+slug: How to Index Overlapping Satellite Patches
 ---
 Overlapping satellite images are difficult to index after [patchify](https://pypi.org/project/patchify/)-cation since the intersecting area patches will produce [Hash collisions](https://en.wikipedia.org/wiki/Hash_collision). This makes batch creation for deep learning challenging. We encounter this issue when processing multi-sensor data or stacked temporal images that cover the same region.
 
