@@ -12,6 +12,10 @@ entries:
 
   - title: open source
     entries:
+      - title: Sims - a Geospatial Feature Discovery client
+        url: https://github.com/microsoft/Sims
+      - title: Building damage assessment toolkit
+        url: https://github.com/microsoft/building-damage-assessment
       - title: Resources for Geospatial ML in Python
         url: https://github.com/GeoAIAfrica/resources
       - title: End-to-end Google Earth Engine
@@ -21,6 +25,7 @@ entries:
 
   - title: research
     entries:
+      - title: "2024 - <a href='https://arxiv.org/abs/2412.10184' target='_blank'>Sims: An Interactive Tool for Geospatial Matching and Clustering</a>."
       - title: "2024 - <a href='https://arxiv.org/pdf/2403.02736' target='_blank'>Bootstrapping Object Detection in Satellite Data</a>: Techniques for labeling rare objects in satellite imagery without prior knowledge."
       - title: "2022 - <a href='https://meetingorganizer.copernicus.org/EGU22/EGU22-11063.html' target='_blank'>Probabilistic Prediction of Temperature & Rainfall</a>: Better sub-seasonal forecasts for `t2m` by combining reforecasts and climate mode indicators."
       - title: "2021 - <a href='https://www.researchgate.net/publication/348126094_Satellite_Imagery_Noising_With_Generative_Adversarial_Networks' target='_blank'>Satellite imagery noising with GANs</a>: generating realistic atmospheric noise with GANs."
