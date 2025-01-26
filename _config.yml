@@ -24,7 +24,7 @@ email: zaytarakram@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I'm a tinkerer who (sometimes) gets obsessively interested in certain topics. During the day, I work with pixels and polygons to solve geospatial AI problems with a focus on concrete impact. In my spare time, you might find me learning from others, building PoCs, and sharing my discoveries.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://akramz.space" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zaytarakram
 github_username:  akramz
 
