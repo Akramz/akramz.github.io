@@ -3,13 +3,6 @@ entries:
     entries:
       - title: I'm a tinkerer who (sometimes) gets obsessively interested in certain topics. During the day, I work with pixels and polygons to solve geospatial AI problems with a focus on concrete impact. In my spare time, you might find me learning from others, building PoCs, and sharing my discoveries.
 
-  - title: posts
-    post_list:
-      limit: 15
-      show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
-
   - title: open source
     entries:
       - title: Sims - a Geospatial Feature Discovery client
@@ -30,6 +23,13 @@ entries:
       - title: "2022 - <a href='https://meetingorganizer.copernicus.org/EGU22/EGU22-11063.html' target='_blank'>Probabilistic Prediction of Temperature & Rainfall</a>: Better sub-seasonal forecasts for `t2m` by combining reforecasts and climate mode indicators."
       - title: "2021 - <a href='https://www.researchgate.net/publication/348126094_Satellite_Imagery_Noising_With_Generative_Adversarial_Networks' target='_blank'>Satellite imagery noising with GANs</a>: generating realistic atmospheric noise with GANs."
       - title: "2018 - <a href='https://www.researchgate.net/profile/Mohamed-Akram-Zaytar/publication/304066008_Sequence_to_Sequence_Weather_Forecasting_with_Long_Short-Term_Memory_Recurrent_Neural_Networks/links/591c35b60f7e9b7727da05cc/Sequence-to-Sequence-Weather-Forecasting-with-Long-Short-Term-Memory-Recurrent-Neural-Networks.pdf' target='_blank'>Seq2Seq weather forecasting with LSTMs</a>: LSTMs for short-term weather forecasting (24/72 hours)."
+
+  - title: posts
+    post_list:
+      limit: 15
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
 
   - title: links
     entries:
