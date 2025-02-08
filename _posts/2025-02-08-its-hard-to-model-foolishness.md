@@ -1,0 +1,22 @@
+---
+layout: post
+title: "It's Hard to Model Foolishness"
+date: 2025-02-08
+categories: rationality
+---
+
+One of the hardest things in life is dealing with foolish people, me included :D. Not just in the sense of handling an occasional bad driver or an annoying coworker, but in the broader challenge of navigating a world where irrational behavior exists—and sometimes dominates.
+
+You can't model foolishness the way you can with rational actors. Rational people follow patterns, make predictable decisions, and respond to incentives. Fools, on the other hand, act erratically. They don't follow rules, they don't weigh consequences, and, worst of all, they often have nothing to lose. This makes them dangerous. But not all unpredictability is the same. Some people are genuinely erratic, while others deliberately use unpredictability as a strategy. Think of negotiations, games, or even social settings—if someone always behaves predictably, they're easy to manipulate. That's why seasoned negotiators sometimes feign irrationality or disinterest to tilt the balance. The trick is figuring out when unpredictability is deliberate versus random chaos. Failing to distinguish the two can be costly. Dismissing a calculated contrarian as a fool may cause you to miss valuable insights, while treating a true fool like a rational actor can get you burned. This is where pattern recognition matters—but when in doubt, defaulting to defensive posturing is often the safest bet.
+
+The best way to deal with foolishness isn't to predict it—it's to guard against it. I think of this as the Buffer Principle: always give yourself a cushion against unpredictable behavior. If you're driving, keep distance from all drivers. If you're managing money, keep an emergency fund. If you're dealing with unstable people, limit your exposure. It's easy to get caught up in trying to outthink foolishness, but it's a waste of energy. A fool isn't playing the same game as you. The smartest move is often staying out of the game entirely.
+
+There's an old saying in strategy games: if your opponent always knows your next move, you've already lost. This applies in business, social interactions, and even self-defense. Predictability makes you an easy target, so sometimes it's useful to mix in deliberate randomness. This doesn't mean acting erratically for no reason, but rather introducing variability where it counts. In negotiation, showing a willingness to walk away—even if you really want the deal—forces the other party to reconsider. In poker, mixing bluffs with strong hands prevents opponents from reading your strategy. Controlled unpredictability keeps you in control by keeping others guessing.
+
+Sometimes, foolishness creates opportunities. Economic bubbles are a classic example. People pour money into overhyped assets, driving prices way beyond their true value. If you're rational, you can profit—but only if you stay detached. The trick is knowing when to walk away. Most people don't. They get greedy. They think, just a little longer, and before they know it, the whole thing collapses. A safer way to profit from foolishness is to sell the tools instead of digging for gold. In any mania, the people who consistently win are the ones selling picks and shovels. They don't get caught up in the madness; they profit from those who do. But this raises an ethical question: are you helping people, or just enabling more foolishness?
+
+The real danger is fooling yourself. You might think you're playing the game rationally, only to realize too late that you've been swept up in the same herd behavior. The best hedge against this is brutal self-awareness—being willing to question your own motives and resist the urge to rationalize bad decisions.
+
+At the end of the day, the best approach to foolishness is simple. Stay clear of unnecessary risks. If someone is erratic, don't engage. If a situation looks too good to be true, it probably is. Use unpredictability to your advantage. In negotiation, business, or life, don't make it easy for others to model you. If you engage with foolishness, do it carefully. Know when to walk away, and don't let self-delusion pull you in.
+
+You can't stop foolishness from existing. But you can make sure it doesn't take you down with it. 
