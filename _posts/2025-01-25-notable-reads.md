@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notable Reads [25 Jan, 2025]"
+title: "Notable Reads"
 date: 2025-01-25
 categories: links reading
 ---

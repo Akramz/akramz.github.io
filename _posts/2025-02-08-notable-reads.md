@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notable Reads [8 Feb, 2025]"
+title: "Notable Reads"
 date: 2025-02-08
 categories: reads
 ---
