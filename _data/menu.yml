@@ -26,7 +26,7 @@ entries:
   - title: research
     entries:
       - title: "2024 - <a href='https://arxiv.org/abs/2412.10184' target='_blank'>Sims</a>."
-      - title: "2024 - <a href='https://arxiv.org/pdf/2403.02736' target='_blank'>Techniques for labeling rare objects in satellite imagery</a>"
+      - title: "2024 - <a href='https://arxiv.org/pdf/2403.02736' target='_blank'>Ways to label rare objects in satellite imagery</a>"
       - title: "2022 - <a href='https://meetingorganizer.copernicus.org/EGU22/EGU22-11063.html' target='_blank'>Sub-Seasonal Prediction of Temperature & Rainfall</a>"
       - title: "2021 - <a href='https://www.researchgate.net/publication/348126094_Satellite_Imagery_Noising_With_Generative_Adversarial_Networks' target='_blank'>Satellite imagery noising with GANs</a>"
       - title: "2018 - <a href='https://www.researchgate.net/profile/Mohamed-Akram-Zaytar/publication/304066008_Sequence_to_Sequence_Weather_Forecasting_with_Long_Short-Term_Memory_Recurrent_Neural_Networks/links/591c35b60f7e9b7727da05cc/Sequence-to-Sequence-Weather-Forecasting-with-Long-Short-Term-Memory-Recurrent-Neural-Networks.pdf' target='_blank'>Seq2Seq weather forecasting with LSTMs</a>"
@@ -41,5 +41,5 @@ entries:
         url: https://scholar.google.com/citations?user=m1J5OaIAAAAJ&hl=en&authuser=3
       - title: linkedin
         url: https://www.linkedin.com/in/akramz/
-      - title: Good Reads
+      - title: Goodreads
         url: https://goodreads.com/akramzz
