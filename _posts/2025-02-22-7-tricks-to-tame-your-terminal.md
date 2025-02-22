@@ -6,7 +6,7 @@ published: true
 
 Given how much we use the terminal, any friction to get an action done is multiplied hundred of times resulting in a lot of wasted time. Optimizing the way we use the terminal will give us a decent productivity boost. In this post I share with you some common pain points that I faced before and found solutions for.
 
-## 1. My terminal theme and colors are confusing!
+### 1. My terminal theme and colors are confusing!
 *Solution:* [`Oh My Zsh`](https://ohmyz.sh/).
 
 1. `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
@@ -15,7 +15,7 @@ Given how much we use the terminal, any friction to get an action done is multip
 
 .. or pick a dedicated color scheme like [**Solarized**](https://ethanschoonover.com/solarized/), [**Gruvbox**](https://github.com/morhetz/gruvbox), or [**Dracula**](https://draculatheme.com/).
 
-## 2. I keep hunting for my terminal window!
+### 2. I keep hunting for my terminal window!
 *Solution*: Find a shortcut to hover a terminal whenever you need it.
 
 For MacOS:
@@ -30,7 +30,7 @@ For Linux, use a drop-down terminal like [**Guake**](http://guake-project.org/),
 2. Launch Guake, then press F12 (default) to summon or hide it.
 3. Customize the hotkey in Guake's preferences if you want a different shortcut.
 
-## 3. It's slow to navigate directories!
+### 3. It's slow to navigate directories!
 *Solution*: [`z`](https://github.com/rupa/z)
 
 Use [`z`](https://github.com/rupa/z) (autojump-like) or [`zoxide`](https://github.com/ajeetdsouza/zoxide):
@@ -39,7 +39,7 @@ Use [`z`](https://github.com/rupa/z) (autojump-like) or [`zoxide`](https://githu
 2. Source it in your shell config (`.zshrc`, `.bashrc`), e.g. `eval "$(zoxide init bash)"`.
 3. After a day or two of normal usage, type `z <partial-dir-name>` to jump instantly.
 
-## 4. I find myself writing the same commands lots of times!
+### 4. I find myself writing the same commands lots of times!
 *Solution*: [`zsh-autosuggestions`](https://github.com/zsh-users/zsh-autosuggestions) or quickly search the history.
 
 For `zsh-autosuggestions`:
@@ -47,7 +47,7 @@ For `zsh-autosuggestions`:
 2. Add `plugins=(zsh-autosuggestions)` in your `~/.zshrc` (if using oh-my-zsh).
 3. Watch as your previous commands appear in lighter text—press right arrow to accept.
 
-## 5. I Don't Know the Right Command!
+### 5. I Don't Know the Right Command!
 *Solution:* use a LLM CLI tool to ask it for commands. 
 
 1. Install [llm](https://llm.datasette.io/en/stable/) via pip.
@@ -56,7 +56,7 @@ For `zsh-autosuggestions`:
 4. Add this to your `~/.bashrc`: `alias please="llm -m gpt-4o 'Give me a short macOS terminal command to'"`
 5. Then just run `please "How do I find all .txt files and remove them?"`
 
-## 6. I've got five tasks at once, but each new shell is a hassle
+### 6. I've got five tasks at once, but each new shell is a hassle
 *Solution:* persist sessions with [`tmux`](https://github.com/tmux/tmux) and learn shortcuts for pane/window management.
 
 For MacOS:
@@ -67,7 +67,7 @@ For MacOS:
     1. `brew install tmux`
     2. Run `tmux`, open new windows/panes with `Ctrl+B c` (new window) or `Ctrl+B %` (vertical split).
 
-## 7. The cursor is slow!
+### 7. The cursor is slow!
 *Solution:* adjust the cursor speed and learn shortcuts to jump around text quickly.
 
 For MacOS:
