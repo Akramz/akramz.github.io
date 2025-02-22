@@ -7,7 +7,7 @@ published: true
 Given how much we use the terminal, any friction to get an action done is multiplied hundred of times resulting in a lot of wasted time. Optimizing the way we use the terminal will give us a decent productivity boost. In this post I share with you some common pain points that I faced before and found solutions for.
 
 ### 1. My terminal theme and colors are confusing!
-*Solution:* [`Oh My Zsh`](https://ohmyz.sh/).
+*Solution:* [Oh My Zsh](https://ohmyz.sh/).
 
 1. `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 2. Pick a theme in `~/.zshrc` (for oh-my-zsh, set `ZSH_THEME="agnoster"` or similar).
@@ -31,7 +31,7 @@ For Linux, use a drop-down terminal like [**Guake**](http://guake-project.org/),
 3. Customize the hotkey in Guake's preferences if you want a different shortcut.
 
 ### 3. It's slow to navigate directories!
-*Solution*: [`z`](https://github.com/rupa/z)
+*Solution*: [z](https://github.com/rupa/z)
 
 Use [`z`](https://github.com/rupa/z) (autojump-like) or [`zoxide`](https://github.com/ajeetdsouza/zoxide):
 1. Install `z`: `brew install z` (Mac) or `sudo apt-get install z`.
@@ -40,7 +40,7 @@ Use [`z`](https://github.com/rupa/z) (autojump-like) or [`zoxide`](https://githu
 3. After a day or two of normal usage, type `z <partial-dir-name>` to jump instantly.
 
 ### 4. I find myself writing the same commands lots of times!
-*Solution*: [`zsh-autosuggestions`](https://github.com/zsh-users/zsh-autosuggestions) or quickly search the history.
+*Solution*: [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) or quickly search the history.
 
 For `zsh-autosuggestions`:
 1. `brew install zsh-autosuggestions` (Mac) or use your distro's package manager.
@@ -57,7 +57,7 @@ For `zsh-autosuggestions`:
 5. Then just run `please "How do I find all .txt files and remove them?"`
 
 ### 6. I've got five tasks at once, but each new shell is a hassle
-*Solution:* persist sessions with [`tmux`](https://github.com/tmux/tmux) and learn shortcuts for pane/window management.
+*Solution:* persist sessions with [tmux](https://github.com/tmux/tmux) and learn shortcuts for pane/window management.
 
 For MacOS:
 1. Use [iTerm2](https://iterm2.com/) with split panes or multiple tabs:
