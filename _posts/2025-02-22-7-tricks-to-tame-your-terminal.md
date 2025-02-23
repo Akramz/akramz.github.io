@@ -21,12 +21,12 @@ Given how much we use the terminal, any friction to get an action done is multip
 For MacOS:
 - Install [**iTerm2**](https://iterm2.com/) if you haven't already.
 - Enable **hotkey window**:
-    1. In iTerm2 > Preferences > Keys, set up a **"Hotkey"** (e.g. `⌘ + ``).
+    1. In iTerm2 > Preferences > Keys, set up a **"Hotkey"** (`⌘ + ``).
     2. Turn on the **"Hotkey Window"** option.
     3. Now press your hotkey, and a terminal drops down instantly—press it again to hide.
 
 For Linux, use a drop-down terminal like [**Guake**](http://guake-project.org/), [**Yakuake**](https://apps.kde.org/yakuake/), or [**Tilda**](https://github.com/lanoxx/tilda):
-1. Install e.g. `sudo apt-get install guake` (Ubuntu) or `sudo dnf install guake` (Fedora).
+1. Install `sudo apt-get install guake` (Ubuntu) or `sudo dnf install guake` (Fedora).
 2. Launch Guake, then press F12 (default) to summon or hide it.
 3. Customize the hotkey in Guake's preferences if you want a different shortcut.
 
@@ -36,7 +36,7 @@ For Linux, use a drop-down terminal like [**Guake**](http://guake-project.org/),
 Use [`z`](https://github.com/rupa/z) (autojump-like) or [`zoxide`](https://github.com/ajeetdsouza/zoxide):
 1. Install `z`: `brew install z` (Mac) or `sudo apt-get install z`.
     - For `zoxide`, visit: [zoxide.org](https://github.com/ajeetdsouza/zoxide).
-2. Source it in your shell config (`.zshrc`, `.bashrc`), e.g. `eval "$(zoxide init bash)"`.
+2. Source it in your shell config (`.zshrc`, `.bashrc`), `eval "$(zoxide init bash)"`.
 3. After a day or two of normal usage, type `z <partial-dir-name>` to jump instantly.
 
 ### 4. I find myself writing the same commands lots of times!
@@ -51,7 +51,7 @@ For `zsh-autosuggestions`:
 *Solution:* use a LLM CLI tool to ask it for commands. 
 
 1. Install [llm](https://llm.datasette.io/en/stable/) via pip.
-2. Either install a free LLM locally or provide API keys (i.e., `llm keys set openai`)
+2. Either install a free LLM locally or provide API keys (`llm keys set openai`)
 3. Check the available LLMs you have via `llm models`
 4. Add this to your `~/.bashrc`: `alias please="llm -m gpt-4o 'Give me a short macOS terminal command to'"`
 5. Then just run `please "How do I find all .txt files and remove them?"`
@@ -76,7 +76,7 @@ For MacOS:
     - In [iTerm2](https://iterm2.com/), under Preferences > Profiles > Keys, map Option+Left to `Esc+b` (move back one word) and Option+Right to `Esc+f` (move forward one word).
 
 For Linux:
-1. Adjust keyboard repeat rate: e.g. `xset r rate 200 50` (200 ms delay, 50 repeats/sec) in your `.bashrc` or `.profile` if you want it permanent.
+1. Adjust keyboard repeat rate: `xset r rate 200 50` (200 ms delay, 50 repeats/sec) in your `.bashrc` or `.profile` if you want it permanent.
 2. Terminal shortcuts often already exist: Try `Ctrl+Left` or `Alt+Left` to jump word-by-word. If needed, add them in your Terminal Preferences or use your `.inputrc`.
 
 Little tweaks can remove loads of friction and drastically boost your terminal productivity. We can (and should) find similar tricks around the software we use most: Browser, IDE, OS, etc.
