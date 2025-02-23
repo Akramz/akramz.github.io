@@ -21,7 +21,7 @@ Given how much we use the terminal, any friction to get an action done is multip
 For MacOS:
 - Install [**iTerm2**](https://iterm2.com/) if you haven't already.
 - Enable **hotkey window**:
-    1. In iTerm2 > Preferences > Keys, set up a **"Hotkey"** (`⌘ + ``).
+    1. In iTerm2 > Preferences > Keys, set up a **"Hotkey"**.
     2. Turn on the **"Hotkey Window"** option.
     3. Now press your hotkey, and a terminal drops down instantly—press it again to hide.
 
