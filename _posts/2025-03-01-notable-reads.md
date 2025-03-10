@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notable Reads: On AI Safety, Incentives as Filters, and Coporate Culture"
+title: "On AI Safety, Incentives as Filters, and Coporate Culture"
 date: 2025-03-01
 categories: notable-reads
 ---

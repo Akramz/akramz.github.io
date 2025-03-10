@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notable Reads: Finding Meaningful Work and Building Your Online Home"
+title: "Finding Meaningful Work and Building Your Online Home"
 date: 2025-02-22
 categories: notable-reads
 ---

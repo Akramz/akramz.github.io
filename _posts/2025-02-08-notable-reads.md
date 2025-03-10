@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notable Reads: Challenging Consensus, AI Export Controls, and Hidden Incentives"
+title: "Challenging Consensus, AI Export Controls, and Hidden Incentives"
 date: 2025-02-08
 categories: reads
 ---

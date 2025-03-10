@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notable Reads: AGI Predictions, Ambition vs. Balance, and Scientific Skepticism"
+title: "AGI Predictions, Ambition vs. Balance, and Scientific Skepticism"
 description: A collection of interesting articles and my thoughts on them
 date: 2025-02-15
 categories: reads

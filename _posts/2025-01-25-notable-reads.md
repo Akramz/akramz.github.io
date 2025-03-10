@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notable Reads: AI Tools, Mental Health, and Tech Optimism"
+title: "AI Tools, Mental Health, and Tech Optimism"
 date: 2025-01-25
 categories: links reading
 ---
