@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Notable Reads
+title: "Notable Reads: Finding Meaningful Work and Building Your Online Home"
 date: 2025-02-22
 categories: notable-reads
 ---
@@ -10,4 +10,4 @@ categories: notable-reads
 - **[Be A Property Owner And Not A Renter On The Internet](https://den.dev/blog/be-a-property-owner-not-a-renter-on-the-internet)**
 	Get your own domain & create a personal website, diversity your online presence across platforms/socials. Form direct connections with people by building and maintaining a mailing list. Create backups of your content. Once you have enough connections, build a community around your content (comments/forums). Use open communication internet protocols. Accept that complete control isn't always possible.
 - **[Keep your Identity Small](https://paulgraham.com/identity.html)**
-	Your identity is sacred. We become very sensitive/defensive about whatever we choose to integrate into our identities in the form of beliefs. Your identity is the static in a changing truth, and so it introduces modes of human collapse. So please, keep your identity small :) 
+	Your identity is sacred. We become very sensitive/defensive about whatever we choose to integrate into our identities in the form of beliefs. Your identity is the static in a changing truth, and so it introduces modes of human collapse. So please, keep your identity small :)

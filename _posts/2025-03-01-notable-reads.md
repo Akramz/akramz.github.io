@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Notable Reads
+title: "Notable Reads: On AI Safety, Incentives as Filters, and Coporate Culture"
 date: 2025-03-01
 categories: notable-reads
 ---
@@ -10,4 +10,4 @@ categories: notable-reads
 - **[Incentives as selection effects](https://blog.sbensu.com/posts/incentives-as-selection-effects)**
 	A fun thought experiment that explains the role incentives play in life. Instead of thinking of them as forcing functions to change behavior, consider them filtering mechanisms (we can't steer behavior, we only select for people apt to it). This seems to be partly true (i.e., a contributor) as there is a spectrum on how much a person wants something, we can bring more out of a person compared to another depending on how much we incentivize.
 - **[Culture Matters](https://danluu.com/culture)**
-	While culture is mostly in the background, it can work wonders in aligning & growing team efforts. Culture influences what people believe important (mission) and possible (growth). We often absorb our sense of what's achievable from our cultural environment (other peers and mentors), which becomes a major driving factor in our performance. 
+	While culture is mostly in the background, it can work wonders in aligning & growing team efforts. Culture influences what people believe important (mission) and possible (growth). We often absorb our sense of what's achievable from our cultural environment (other peers and mentors), which becomes a major driving factor in our performance.
