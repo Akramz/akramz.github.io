@@ -231,7 +231,7 @@ Discuss your results honestly. Did you achieve your goal?
 
 In practice, true breakthroughs rarely come from the first round of experiments. The most influential papers in our field often underwent several complete reimaginings of their central approach before finding the right framing. Each "failure" narrows the solution space until researchers discover elegant approaches they would never have considered initially. Research is inherently iterative. Each cycle brings you closer to a meaningful contribution, even if not in the way initially expected.
 
----
+## Summary
 
 This approach has helped many researchers conduct more effective applied ML research with less wasted effort. The key is maintaining momentum through rapid, thoughtful experimentation while keeping the big picture in view. By following these steps, you'll avoid common pitfalls, accelerate your progress, and increase your chances of making a meaningful contribution to the field.
 
