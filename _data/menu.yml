@@ -12,16 +12,11 @@ entries:
 
   - title: open source
     entries:
-      - title: Similarity Search in Geospatial Data
-        url: https://github.com/microsoft/Sims
-      - title: Building damage assessment toolkit
-        url: https://github.com/microsoft/building-damage-assessment
-      - title: Resources for Geospatial ML in Python
-        url: https://github.com/GeoAIAfrica/resources
-      - title: End-to-end Google Earth Engine
-        url: https://github.com/Akramz/end-to-end-gee
-      - title: Interactive Geospatial AI
-        url: https://github.com/GeoAIAfrica/interactive_geospatial_mapping
+      - title: "<a href='https://github.com/microsoft/Sims' target='_blank'>Similarity Search in Geospatial Data</a>"
+      - title: "<a href='https://github.com/microsoft/building-damage-assessment' target='_blank'>Building damage assessment toolkit</a>"
+      - title: "<a href='https://github.com/GeoAIAfrica/resources' target='_blank'>Resources for Geospatial ML in Python</a>"
+      - title: "<a href='https://github.com/Akramz/end-to-end-gee' target='_blank'>End-to-end Google Earth Engine</a>"
+      - title: "<a href='https://github.com/GeoAIAfrica/interactive_geospatial_mapping' target='_blank'>Interactive Geospatial AI</a>"
 
   - title: research
     entries:
@@ -33,15 +28,9 @@ entries:
 
   - title: links
     entries:
-      - title: rss
-        url: feed.xml
-      - title: github
-        url: https://github.com/akramz
-      - title: scholar
-        url: https://scholar.google.com/citations?user=m1J5OaIAAAAJ&hl=en&authuser=3
-      - title: linkedin
-        url: https://www.linkedin.com/in/akramz/
-      - title: Goodreads
-        url: https://goodreads.com/akramzz
-      - title: People
-        url: people.html
+      - title: "<a href='feed.xml'>rss</a>"
+      - title: "<a href='https://github.com/akramz' target='_blank'>github</a>"
+      - title: "<a href='https://scholar.google.com/citations?user=m1J5OaIAAAAJ&hl=en&authuser=3' target='_blank'>scholar</a>"
+      - title: "<a href='https://www.linkedin.com/in/akramz/' target='_blank'>linkedin</a>"
+      - title: "<a href='https://goodreads.com/akramzz' target='_blank'>Goodreads</a>"
+      - title: "<a href='people.html'>People</a>"
