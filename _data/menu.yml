@@ -1,7 +1,8 @@
 entries:
   - title: intro
     entries:
-      - title: I'm a tinkerer who (sometimes) gets obsessively interested in certain topics. During the day, I work with pixels and polygons to solve geospatial AI problems with a focus on concrete impact. In my spare time, you might find me learning from others, building PoCs, and sharing my discoveries.
+      - title: By day, I'm a Senior Scientist at Microsoft AI for Good Lab where I wrangle pixels and polygons to solve geospatial AI challenges. My work spans GeoAI, Deep Learning, and large-scale Machine Learning with a focus on agriculture, infrastructure, and mapping solutions that have real-world impact.
+      - title: By night, I'm a serial tinkerer with an occasional tendency to fall down rabbit holes of obsessive interest. I write about rationality, decision theory, behavioral psychology, and AI—often exploring how these ideas intersect with self-meaning, productivity, and growth.
 
   - title: posts
     post_list:
