@@ -29,7 +29,7 @@ body[a="dark"] {
 // see: https://stackoverflow.com/a/61265706
 html,
 body {
-  background: white;
+  background: #f9f9f9;
 }
 
 html {
@@ -38,9 +38,9 @@ html {
 
 body {
   color: black;
-  font-family: monospace;
-  font-size: 16px;
-  line-height: 1.4;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  line-height: 1.6;
   margin: 0;
   min-height: 100%;
   overflow-wrap: break-word;
@@ -63,7 +63,7 @@ hr {
 }
 
 p {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
 }
 
 li {
@@ -75,7 +75,7 @@ li {
 }
 
 .w {
-  max-width: 640px;
+  max-width: 720px;
   margin: 0 auto;
   padding: 4rem 2rem;
 }
@@ -468,3 +468,12 @@ div.highlight {
 }
 
 /* Literal.Number.Integer.Long */
+
+a {
+  color: #0366d6;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
