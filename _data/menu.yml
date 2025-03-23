@@ -1,8 +1,7 @@
 entries:
   - title: intro
     entries:
-      - title: By day, I'm a Senior Scientist at Microsoft AI for Good Lab where I wrangle pixels and polygons to solve geospatial AI challenges. My work spans GeoAI, Deep Learning, and large-scale Machine Learning with a focus on agriculture, infrastructure, and mapping solutions that have real-world impact.
-      - title: By night, I'm a serial tinkerer with an occasional tendency to fall down rabbit holes of obsessive interest. I write about rationality, decision theory, behavioral psychology, and AI—often exploring how these ideas intersect with self-meaning, productivity, and growth.
+      - title: By day, I'm a Scientist at Microsoft's AI4G Lab wrangling pixels and polygons to solve geospatial AI challenges. By night, I'm a curious tinkerer who dives into rabbit holes of interest, reading and writing about rationality, decision theory, and AI while exploring their connection to meaning, productivity, and growth.
 
   - title: posts
     post_list:
