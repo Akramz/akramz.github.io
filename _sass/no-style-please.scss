@@ -1,479 +1,202 @@
-// -------------- THEME SWITCHER -------------- //
-@mixin dark-appearance {
-  filter: invert(1);
+// ------------------------------------------------------------------ //
+// Bear Blog inspired styling (https://herman.bearblog.dev/)
+// Simple sans-serif type, generous-but-not-excessive spacing, and a
+// CSS-variable palette with automatic dark mode.
+// ------------------------------------------------------------------ //
 
-  img {
-    filter: invert(1);
-
-    &.ioda {
-      filter: invert(0);
-    }
-  }
+:root {
+  --width: 720px;
+  --font-main: Verdana, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --background-color: #fff;
+  --heading-color: #222;
+  --text-color: #444;
+  --muted-color: #777;
+  --link-color: #3273dc;
+  --visited-color: #8b6fcb;
+  --code-background-color: #f2f2f2;
+  --code-color: #222;
+  --blockquote-color: #222;
+  --border-color: #ddd;
 }
 
-body[a="dark"] {
-  @include dark-appearance;
-}
-
-
+// Automatic dark mode (system preference)
 @media (prefers-color-scheme: dark) {
-  body[a="auto"] {
-    @include dark-appearance;
+  :root {
+    --background-color: #01242e;
+    --heading-color: #eee;
+    --text-color: #ddd;
+    --muted-color: #9aa;
+    --link-color: #8cc2dd;
+    --visited-color: #8b6fcb;
+    --code-background-color: #000;
+    --code-color: #ddd;
+    --blockquote-color: #ccc;
+    --border-color: #335;
   }
 }
 
-// -------------------------------------------- //
-
-// bg color is also needed in html in order to
-// block body's background propagation
-// see: https://stackoverflow.com/a/61265706
-html,
-body {
-  background: #f9f9f9;
+// Manual override driven by theme_config.appearance (<body a="light|dark">)
+body[a="light"] {
+  --background-color: #fff; --heading-color: #222; --text-color: #444;
+  --muted-color: #777; --link-color: #3273dc; --code-background-color: #f2f2f2;
+  --code-color: #222; --blockquote-color: #222; --border-color: #ddd;
+}
+body[a="dark"] {
+  --background-color: #01242e; --heading-color: #eee; --text-color: #ddd;
+  --muted-color: #9aa; --link-color: #8cc2dd; --code-background-color: #000;
+  --code-color: #ddd; --blockquote-color: #ccc; --border-color: #335;
 }
 
-html {
-  height: 100%;
-}
+// ------------------------------------------------------------------ //
+
+html, body { background: var(--background-color); }
 
 body {
-  color: black;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 18px;
-  line-height: 1.6;
+  font-family: var(--font-main);
+  font-size: 1em;
+  line-height: 1.5;
+  color: var(--text-color);
   margin: 0;
-  min-height: 100%;
+  word-wrap: break-word;
   overflow-wrap: break-word;
 }
 
-.post-meta {
-  text-align: right;
+// centered reading column (content is wrapped in <div class="w">)
+.w {
+  max-width: var(--width);
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 3rem;
+main { line-height: 1.6; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-main);
+  color: var(--heading-color);
+  line-height: 1.25;
+  margin: 1.6rem 0 0.6rem;
+}
+h1 { font-size: 1.5em; }
+h2 { font-size: 1.3em; }
+h3 { font-size: 1.15em; }
+h4, h5, h6 { font-size: 1em; }
+
+p { margin: 0.9rem 0; }
+li { margin: 0.25rem 0; }
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  &:hover { text-decoration: underline; }
+}
+
+strong, b { color: var(--heading-color); }
+
+// site title (home header) + signature red dot
+header h1 { margin: 0 0 1rem; }
+header h1 .dot {
+  color: red;
+  font-size: 0.72em;
+  position: relative;
+  top: 0.62em;
+  left: -0.04em;
+}
+
+// dates / post meta
+.post-meta { margin: 0 0 0.5rem; }
+time {
+  font-family: var(--font-mono);
+  font-style: normal;
+  font-size: 0.85em;
+  color: var(--muted-color);
 }
 
 hr {
+  border: 0;
+  border-top: 1px dashed var(--border-color);
   margin: 2rem 0;
 }
 
-p {
-  margin: 1.5rem 0;
-}
+img { max-width: 100%; }
 
-li {
-  margin: 0.4rem 0;
-}
-
-*:target {
-  background: yellow;
-}
-
-.w {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 4rem 2rem;
-}
-
-hr {
-  text-align: center;
-  border: 0;
-
-  &:before {
-    content: '/////'
-  }
-
-  &:after {
-    content: attr(data-content) '/////'
-  }
-}
-
-table {
-  width: 100%;
-}
-
-table,
-th,
-td {
-  border: thin solid black;
-  border-collapse: collapse;
-  padding: 0.4rem;
-}
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid var(--border-color); padding: 0.4rem; }
 
 code {
-  color: white;
-  background: black;
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: var(--code-background-color);
+  color: var(--code-color);
+  padding: 2px 5px;
+  border-radius: 3px;
 }
 
-div.highlighter-rouge code {
-  display: block;
+pre {
+  background: var(--code-background-color);
+  color: var(--code-color);
+  border-radius: 3px;
+  padding: 12px 15px;
   overflow-x: auto;
-  white-space: pre-wrap;
-  padding: 1rem;
+  font-size: 0.9em;
+  line-height: 1.45;
 }
+pre code { background: none; padding: 0; font-size: 1em; }
+.highlight { margin: 1em 0; }
+.highlight pre { margin: 0; }
 
 blockquote {
+  border-left: 2px solid var(--muted-color);
+  color: var(--blockquote-color);
+  margin: 1.2rem 0;
+  padding: 0.2rem 0 0.2rem 20px;
   font-style: italic;
-  border: thin solid black;
-  padding: 1rem;
 
-  p {
-    margin: 0;
-  }
+  p { margin: 0.4rem 0; }
 }
 
-img {
-  max-width: 100%;
-  display: block;
-  margin: 0 auto;
+// ------------------------------------------------------------------ //
+// Home page menu (scoped to <nav class="menu">): sections + post list
+// ------------------------------------------------------------------ //
+
+.menu ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
 
-// -------------------------------------------- //
-
-.highlight {
-  background: #f8f8f8;
-  padding: 1px 1em;
-  border-radius: 3px;
-  font-size: 1em;
-  font-size: 0.9em;
-  overflow: auto;
-  margin: 1em -1em;
-
-  code {
-    padding: 0;
-  }
-}
-
-div.highlight {
-  display: grid;
-}
-
-.highlight .c {
-  color: #999988;
-  font-style: italic
-}
-
-/* Comment */
-.highlight .err {
-  color: #a61717;
-  background-color: #e3d2d2
-}
-
-/* Error */
-.highlight .k {
-  font-weight: bold
-}
-
-/* Keyword */
-.highlight .o {
-  font-weight: bold
-}
-
-/* Operator */
-.highlight .cm {
-  color: #999988;
-  font-style: italic
-}
-
-/* Comment.Multiline */
-.highlight .cp {
-  color: #999999;
-  font-weight: bold
-}
-
-/* Comment.Preproc */
-.highlight .c1 {
-  color: #999988;
-  font-style: italic
-}
-
-/* Comment.Single */
-.highlight .cs {
-  color: #999999;
+// top-level entries are section labels (posts / open source / research / links)
+.menu > ul > li {
+  margin-top: 1.6rem;
+  color: var(--heading-color);
   font-weight: bold;
-  font-style: italic
 }
 
-/* Comment.Special */
-.highlight .gd {
-  color: #000000;
-  background-color: #ffdddd
+// a section's children render as a normal-weight list under the label
+.menu > ul > li > ul {
+  font-weight: normal;
+  margin-top: 0.4rem;
 }
 
-/* Generic.Deleted */
-.highlight .gd .x {
-  color: #000000;
-  background-color: #ffaaaa
+// post list (home + /archive): "date  title" rows
+ul.post-list {
+  list-style: none;
+  padding-left: 0;
 }
-
-/* Generic.Deleted.Specific */
-.highlight .ge {
-  font-style: italic
+ul.post-list > li {
+  display: flex;
+  align-items: baseline;
+  margin: 0.3rem 0;
 }
-
-/* Generic.Emph */
-.highlight .gr {
-  color: #aa0000
+ul.post-list > li > span {
+  flex: 0 0 108px;
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  color: var(--muted-color);
 }
+ul.post-list > li > a:visited { color: var(--visited-color); }
 
-/* Generic.Error */
-.highlight .gh {
-  color: #999999
-}
-
-/* Generic.Heading */
-.highlight .gi {
-  color: #000000;
-  background-color: #ddffdd
-}
-
-/* Generic.Inserted */
-.highlight .gi .x {
-  color: #000000;
-  background-color: #aaffaa
-}
-
-/* Generic.Inserted.Specific */
-.highlight .go {
-  color: #888888
-}
-
-/* Generic.Output */
-.highlight .gp {
-  color: #555555
-}
-
-/* Generic.Prompt */
-.highlight .gs {
-  font-weight: bold
-}
-
-/* Generic.Strong */
-.highlight .gu {
-  color: #aaaaaa
-}
-
-/* Generic.Subheading */
-.highlight .gt {
-  color: #aa0000
-}
-
-/* Generic.Traceback */
-.highlight .kc {
-  font-weight: bold
-}
-
-/* Keyword.Constant */
-.highlight .kd {
-  font-weight: bold
-}
-
-/* Keyword.Declaration */
-.highlight .kp {
-  font-weight: bold
-}
-
-/* Keyword.Pseudo */
-.highlight .kr {
-  font-weight: bold
-}
-
-/* Keyword.Reserved */
-.highlight .kt {
-  color: #445588;
-  font-weight: bold
-}
-
-/* Keyword.Type */
-.highlight .m {
-  color: #009999
-}
-
-/* Literal.Number */
-.highlight .s {
-  color: #d14
-}
-
-/* Literal.String */
-.highlight .na {
-  color: #008080
-}
-
-/* Name.Attribute */
-.highlight .nb {
-  color: #0086B3
-}
-
-/* Name.Builtin */
-.highlight .nc {
-  color: #445588;
-  font-weight: bold
-}
-
-/* Name.Class */
-.highlight .no {
-  color: #008080
-}
-
-/* Name.Constant */
-.highlight .ni {
-  color: #800080
-}
-
-/* Name.Entity */
-.highlight .ne {
-  color: #990000;
-  font-weight: bold
-}
-
-/* Name.Exception */
-.highlight .nf {
-  color: #990000;
-  font-weight: bold
-}
-
-/* Name.Function */
-.highlight .nn {
-  color: #555555
-}
-
-/* Name.Namespace */
-.highlight .nt {
-  color: #000080
-}
-
-/* Name.Tag */
-.highlight .nv {
-  color: #008080
-}
-
-/* Name.Variable */
-.highlight .ow {
-  font-weight: bold
-}
-
-/* Operator.Word */
-.highlight .w {
-  color: #bbbbbb
-}
-
-/* Text.Whitespace */
-.highlight .mf {
-  color: #009999
-}
-
-/* Literal.Number.Float */
-.highlight .mh {
-  color: #009999
-}
-
-/* Literal.Number.Hex */
-.highlight .mi {
-  color: #009999
-}
-
-/* Literal.Number.Integer */
-.highlight .mo {
-  color: #009999
-}
-
-/* Literal.Number.Oct */
-.highlight .sb {
-  color: #d14
-}
-
-/* Literal.String.Backtick */
-.highlight .sc {
-  color: #d14
-}
-
-/* Literal.String.Char */
-.highlight .sd {
-  color: #d14
-}
-
-/* Literal.String.Doc */
-.highlight .s2 {
-  color: #d14
-}
-
-/* Literal.String.Double */
-.highlight .se {
-  color: #d14
-}
-
-/* Literal.String.Escape */
-.highlight .sh {
-  color: #d14
-}
-
-/* Literal.String.Heredoc */
-.highlight .si {
-  color: #d14
-}
-
-/* Literal.String.Interpol */
-.highlight .sx {
-  color: #d14
-}
-
-/* Literal.String.Other */
-.highlight .sr {
-  color: #009926
-}
-
-/* Literal.String.Regex */
-.highlight .s1 {
-  color: #d14
-}
-
-/* Literal.String.Single */
-.highlight .dl {
-  color: #d14
-}
-
-/* Literal.String.Delimiter */
-.highlight .ss {
-  color: #990073
-}
-
-/* Literal.String.Symbol */
-.highlight .bp {
-  color: #999999
-}
-
-/* Name.Builtin.Pseudo */
-.highlight .vc {
-  color: #008080
-}
-
-/* Name.Variable.Class */
-.highlight .vg {
-  color: #008080
-}
-
-/* Name.Variable.Global */
-.highlight .vi {
-  color: #008080
-}
-
-/* Name.Variable.Instance */
-.highlight .il {
-  color: #009999
-}
-
-/* Literal.Number.Integer.Long */
-
-a {
-  color: #0366d6;
-  text-decoration: none;
-  
-  &:hover {
-    text-decoration: underline;
-  }
+@media (max-width: 480px) {
+  ul.post-list > li { flex-wrap: wrap; }
+  ul.post-list > li > span { flex-basis: 100%; }
 }

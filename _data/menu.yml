@@ -1,8 +1,4 @@
 entries:
-  - title: intro
-    entries:
-      - title: By day, I'm a Scientist at Microsoft's AI4G Lab wrangling pixels and polygons to solve geospatial AI challenges. By night, I'm a curious tinkerer who dives into rabbit holes, reading and writing about rationality, decision theory, and AI while exploring their connection to meaning, productivity, and growth.
-
   - title: posts
     post_list:
       limit: 15
@@ -12,19 +8,20 @@ entries:
 
   - title: open source
     entries:
-      - title: "<a href='https://github.com/microsoft/Sims' target='_blank'>Similarity Search in Geospatial Data</a>"
-      - title: "<a href='https://github.com/microsoft/building-damage-assessment' target='_blank'>Building damage assessment toolkit</a>"
-      - title: "<a href='https://github.com/GeoAIAfrica/resources' target='_blank'>Resources for Geospatial ML in Python</a>"
-      - title: "<a href='https://github.com/Akramz/end-to-end-gee' target='_blank'>End-to-end Google Earth Engine</a>"
-      - title: "<a href='https://github.com/GeoAIAfrica/interactive_geospatial_mapping' target='_blank'>Interactive Geospatial AI</a>"
+      - title: "<a href='https://github.com/microsoft/building-damage-assessment' target='_blank'>Detect damaged buildings (post-disaster)</a>"
+      - title: "<a href='https://github.com/microsoft/buildings' target='_blank'>Detect buildings worldwide (datasets)</a>"
+      - title: "<a href='https://github.com/microsoft/data-centric-satellite-segmentation' target='_blank'>Training strategies under dataset budgets</a>"
+      - title: "<a href='https://github.com/microsoft/pytorch-cloud-geotiff-optimization' target='_blank'>Improve your GPU usage when training on satellite imagery</a>"
 
   - title: research
     entries:
-      - title: "2024 - <a href='https://arxiv.org/abs/2412.10184' target='_blank'>Sims</a>."
-      - title: "2024 - <a href='https://arxiv.org/pdf/2403.02736' target='_blank'>Ways to label rare objects in satellite imagery</a>"
-      - title: "2022 - <a href='https://meetingorganizer.copernicus.org/EGU22/EGU22-11063.html' target='_blank'>Sub-Seasonal Prediction of Temperature & Rainfall</a>"
-      - title: "2021 - <a href='https://www.researchgate.net/publication/348126094_Satellite_Imagery_Noising_With_Generative_Adversarial_Networks' target='_blank'>Satellite imagery noising with GANs</a>"
-      - title: "2018 - <a href='https://www.researchgate.net/profile/Mohamed-Akram-Zaytar/publication/304066008_Sequence_to_Sequence_Weather_Forecasting_with_Long_Short-Term_Memory_Recurrent_Neural_Networks/links/591c35b60f7e9b7727da05cc/Sequence-to-Sequence-Weather-Forecasting-with-Long-Short-Term-Memory-Recurrent-Neural-Networks.pdf' target='_blank'>Seq2Seq weather forecasting with LSTMs</a>"
+      - title: "IEEE 2026 - <a href='/assets/papers/2026-smaller-datasets-same-performance.pdf' target='_blank'>Can we train with smaller datasets and achieve the same performance?</a>"
+      - title: "ICLR 2026 - <a href='/assets/papers/2026-llm-tools-geospatial.pdf' target='_blank'>What tools does an LLM need for geospatial work?</a>"
+      - title: "ICLR &amp; GRSL 2026 - <a href='/assets/papers/2026-survey-protocol-cards-crop-maps.pdf' target='_blank'>Can we improve how we collect ground-truth agricultural data?</a>"
+      - title: "2025 - <a href='/assets/papers/2025-detecting-buildings-3-months.pdf' target='_blank'>Can we detect every building in the world every 3 months?</a>"
+      - title: "ICLR 2024 - <a href='/assets/papers/2024-labeling-rare-objects-satellite.pdf' target='_blank'>How quickly can we find &amp; label rare objects in satellite imagery?</a>"
+      - title: "2020 - <a href='/assets/papers/2020-satellite-imagery-noising-gans.pdf' target='_blank'>Can we learn the shape of satellite sensor noise?</a>"
+      - title: "2016 - <a href='/assets/papers/2016-weather-forecasting-lstms.pdf' target='_blank'>Can we forecast the weather with LSTMs?</a>"
 
   - title: links
     entries:
