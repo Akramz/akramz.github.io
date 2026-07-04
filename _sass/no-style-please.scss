@@ -200,3 +200,23 @@ ul.post-list > li > a:visited { color: var(--visited-color); }
   ul.post-list > li { flex-wrap: wrap; }
   ul.post-list > li > span { flex-basis: 100%; }
 }
+
+// ------------------------------------------------------------------ //
+// Impact counters (views / clicks) — injected by assets/js/counters.js
+// Heat color is applied inline per item; this is just layout + fallback.
+// ------------------------------------------------------------------ //
+
+.count {
+  font-family: var(--font-mono);
+  font-size: 0.72em;
+  margin-left: 0.5em;
+  color: var(--muted-color); // fallback until JS sets the heat color
+  white-space: nowrap;
+  letter-spacing: -0.02em;
+}
+
+// in post lists, float the count out to a tidy right-hand column
+ul.post-list > li > .count {
+  margin-left: auto;
+  padding-left: 0.75em;
+}

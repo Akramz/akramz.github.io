@@ -27,6 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://akramz.space" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zaytarakram
 github_username:  akramz
+goat_counter: akramz # GoatCounter site code (akramz.goatcounter.com) — powers view/click counters
 
 theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
