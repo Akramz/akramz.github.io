@@ -23,6 +23,11 @@
   {%-seo title=false-%}
   {%-feed_meta-%}
 
-  <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | relative_url }}" />
+  <link rel="icon" type="image/svg+xml" href="{{ "/assets/favicon.svg" | relative_url }}" />
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
+
+  {%-if site.goat_counter-%}
+  <!-- single source of truth for counters.js (read side) — rendered in all environments -->
+  <meta name="goatcounter-code" content="{{ site.goat_counter }}" />
+  {%-endif-%}
 </head>
