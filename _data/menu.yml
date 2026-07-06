@@ -15,7 +15,7 @@ entries:
 
   - title: research
     entries:
-      - title: "IEEE Access (2026) - <a href='/assets/papers/2026-smaller-datasets-same-performance.pdf' target='_blank'>Can we achieve same EO segmentation performance with less data?</a>"
+      - title: "IEEE Access (2026) - <a href='/assets/papers/2026-smaller-datasets-same-performance.pdf' target='_blank'>Can we get similar segmentation performance with less data?</a>"
       - title: "ICLR (2026) - <a href='/assets/papers/2026-llm-tools-geospatial.pdf' target='_blank'>What tools does an LLM agent need for geospatial work?</a>"
       - title: "GRSL (2026) - <a href='/assets/papers/2026-survey-protocol-cards-crop-maps.pdf' target='_blank'>What to focus on when collecting ground-truth agricultural data?</a>"
       - title: "arxiv (2025) - <a href='/assets/papers/2025-detecting-buildings-3-months.pdf' target='_blank'>Can we detect all buildings in the world every 3 months?</a>"
