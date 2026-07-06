@@ -95,6 +95,11 @@ strong, b { color: var(--heading-color); }
 
 // site title (home header) + signature red dot
 header h1 { margin: 0 0 1rem; }
+header h1 a.site-title-link {
+  color: var(--heading-color);
+  text-decoration: none;
+  &:hover { color: var(--muted-color); }
+}
 header h1 .dot {
   color: red;
   font-size: 0.72em;

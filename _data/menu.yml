@@ -8,20 +8,20 @@ entries:
 
   - title: open source
     entries:
-      - title: "<a href='https://github.com/microsoft/building-damage-assessment' target='_blank'>Detect damaged buildings (post-disaster)</a>"
-      - title: "<a href='https://github.com/microsoft/buildings' target='_blank'>Detect buildings worldwide (datasets)</a>"
-      - title: "<a href='https://github.com/microsoft/data-centric-satellite-segmentation' target='_blank'>Training strategies under dataset budgets</a>"
+      - title: "<a href='https://github.com/microsoft/building-damage-assessment' target='_blank'>Mapping post-disaster damaged buildings.</a>"
+      - title: "<a href='https://github.com/microsoft/buildings' target='_blank'>Dataset: global building density &amp; height maps.</a>"
+      - title: "<a href='https://github.com/microsoft/data-centric-satellite-segmentation' target='_blank'>Dataset sampling strategies for EO training under budget.</a>"
       - title: "<a href='https://github.com/microsoft/pytorch-cloud-geotiff-optimization' target='_blank'>Improve your GPU usage when training on satellite imagery</a>"
 
   - title: research
     entries:
-      - title: "IEEE 2026 - <a href='/assets/papers/2026-smaller-datasets-same-performance.pdf' target='_blank'>Can we train with smaller datasets and achieve the same performance?</a>"
-      - title: "ICLR 2026 - <a href='/assets/papers/2026-llm-tools-geospatial.pdf' target='_blank'>What tools does an LLM need for geospatial work?</a>"
-      - title: "ICLR &amp; GRSL 2026 - <a href='/assets/papers/2026-survey-protocol-cards-crop-maps.pdf' target='_blank'>Can we improve how we collect ground-truth agricultural data?</a>"
-      - title: "2025 - <a href='/assets/papers/2025-detecting-buildings-3-months.pdf' target='_blank'>Can we detect every building in the world every 3 months?</a>"
-      - title: "ICLR 2024 - <a href='/assets/papers/2024-labeling-rare-objects-satellite.pdf' target='_blank'>How quickly can we find &amp; label rare objects in satellite imagery?</a>"
-      - title: "2020 - <a href='/assets/papers/2020-satellite-imagery-noising-gans.pdf' target='_blank'>Can we learn the shape of satellite sensor noise?</a>"
-      - title: "2016 - <a href='/assets/papers/2016-weather-forecasting-lstms.pdf' target='_blank'>Can we forecast the weather with LSTMs?</a>"
+      - title: "IEEE Access (2026) - <a href='/assets/papers/2026-smaller-datasets-same-performance.pdf' target='_blank'>Can we achieve same EO segmentation performance with less data?</a>"
+      - title: "ICLR (2026) - <a href='/assets/papers/2026-llm-tools-geospatial.pdf' target='_blank'>What tools does an LLM agent need for geospatial work?</a>"
+      - title: "GRSL (2026) - <a href='/assets/papers/2026-survey-protocol-cards-crop-maps.pdf' target='_blank'>What to focus on when collecting ground-truth agricultural data?</a>"
+      - title: "arxiv (2025) - <a href='/assets/papers/2025-detecting-buildings-3-months.pdf' target='_blank'>Can we detect all buildings in the world every 3 months?</a>"
+      - title: "ICLR (2024) - <a href='/assets/papers/2024-labeling-rare-objects-satellite.pdf' target='_blank'>How quickly can we find rare objects in satellite imagery?</a>"
+      - title: "IJCINI (2020) - <a href='/assets/papers/2020-satellite-imagery-noising-gans.pdf' target='_blank'>Can we learn the shape of satellite sensor noise?</a>"
+      - title: "IJCA (2016) - <a href='/assets/papers/2016-weather-forecasting-lstms.pdf' target='_blank'>can we forecast the weather with LSTMs?</a>"
 
   - title: links
     entries:

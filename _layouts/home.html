@@ -1,12 +1,7 @@
 ---
 layout: default
 ---
-<header>
-  <h1>{{ site.title }}<span class="dot">•</span></h1>
-  {%-if site.theme_config.show_description-%}
-    <p>{{ site.description }}</p>
-  {%-endif-%}
-</header>
+{%-include site_header.html-%}
 
 <nav class="menu">
   {%-include menu_item.html collection=site.data.menu.entries-%}
