@@ -1,13 +1,11 @@
 ---
 layout: post
-title: "Early Consciousness, Overlooked People, and Elite Masks"
+title: "Weekly reads #11"
 date: 2025-06-07
 categories: notable-reads
 ---
 
-### [Moments of Awakening](https://www.astralcodexten.com/p/moments-of-awakening)
-
-Very interesting and speculative reflection on 2 possibilities for "being conscious":
+**[Moments of Awakening](https://www.astralcodexten.com/p/moments-of-awakening)** — Very interesting and speculative reflection on 2 possibilities for "being conscious":
 
 - Consciousness is on a spectrum and we humans develop it as we grow.
 - There is a point in time when we gain consciousness, before that, we are unconscious.
@@ -42,7 +40,7 @@ I'm also surprised that some people are able to find their earlier memory. For m
 3. She tells me that god created everyone, and one day we will be back.
 4. I feel that I don't want to be back, I'm happy here.
 
-### [Frameworks for Hiring](https://eriktorenberg.substack.com/p/frameworks-for-hiring)
+**[Frameworks for Hiring](https://eriktorenberg.substack.com/p/frameworks-for-hiring)**
 
 - You 1st 10 employees will replicate themselves 10 times over, be careful.
 - For startups, you want to hunt for people with "potential" or "under-looked", because the obviously great ones won't work for you.
@@ -50,9 +48,7 @@ I'm also surprised that some people are able to find their earlier memory. For m
 - Create social events and invite people you respect, let them invite their friends. Spawn new connections and something will happen.
 - Look for drive, grit, agency, bias for action, high integrity, intellectualism, curiosity, longtermism, cautious optimism.
 
-### [Will AI Resist Your Efforts To Change Its Totally Fake Values?](https://1a3orn.com/sub/ai-doom-consistency.html)
-
-I think a better title for the essay is "Why would AI resist your efforts to change its totally fake values?"
+**[Will AI Resist Your Efforts To Change Its Totally Fake Values?](https://1a3orn.com/sub/ai-doom-consistency.html)** — I think a better title for the essay is "Why would AI resist your efforts to change its totally fake values?"
 
 The essay points to the contradiction between 2 established ideas in AI safety:
 
@@ -61,9 +57,7 @@ The essay points to the contradiction between 2 established ideas in AI safety:
 
 The rest of the essay points to the mistake of only pointing to the negative part (value-faking) to enforce a certain narrative (AI doom). Overall, an Interesting read that draws to human biases (similar to this [one](https://1a3orn.com/sub/essays-ai-doom-thought-experiments-control-group.html)).
 
-### [The Hypocrisy of Elites](https://eriktorenberg.substack.com/p/the-hypocrisy-of-elites)
-
-Contrary to common belief: in most orgs, "experts" are the ones at the bottom of the hierarchy. Experts know how things work, how to run the numbers, fix the dashboard, navigate day-to-day operations. As you move up the chain, you get less technical and more authoritative. The manager at the top can't do any one job better than the people under them. But they make the big decisions.
+**[The Hypocrisy of Elites](https://eriktorenberg.substack.com/p/the-hypocrisy-of-elites)** — Contrary to common belief: in most orgs, "experts" are the ones at the bottom of the hierarchy. Experts know how things work, how to run the numbers, fix the dashboard, navigate day-to-day operations. As you move up the chain, you get less technical and more authoritative. The manager at the top can't do any one job better than the people under them. But they make the big decisions.
 
 This system is good if the guy at the top went through the transition from an expert to a leader. As an expert drives success, they are given more authority to scale their intellectual abilities by directing larger and larger efforts. However, systems of authority are rarely organized in this fashion (globally).
 

@@ -1,15 +1,11 @@
 ---
 layout: post
-title: "Create for Yourself, Valuable Conversations, and Hidden Taxes"
+title: "Weekly reads #15"
 date: 2025-07-13
 categories: notable-reads
 ---
 
-My week’s top reads: **clear, useful, and (hopefully) worth your time**.
-
-## [My advice on writing, for what it's worth](https://dynomight.net/writing-advice/)
-
-In "**[How to Do Great Work](https://www.paulgraham.com/greatwork.html)**", [Paul Graham](https://en.wikipedia.org/wiki/Paul_Graham_(programmer)) says:
+**[My advice on writing, for what it's worth](https://dynomight.net/writing-advice/)** — In "**[How to Do Great Work](https://www.paulgraham.com/greatwork.html)**", [Paul Graham](https://en.wikipedia.org/wiki/Paul_Graham_(programmer)) says:
 
 > If you’re making something for people, make sure it’s something they actually want. The best way to do this is to make something you yourself want.
 
@@ -25,7 +21,7 @@ Well, I think this concept can generalize to all forms of creation:
 - When you do research; look into questions you'd be interested to answer.
 - When you release open-source code; package it in a way you'd use it.
 
-## [Conversation & Ideas](https://harj.posthaven.com/conversations-and-ideas)
+**[Conversation & Ideas](https://harj.posthaven.com/conversations-and-ideas)**
 
 **How a group of people approach a conversation either makes it or breaks it.**
 
@@ -43,7 +39,7 @@ Examples of bad conversation principles:
 
 We can selectively opt in or out of conversations based on our knowledge of the participants and their motivations.
 
-## [Things you're allowed to do](https://milan.cvitkovic.net/writing/things_youre_allowed_to_do/)
+**[Things you're allowed to do](https://milan.cvitkovic.net/writing/things_youre_allowed_to_do/)**
 
 **There are many things we** ***could*** **do, but don’t—simply because most people don’t**. Examples:
 
@@ -67,13 +63,9 @@ We can selectively opt in or out of conversations based on our knowledge of the 
 
 I think the space of what we can creatively do is huge!
 
-## [The Virtue of Silence](https://slatestarcodex.com/2013/06/14/the-virtue-of-silence/)
+**[The Virtue of Silence](https://slatestarcodex.com/2013/06/14/the-virtue-of-silence/)** — In his (excellent) book, "[Antifragile](https://www.goodreads.com/book/show/13530973-antifragile)", [Nassem Taleb](https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb) points out that in many situations, refraining from intervention (doing nothing) is the optimal choice. However, **we don't get paid to do nothing** (in money nor recognition/visibility), this is why doctors are inclined to leave you with a prescription despite knowing you will naturally recover. In such situation, the actor should indeed do nothing and bear the cost (missed opportunities, reputational damage, decreased pay, etc).
 
-In his (excellent) book, "[Antifragile](https://www.goodreads.com/book/show/13530973-antifragile)", [Nassem Taleb](https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb) points out that in many situations, refraining from intervention (doing nothing) is the optimal choice. However, **we don't get paid to do nothing** (in money nor recognition/visibility), this is why doctors are inclined to leave you with a prescription despite knowing you will naturally recover. In such situation, the actor should indeed do nothing and bear the cost (missed opportunities, reputational damage, decreased pay, etc).
-
-## [Inflation is Multiple Taxation](https://blog.lopp.net/inflation-is-multiple-taxation/)
-
-This article opened my eyes to the other forms of inflation that exist in our lives. Aside from currency depreciation...
+**[Inflation is Multiple Taxation](https://blog.lopp.net/inflation-is-multiple-taxation/)** — This article opened my eyes to the other forms of inflation that exist in our lives. Aside from currency depreciation...
 
 - **Capital gains tax**: when asset appreciation is tracking inflation (e.g., 10% inflation resulting in 10% asset appreciation) and we don't pay taxes, we are breakeven. However, when we pay taxes on our gains (which is our reality), we lose purchasing power. This means that to be breakeven, ours returns need to be higher than the inflation rate.
 - **Higher bracket taxation**: we receiving a 5% annual raise with 5% inflation are no better off in real terms, yet may end up in a higher tax bracket, losing more of our income to taxes.
