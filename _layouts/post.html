@@ -15,5 +15,24 @@ layout: default
   {{ content }}
 
   <hr>
-  <p class="post-subscribe">Like this? Subscribe via <a href="{{ "/feed.xml" | relative_url }}">RSS</a> to get new posts in your reader.</p>
+  <footer class="post-footer">
+    <button type="button" class="upvote" data-upvote-key="upvote-{{ page.url | slugify }}"
+            aria-pressed="false" aria-label="Upvote this post" title="Upvote this post">
+      <svg class="upvote-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+        <path d="M8 2 L14 8 L11 8 L11 14 L5 14 L5 8 L2 8 Z"/>
+      </svg>
+      <span class="upvote-count" aria-live="polite">0</span>
+    </button>
+
+    <p class="post-subscribe">Like this?
+      <a href="{{ "/feed.xml" | relative_url }}">RSS</a>
+      &middot; <a class="share" target="_blank" rel="noopener"
+           href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&amp;url={{ page.url | absolute_url | url_encode }}&amp;via={{ site.twitter_username }}">X</a>
+      &middot; <a class="share" target="_blank" rel="noopener"
+           href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | url_encode }}">LinkedIn</a>
+      &middot; <a class="share" target="_blank" rel="noopener"
+           href="https://news.ycombinator.com/submitlink?u={{ page.url | absolute_url | url_encode }}&amp;t={{ page.title | url_encode }}">HN</a>
+      &middot; <a class="share copy-link" data-copy href="{{ page.url | absolute_url }}">Copy link</a>
+    </p>
+  </footer>
 </article>

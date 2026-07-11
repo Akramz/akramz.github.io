@@ -225,3 +225,46 @@ ul.post-list > li > .count {
   margin-left: auto;
   padding-left: 0.75em;
 }
+
+// ------------------------------------------------------------------ //
+// Post footer: upvote button + share/RSS links (_layouts/post.html)
+// ------------------------------------------------------------------ //
+
+.post-footer { margin-top: 2rem; text-align: center; }
+
+.upvote {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  color: var(--muted-color);
+  background: transparent;
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  padding: 0.35em 0.9em;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s, transform 0.1s;
+
+  &:hover  { color: var(--link-color); border-color: var(--link-color); }
+  &:active { transform: translateY(1px); }
+}
+.upvote-icon  { width: 0.9em; height: 0.9em; fill: currentColor; }
+.upvote-count { letter-spacing: -0.02em; }
+
+// voted: lock in the accent, disable further interaction
+.upvote--voted {
+  color: var(--link-color);
+  border-color: var(--link-color);
+  cursor: default;
+}
+
+// links row under the button (replaces the unstyled .post-subscribe)
+.post-subscribe {
+  margin-top: 1rem;
+  font-size: 0.85em;
+  color: var(--muted-color);
+
+  a        { color: var(--muted-color); }
+  a:hover  { color: var(--link-color); }
+}

@@ -188,10 +188,65 @@
     return items;
   }
 
+  // ---- upvotes (write an `upvote-<slug>` event; read it back) ------------
+  // Always shows an exact number (unlike view badges, which hide < 10).
+  function formatVotes(n) {
+    if (n == null) return "0";
+    if (n < 1000) return String(n);
+    if (n < 10000) return (n / 1000).toFixed(1).replace(/\.0$/, "") + "k";
+    if (n < 1e6) return Math.round(n / 1000) + "k";
+    return (n / 1e6).toFixed(1).replace(/\.0$/, "") + "M";
+  }
+
+  function wireUpvote(btn) {
+    var key = btn.getAttribute("data-upvote-key");
+    if (!key) return;
+    var countEl = btn.querySelector(".upvote-count");
+    var votedKey = "voted:" + key;
+    var voted = false, base = 0; // base = server count (GoatCounter, cached)
+    try { voted = localStorage.getItem(votedKey) === "1"; } catch (e) {}
+
+    function render() {
+      if (countEl) countEl.textContent = formatVotes(base + (voted ? 1 : 0));
+      btn.classList.toggle("upvote--voted", voted);
+      btn.setAttribute("aria-pressed", voted ? "true" : "false");
+    }
+
+    render(); // show 0 immediately, before the fetch resolves
+    fetchCount(key).then(function (n) { base = (n == null ? 0 : n); render(); });
+
+    btn.addEventListener("click", function () {
+      if (voted) return;                     // one vote per browser (best-effort)
+      voted = true;
+      try { localStorage.setItem(votedKey, "1"); } catch (e) {}
+      render();                              // optimistic +1, persists via localStorage
+      // count.js is production-only, so dev clicks never write real events.
+      if (window.goatcounter && window.goatcounter.count) {
+        window.goatcounter.count({ path: key, title: document.title, event: true });
+      }
+    });
+  }
+
+  function wireCopy() {
+    document.querySelectorAll("a.copy-link[data-copy]").forEach(function (a) {
+      a.addEventListener("click", function (e) {
+        if (!navigator.clipboard) return;    // fall back to normal link nav
+        e.preventDefault();
+        navigator.clipboard.writeText(a.getAttribute("href")).then(function () {
+          var prev = a.textContent;
+          a.textContent = "Copied";
+          setTimeout(function () { a.textContent = prev; }, 1200);
+        }).catch(function () {});
+      });
+    });
+  }
+
   function run() {
     renderGroup(postViewItems(), "views");
     renderGroup(paperClickItems(), "clicks");
     renderGroup(repoClickItems(), "clicks");
+    document.querySelectorAll("button.upvote[data-upvote-key]").forEach(wireUpvote);
+    wireCopy();
   }
 
   if (document.readyState === "loading") {
