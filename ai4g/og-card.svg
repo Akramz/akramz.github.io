@@ -7,7 +7,7 @@
   <circle cx="1020" cy="132" r="54" fill="#0f7c8a"/>
   <circle cx="1020" cy="132" r="76" fill="none" stroke="#0f7c8a" stroke-width="2"/>
   <path d="M88 116H260" stroke="#0f7c8a" stroke-width="8"/>
-  <text x="88" y="258" fill="#131c24" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700">AI for (Public) Good</text>
+  <text x="88" y="258" fill="#131c24" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700">AI for (Public) Goods</text>
   <text x="92" y="330" fill="#2a3742" font-family="Arial, Helvetica, sans-serif" font-size="34">Research projects shared as public goods.</text>
   <text x="92" y="522" fill="#5a6b76" font-family="Arial, Helvetica, sans-serif" font-size="24">Microsoft AI for Good Research Lab</text>
   <g fill="#0f7c8a">
