@@ -62,9 +62,9 @@
     ],
     "partner": "NOAA Alaska Fisheries Science Center",
     "lab_leads": [
-      "Daniela Ruiz",
       "Manuel Castellote",
       "Rahul Dodhia",
+      "Daniela Ruiz",
       "Zhongqi Miao"
     ],
     "year": 2026,
@@ -153,10 +153,10 @@
     ],
     "partner": null,
     "lab_leads": [
+      "Will Fein",
       "Amit Misra",
       "Felipe Oviedo",
-      "Kevin White",
-      "Will Fein"
+      "Kevin White"
     ],
     "year": 2025,
     "deliverables": [
@@ -252,9 +252,9 @@
     ],
     "partner": "Novartis Foundation",
     "lab_leads": [
+      "Yixi Xu",
       "Anusua Trivedi",
-      "Kevin White",
-      "Yixi Xu"
+      "Kevin White"
     ],
     "year": 2022,
     "deliverables": [
@@ -306,9 +306,9 @@
     ],
     "partner": "Wild Nature Institute",
     "lab_leads": [
+      "Shahrzad Gholami",
       "Caleb Robinson",
-      "Rahul Dodhia",
-      "Shahrzad Gholami"
+      "Rahul Dodhia"
     ],
     "year": 2026,
     "deliverables": [
@@ -367,8 +367,8 @@
     "lab_leads": [
       "Anthony Ortiz",
       "Caleb Robinson",
-      "Felipe Oviedo",
-      "Jane Wang"
+      "Jane Wang",
+      "Felipe Oviedo"
     ],
     "year": 2022,
     "deliverables": [
@@ -417,8 +417,8 @@
     "partner": null,
     "lab_leads": [
       "Mayana Pereira",
-      "Rahul Dodhia",
-      "Sumit Mukherjee"
+      "Sumit Mukherjee",
+      "Rahul Dodhia"
     ],
     "year": 2021,
     "deliverables": [
@@ -451,8 +451,8 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Rahul Dodhia",
-      "Yixi Xu"
+      "Yixi Xu",
+      "Rahul Dodhia"
     ],
     "year": 2023,
     "deliverables": [
@@ -488,9 +488,9 @@
     ],
     "partner": "BC Cancer",
     "lab_leads": [
+      "Yixi Xu",
       "Anthony Ortiz",
-      "Rahul Dodhia",
-      "Yixi Xu"
+      "Rahul Dodhia"
     ],
     "year": 2023,
     "deliverables": [
@@ -575,17 +575,17 @@
     "science_tags": [],
     "partner": null,
     "lab_leads": [
-      "Anthony Ortiz",
-      "Anusua Trivedi",
       "Caleb Robinson",
-      "Darren Tanner",
-      "Felipe Oviedo",
-      "Ming Zhong",
-      "Rahul Dodhia",
-      "Shahrzad Gholami",
       "Siyu Yang",
+      "Shahrzad Gholami",
       "Sumit Mukherjee",
-      "Yixi Xu"
+      "Anthony Ortiz",
+      "Felipe Oviedo",
+      "Darren Tanner",
+      "Anusua Trivedi",
+      "Yixi Xu",
+      "Ming Zhong",
+      "Rahul Dodhia"
     ],
     "year": 2021,
     "deliverables": [
@@ -619,8 +619,8 @@
     ],
     "partner": "NOAA Fisheries",
     "lab_leads": [
-      "Manuel Castellote",
       "Ming Zhong",
+      "Manuel Castellote",
       "Rahul Dodhia"
     ],
     "year": 2020,
@@ -757,8 +757,8 @@
     ],
     "partner": "NOAA Fisheries",
     "lab_leads": [
-      "Anthony Ortiz",
-      "Caleb Robinson"
+      "Caleb Robinson",
+      "Anthony Ortiz"
     ],
     "year": 2023,
     "deliverables": [
@@ -921,8 +921,8 @@
     "partner": null,
     "lab_leads": [
       "Md Nasir",
-      "Rahul Dodhia",
-      "Sumit Mukherjee"
+      "Sumit Mukherjee",
+      "Rahul Dodhia"
     ],
     "year": 2022,
     "deliverables": [
@@ -964,8 +964,8 @@
     ],
     "partner": "American Academy of Ophthalmology",
     "lab_leads": [
-      "Rahul Dodhia",
-      "Shahrzad Gholami"
+      "Shahrzad Gholami",
+      "Rahul Dodhia"
     ],
     "year": 2025,
     "deliverables": [
@@ -1003,8 +1003,8 @@
     "partner": "University of Washington School of Medicine",
     "lab_leads": [
       "Felipe Oviedo",
-      "Rahul Dodhia",
-      "Yixi Xu"
+      "Yixi Xu",
+      "Rahul Dodhia"
     ],
     "year": 2025,
     "deliverables": [
@@ -1094,9 +1094,9 @@
     ],
     "partner": null,
     "lab_leads": [
+      "Zhongqi Miao",
       "Caleb Robinson",
-      "Rahul Dodhia",
-      "Zhongqi Miao"
+      "Rahul Dodhia"
     ],
     "year": 2026,
     "deliverables": [
@@ -1326,10 +1326,10 @@
     "partner": null,
     "lab_leads": [
       "Akram Zaytar",
-      "Anthony Ortiz",
       "Caleb Robinson",
-      "Rahul Dodhia",
-      "Simone Fobi Nsutezo"
+      "Anthony Ortiz",
+      "Simone Fobi Nsutezo",
+      "Rahul Dodhia"
     ],
     "year": 2025,
     "deliverables": [
@@ -1371,9 +1371,9 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Anthony Ortiz",
       "Anusua Trivedi",
       "Caleb Robinson",
+      "Anthony Ortiz",
       "Rahul Dodhia"
     ],
     "year": 2022,
@@ -1504,10 +1504,10 @@
     ],
     "partner": "Princeton University",
     "lab_leads": [
-      "Akram Zaytar",
+      "Girmaw Abebe Tadesse",
       "Caleb Robinson",
       "Gilles Hacheme",
-      "Girmaw Abebe Tadesse",
+      "Akram Zaytar",
       "Rahul Dodhia"
     ],
     "year": 2024,
@@ -1626,12 +1626,12 @@
     ],
     "partner": "Netherlands Red Cross (510)",
     "lab_leads": [
-      "Anthony Ortiz",
-      "Caleb Robinson",
-      "Cameron Birge",
-      "Rahul Dodhia",
       "Shahrzad Gholami",
-      "Siyu Yang"
+      "Caleb Robinson",
+      "Anthony Ortiz",
+      "Siyu Yang",
+      "Cameron Birge",
+      "Rahul Dodhia"
     ],
     "year": 2022,
     "deliverables": [
@@ -1677,8 +1677,8 @@
     ],
     "partner": "Smithsonian Conservation Biology Institute",
     "lab_leads": [
-      "Anthony Ortiz",
-      "Caleb Robinson"
+      "Caleb Robinson",
+      "Anthony Ortiz"
     ],
     "year": 2021,
     "deliverables": [
@@ -1778,8 +1778,8 @@
     "partner": null,
     "lab_leads": [
       "Mayana Pereira",
-      "Rahul Dodhia",
-      "Sumit Mukherjee"
+      "Sumit Mukherjee",
+      "Rahul Dodhia"
     ],
     "year": 2024,
     "deliverables": [
@@ -1812,9 +1812,9 @@
     ],
     "partner": null,
     "lab_leads": [
+      "Girmaw Abebe Tadesse",
       "Caleb Robinson",
       "Gilles Hacheme",
-      "Girmaw Abebe Tadesse",
       "Rahul Dodhia"
     ],
     "year": 2025,
@@ -1952,8 +1952,8 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Allen Kim",
-      "Felipe Oviedo"
+      "Felipe Oviedo",
+      "Allen Kim"
     ],
     "year": 2026,
     "deliverables": [
@@ -1993,9 +1993,9 @@
     ],
     "partner": null,
     "lab_leads": [
+      "Girmaw Abebe Tadesse",
       "Caleb Robinson",
       "Gilles Hacheme",
-      "Girmaw Abebe Tadesse",
       "Rahul Dodhia"
     ],
     "year": 2025,
@@ -2037,11 +2037,11 @@
     ],
     "partner": "Brown School of Public Health",
     "lab_leads": [
-      "Allen Kim",
-      "Divya Michael",
       "Ming Zhong",
       "Rahul Dodhia",
-      "Tammy Glazer"
+      "Tammy Glazer",
+      "Allen Kim",
+      "Divya Michael"
     ],
     "year": 2022,
     "deliverables": [
@@ -2082,8 +2082,8 @@
     ],
     "partner": "Johns Hopkins University",
     "lab_leads": [
-      "Caleb Robinson",
       "Felipe Oviedo",
+      "Caleb Robinson",
       "Rahul Dodhia"
     ],
     "year": 2024,
@@ -2122,8 +2122,8 @@
     ],
     "partner": "World Bank",
     "lab_leads": [
-      "Anthony Ortiz",
       "Caleb Robinson",
+      "Anthony Ortiz",
       "Rahul Dodhia"
     ],
     "year": 2022,
@@ -2174,9 +2174,9 @@
     ],
     "partner": "University of British Columbia",
     "lab_leads": [
-      "Anthony Ortiz",
+      "Sumit Mukherjee",
       "Caleb Robinson",
-      "Sumit Mukherjee"
+      "Anthony Ortiz"
     ],
     "year": 2021,
     "deliverables": [
@@ -2302,10 +2302,10 @@
     ],
     "partner": null,
     "lab_leads": [
+      "Simone Fobi Nsutezo",
       "Anthony Ortiz",
       "Caleb Robinson",
-      "Rahul Dodhia",
-      "Simone Fobi Nsutezo"
+      "Rahul Dodhia"
     ],
     "year": 2025,
     "deliverables": [
@@ -2339,8 +2339,8 @@
     ],
     "partner": "Catholic Relief Services",
     "lab_leads": [
-      "Cameron Birge",
-      "Shahrzad Gholami"
+      "Shahrzad Gholami",
+      "Cameron Birge"
     ],
     "year": 2022,
     "deliverables": [
@@ -2431,8 +2431,8 @@
     ],
     "partner": "Kenya Ministry of Health",
     "lab_leads": [
-      "Caleb Robinson",
       "Girmaw Abebe Tadesse",
+      "Caleb Robinson",
       "Rahul Dodhia"
     ],
     "year": 2025,
@@ -2475,8 +2475,8 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Rahul Dodhia",
-      "Yixi Xu"
+      "Yixi Xu",
+      "Rahul Dodhia"
     ],
     "year": 2023,
     "deliverables": [
@@ -2548,10 +2548,10 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Akram Zaytar",
-      "Caleb Robinson",
       "Gilles Hacheme",
       "Girmaw Abebe Tadesse",
+      "Caleb Robinson",
+      "Akram Zaytar",
       "Rahul Dodhia"
     ],
     "year": 2025,
@@ -2594,8 +2594,8 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Rahul Dodhia",
-      "Zhongqi Miao"
+      "Zhongqi Miao",
+      "Rahul Dodhia"
     ],
     "year": 2025,
     "deliverables": [
@@ -2642,8 +2642,8 @@
     ],
     "partner": "The Nature Conservancy",
     "lab_leads": [
-      "Anthony Ortiz",
       "Caleb Robinson",
+      "Anthony Ortiz",
       "Rahul Dodhia"
     ],
     "year": 2025,
@@ -2861,11 +2861,11 @@
     ],
     "partner": null,
     "lab_leads": [
+      "Thomas Roca",
       "A. Roman",
-      "Amit Misra",
-      "Kevin White",
       "Pengce Wang",
-      "Thomas Roca"
+      "Kevin White",
+      "Amit Misra"
     ],
     "year": 2025,
     "deliverables": [
@@ -3081,8 +3081,8 @@
     "science_tags": [],
     "partner": "American Academy of Ophthalmology",
     "lab_leads": [
-      "Rahul Dodhia",
-      "Shahrzad Gholami"
+      "Shahrzad Gholami",
+      "Rahul Dodhia"
     ],
     "year": 2025,
     "deliverables": [
@@ -3117,8 +3117,8 @@
     "partner": "University of Washington",
     "lab_leads": [
       "Md Nasir",
-      "Rahul Dodhia",
-      "Yixi Xu"
+      "Yixi Xu",
+      "Rahul Dodhia"
     ],
     "year": 2025,
     "deliverables": [
@@ -3193,9 +3193,9 @@
     ],
     "partner": null,
     "lab_leads": [
+      "Girmaw Abebe Tadesse",
       "Caleb Robinson",
       "Gilles Hacheme",
-      "Girmaw Abebe Tadesse",
       "Rahul Dodhia"
     ],
     "year": 2024,
@@ -3273,8 +3273,8 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Sumit Mukherjee",
-      "Yixi Xu"
+      "Yixi Xu",
+      "Sumit Mukherjee"
     ],
     "year": 2020,
     "deliverables": [
@@ -3368,8 +3368,8 @@
     ],
     "partner": "Evans School Policy Analysis and Research group (University of Washington)",
     "lab_leads": [
-      "Rahul Dodhia",
-      "Shahrzad Gholami"
+      "Shahrzad Gholami",
+      "Rahul Dodhia"
     ],
     "year": 2025,
     "deliverables": [
@@ -3424,8 +3424,8 @@
     ],
     "partner": "Global Emancipation Network",
     "lab_leads": [
-      "A. Roman",
-      "Sumit Mukherjee"
+      "Sumit Mukherjee",
+      "A. Roman"
     ],
     "year": 2021,
     "deliverables": [
@@ -3503,8 +3503,8 @@
     "partner": "The Nature Conservancy",
     "lab_leads": [
       "Akram Zaytar",
-      "Caleb Robinson",
       "Girmaw Abebe Tadesse",
+      "Caleb Robinson",
       "Rahul Dodhia"
     ],
     "year": 2025,
@@ -3545,8 +3545,8 @@
     ],
     "partner": "Lowy Medical Research Institute",
     "lab_leads": [
-      "Rahul Dodhia",
-      "Shahrzad Gholami"
+      "Shahrzad Gholami",
+      "Rahul Dodhia"
     ],
     "year": 2025,
     "deliverables": [
@@ -3753,8 +3753,8 @@
     "lab_leads": [
       "Amrita Gupta",
       "Anthony Ortiz",
-      "Rahul Dodhia",
-      "Simone Fobi Nsutezo"
+      "Simone Fobi Nsutezo",
+      "Rahul Dodhia"
     ],
     "year": 2025,
     "deliverables": [
@@ -3881,8 +3881,8 @@
     "partner": "PATH",
     "lab_leads": [
       "Md Nasir",
-      "Rahul Dodhia",
-      "Shahrzad Gholami"
+      "Shahrzad Gholami",
+      "Rahul Dodhia"
     ],
     "year": 2025,
     "deliverables": [
@@ -3970,8 +3970,8 @@
     ],
     "partner": "University of Washington",
     "lab_leads": [
-      "Anusua Trivedi",
-      "Yixi Xu"
+      "Yixi Xu",
+      "Anusua Trivedi"
     ],
     "year": 2022,
     "deliverables": [
@@ -4009,8 +4009,8 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Rahul Dodhia",
-      "Zhongqi Miao"
+      "Zhongqi Miao",
+      "Rahul Dodhia"
     ],
     "year": 2025,
     "deliverables": [
@@ -4059,9 +4059,9 @@
     ],
     "partner": null,
     "lab_leads": [
+      "Zhongqi Miao",
       "Andrés Hernández",
-      "Rahul Dodhia",
-      "Zhongqi Miao"
+      "Rahul Dodhia"
     ],
     "year": 2023,
     "deliverables": [
@@ -4101,12 +4101,12 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Amrita Gupta",
+      "Zhongqi Miao",
       "Andres Hernandez Celis",
+      "Amrita Gupta",
       "Md Nasir",
       "Pengce Wang",
-      "Rahul Dodhia",
-      "Zhongqi Miao"
+      "Rahul Dodhia"
     ],
     "year": 2025,
     "deliverables": [
@@ -4292,12 +4292,12 @@
     "partner": null,
     "lab_leads": [
       "Akram Zaytar",
-      "Anthony Ortiz",
       "Caleb Robinson",
-      "Gilles Hacheme",
       "Girmaw Abebe Tadesse",
-      "Rahul Dodhia",
-      "Tammy Glazer"
+      "Tammy Glazer",
+      "Gilles Hacheme",
+      "Anthony Ortiz",
+      "Rahul Dodhia"
     ],
     "year": 2025,
     "deliverables": [
@@ -4342,9 +4342,9 @@
     ],
     "partner": null,
     "lab_leads": [
+      "Zhongqi Miao",
       "Caleb Robinson",
-      "Rahul Dodhia",
-      "Zhongqi Miao"
+      "Rahul Dodhia"
     ],
     "year": 2026,
     "deliverables": [
@@ -4400,9 +4400,9 @@
     ],
     "partner": null,
     "lab_leads": [
+      "Zhongqi Miao",
       "Caleb Robinson",
-      "Rahul Dodhia",
-      "Zhongqi Miao"
+      "Rahul Dodhia"
     ],
     "year": 2026,
     "deliverables": [
@@ -4456,10 +4456,10 @@
     ],
     "partner": "USA for UNHCR",
     "lab_leads": [
+      "Simone Fobi Nsutezo",
       "Amrita Gupta",
-      "Anthony Ortiz",
       "Rahul Dodhia",
-      "Simone Fobi Nsutezo"
+      "Anthony Ortiz"
     ],
     "year": 2025,
     "deliverables": [
@@ -4617,10 +4617,10 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Anthony Ortiz",
+      "Simone Fobi",
       "Caleb Robinson",
-      "Rahul Dodhia",
-      "Simone Fobi"
+      "Anthony Ortiz",
+      "Rahul Dodhia"
     ],
     "year": 2023,
     "deliverables": [
@@ -4697,9 +4697,9 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Anusua Trivedi",
       "Sumit Mukherjee",
-      "Yixi Xu"
+      "Yixi Xu",
+      "Anusua Trivedi"
     ],
     "year": 2021,
     "deliverables": [
@@ -4749,17 +4749,17 @@
     ],
     "partner": null,
     "lab_leads": [
+      "Carl Chalmers",
+      "Zhongqi Miao",
+      "Andres Hernandez Celis",
+      "Isai Daniel Chacon Silva",
       "A. Roman",
       "Allen Kim",
-      "Amy Michaels",
-      "Andres Hernandez Celis",
-      "Carl Chalmers",
-      "Catherine Romero",
-      "Daniela Ruiz Lopez",
-      "Isai Daniel Chacon Silva",
       "Meygha Machado",
-      "Rahul Dodhia",
-      "Zhongqi Miao"
+      "Amy Michaels",
+      "Daniela Ruiz Lopez",
+      "Catherine Romero",
+      "Rahul Dodhia"
     ],
     "year": 2026,
     "deliverables": [
@@ -4853,10 +4853,10 @@
     ],
     "partner": "Alexander von Humboldt Biological Resources Research Institute",
     "lab_leads": [
-      "Andrés Hernández",
       "Daniela Ruiz",
-      "Rahul Dodhia",
-      "Zhongqi Miao"
+      "Zhongqi Miao",
+      "Andrés Hernández",
+      "Rahul Dodhia"
     ],
     "year": 2026,
     "deliverables": [
@@ -4909,10 +4909,10 @@
     ],
     "partner": "Instituto de Investigación de Recursos Biológicos Alexander von Humboldt",
     "lab_leads": [
-      "Andrés Hernández",
       "Daniela Ruiz",
-      "Rahul Dodhia",
-      "Zhongqi Miao"
+      "Zhongqi Miao",
+      "Andrés Hernández",
+      "Rahul Dodhia"
     ],
     "year": 2026,
     "deliverables": [
@@ -4971,8 +4971,8 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Rahul Dodhia",
-      "Zhongqi Miao"
+      "Zhongqi Miao",
+      "Rahul Dodhia"
     ],
     "year": 2024,
     "deliverables": [
@@ -5023,8 +5023,8 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Rahul Dodhia",
-      "Shahrzad Gholami"
+      "Shahrzad Gholami",
+      "Rahul Dodhia"
     ],
     "year": 2022,
     "deliverables": [
@@ -5061,8 +5061,8 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Rahul Dodhia",
-      "Yixi Xu"
+      "Yixi Xu",
+      "Rahul Dodhia"
     ],
     "year": 2025,
     "deliverables": [
@@ -5126,11 +5126,11 @@
     ],
     "partner": "American Red Cross",
     "lab_leads": [
-      "Anthony Ortiz",
       "Caleb Robinson",
-      "Cameron Birge",
+      "Simone Fobi Nsutezo",
+      "Anthony Ortiz",
       "Rahul Dodhia",
-      "Simone Fobi Nsutezo"
+      "Cameron Birge"
     ],
     "year": 2023,
     "deliverables": [
@@ -5179,8 +5179,8 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Rahul Dodhia",
-      "Yixi Xu"
+      "Yixi Xu",
+      "Rahul Dodhia"
     ],
     "year": 2026,
     "deliverables": [
@@ -5331,8 +5331,8 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Md Nasir",
-      "Sumit Mukherjee"
+      "Sumit Mukherjee",
+      "Md Nasir"
     ],
     "year": 2021,
     "deliverables": [
@@ -5542,8 +5542,8 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Anthony Ortiz",
       "Caleb Robinson",
+      "Anthony Ortiz",
       "Rahul Dodhia"
     ],
     "year": 2024,
@@ -5599,8 +5599,8 @@
     ],
     "partner": "Lowy Medical Research Institute",
     "lab_leads": [
-      "Rahul Dodhia",
-      "Shahrzad Gholami"
+      "Shahrzad Gholami",
+      "Rahul Dodhia"
     ],
     "year": 2024,
     "deliverables": [
@@ -5638,9 +5638,9 @@
     "partner": null,
     "lab_leads": [
       "Akram Zaytar",
+      "Girmaw Abebe Tadesse",
       "Caleb Robinson",
       "Gilles Q. Hacheme",
-      "Girmaw Abebe Tadesse",
       "Rahul Dodhia"
     ],
     "year": 2026,
@@ -5774,8 +5774,8 @@
       "Akram Zaytar",
       "Caleb Robinson",
       "Gilles Hacheme",
-      "Girmaw Abebe Tadesse",
-      "Rahul Dodhia"
+      "Rahul Dodhia",
+      "Girmaw Abebe Tadesse"
     ],
     "year": 2026,
     "deliverables": [
@@ -5816,13 +5816,13 @@
     ],
     "partner": "Planet Labs",
     "lab_leads": [
-      "Akram Zaytar",
-      "Caleb Robinson",
+      "Tammy Glazer",
       "Gilles Q. Hacheme",
+      "Akram Zaytar",
       "Girmaw Abebe Tadesse",
       "Kevin White",
       "Rahul Dodhia",
-      "Tammy Glazer"
+      "Caleb Robinson"
     ],
     "year": 2025,
     "deliverables": [
@@ -5870,8 +5870,8 @@
     ],
     "partner": "Stanford RegLab",
     "lab_leads": [
-      "Anthony Ortiz",
-      "Caleb Robinson"
+      "Caleb Robinson",
+      "Anthony Ortiz"
     ],
     "year": 2021,
     "deliverables": [
@@ -5919,8 +5919,8 @@
     ],
     "partner": "University of British Columbia",
     "lab_leads": [
-      "Anthony Ortiz",
-      "Yixi Xu"
+      "Yixi Xu",
+      "Anthony Ortiz"
     ],
     "year": 2022,
     "deliverables": [
@@ -5958,11 +5958,11 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Allen Kim",
-      "Lucia Ronchi Darre",
       "Mayana Pereira",
-      "Rahul Dodhia",
-      "Tammy Glazer"
+      "Lucia Ronchi Darre",
+      "Tammy Glazer",
+      "Allen Kim",
+      "Rahul Dodhia"
     ],
     "year": 2024,
     "deliverables": [
@@ -6003,8 +6003,8 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Anthony Ortiz",
-      "Caleb Robinson"
+      "Caleb Robinson",
+      "Anthony Ortiz"
     ],
     "year": 2024,
     "deliverables": [
@@ -6061,8 +6061,8 @@
     ],
     "partner": "BC Cancer Research Centre",
     "lab_leads": [
-      "Anthony Ortiz",
-      "Yixi Xu"
+      "Yixi Xu",
+      "Anthony Ortiz"
     ],
     "year": 2021,
     "deliverables": [
@@ -6231,10 +6231,10 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Akram Zaytar",
-      "Caleb Robinson",
       "Gilles Hacheme",
+      "Akram Zaytar",
       "Girmaw Abebe Tadesse",
+      "Caleb Robinson",
       "Rahul Dodhia"
     ],
     "year": 2024,
@@ -6275,8 +6275,8 @@
     ],
     "partner": null,
     "lab_leads": [
-      "Jane Wang",
-      "Shahrzad Gholami"
+      "Shahrzad Gholami",
+      "Jane Wang"
     ],
     "year": 2021,
     "deliverables": [
@@ -6317,8 +6317,8 @@
     ],
     "partner": "University of Pittsburgh",
     "lab_leads": [
-      "Rahul Dodhia",
-      "Zhongqi Miao"
+      "Zhongqi Miao",
+      "Rahul Dodhia"
     ],
     "year": 2023,
     "deliverables": [
