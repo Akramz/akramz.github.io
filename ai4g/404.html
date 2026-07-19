@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting…</title>
+    <!--
+      GitHub Pages SPA fallback. Deep links use query params (?theme=…), which survive
+      on the base path, so this only needs to bounce a stray/typed path back to the app
+      root, preserving any query string and hash. It references no hashed build assets.
+    -->
+    <script>
+      var firstSegment = location.pathname.split('/').filter(Boolean)[0];
+      var base = firstSegment ? '/' + firstSegment + '/' : '/';
+      location.replace(base + location.search + location.hash);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to <a href="/ai4g/">AI for (Public) Good</a>…</p>
+  </body>
+</html>
