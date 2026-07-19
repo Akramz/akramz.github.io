@@ -8,6 +8,7 @@ entries:
 
   - title: open source
     entries:
+      - title: "<a href='https://akramz.space/ai4g/'>AI for (Public) Goods</a>"
       - title: "<a href='https://github.com/microsoft/building-damage-assessment' target='_blank'>Mapping post-disaster damaged buildings.</a>"
       - title: "<a href='https://github.com/microsoft/buildings' target='_blank'>Dataset: global building density &amp; height maps.</a>"
       - title: "<a href='https://github.com/microsoft/data-centric-satellite-segmentation' target='_blank'>Dataset sampling strategies for EO training under budget.</a>"
