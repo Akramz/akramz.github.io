@@ -1,5 +1,508 @@
 [
   {
+    "slug": "ai-powered-wildlife-re-identification-in-conservation",
+    "name": "An accurate, efficient, and accessible AI-powered solution for wildlife re-identification in conservation",
+    "featured": true,
+    "impact_statement": "Lets conservationists re-identify individual giraffes and other wildlife across repeat surveys far faster and cheaper, supporting population monitoring of endangered species.",
+    "summary": "GIRAFFE (Generalized Image-based Re-identification using AI for Fauna Feature Extraction) is an AI system that automates re-identification of individual giraffes from field photos using local feature matching, with a user interface that lets technical and non-technical users curate large datasets and analyze repeat surveys. Validated on real Masai giraffe datasets, it exceeds 0.9 accuracy across nine standard metrics, runs roughly 120 times faster than baseline methods with a 132-fold cost improvement, and is designed to extend to other species.",
+    "themes": [
+      "biodiversity-conservation"
+    ],
+    "science_tags": [
+      "Computer Vision",
+      "Conservation",
+      "Wildlife Tracking"
+    ],
+    "partner": "Wild Nature Institute",
+    "lab_leads": [
+      "Shahrzad Gholami",
+      "Caleb Robinson",
+      "Rahul Dodhia"
+    ],
+    "year": 2026,
+    "deliverables": [
+      {
+        "type": "code",
+        "url": "https://github.com/microsoft/giraffe-identification-ai-tool",
+        "host": "github",
+        "repo": {
+          "owner": "microsoft",
+          "name": "giraffe-identification-ai-tool"
+        }
+      },
+      {
+        "type": "paper",
+        "url": "https://doi.org/10.1038/s41598-026-54115-w",
+        "host": "doi",
+        "doi": "10.1038/s41598-026-54115-w"
+      }
+    ],
+    "viz": {
+      "geo": {
+        "lat": -4,
+        "lon": 36,
+        "approximate": true
+      },
+      "taxa": [
+        "Masai giraffe",
+        "Giraffe"
+      ]
+    },
+    "metrics": {
+      "stars": 14,
+      "citations": 0,
+      "downloads": null,
+      "mentions": 5,
+      "updated_at": "2026-07-19T02:36:22Z"
+    }
+  },
+  {
+    "slug": "fields-of-the-world-agricultural-field-boundary-segmentation",
+    "name": "Fields of The World: A Machine Learning Benchmark Dataset for Global Agricultural Field Boundary Segmentation",
+    "featured": true,
+    "impact_statement": "Gives agricultural monitoring a large, openly available benchmark for automatically mapping crop field boundaries from satellite imagery across 24 countries, enabling scalable food security and land use assessments.",
+    "summary": "Fields of The World (FTW) is a benchmark dataset for agricultural field instance segmentation spanning 24 countries across four continents, with 70,462 samples pairing instance and semantic segmentation masks with multi-date, multi-spectral Sentinel-2 imagery. It is an order of magnitude larger than prior datasets and ships baseline models that show stronger zero-shot and fine-tuning performance in held-out countries.",
+    "themes": [
+      "geospatial-earth-observation"
+    ],
+    "science_tags": [
+      "Geospatial",
+      "Computer Vision",
+      "Food Security"
+    ],
+    "partner": "Arizona State University",
+    "lab_leads": [
+      "Caleb Robinson",
+      "Rahul Dodhia"
+    ],
+    "year": 2025,
+    "deliverables": [
+      {
+        "type": "code",
+        "url": "https://github.com/fieldsoftheworld/ftw-baselines",
+        "host": "github",
+        "repo": {
+          "owner": "fieldsoftheworld",
+          "name": "ftw-baselines"
+        }
+      },
+      {
+        "type": "paper",
+        "url": "https://arxiv.org/abs/2409.16252",
+        "host": "arxiv"
+      },
+      {
+        "type": "dataset",
+        "url": "https://source.coop/kerner-lab/fields-of-the-world",
+        "host": "other"
+      },
+      {
+        "type": "website",
+        "url": "https://fieldsofthe.world/",
+        "host": "website"
+      }
+    ],
+    "metrics": {
+      "stars": 155,
+      "citations": null,
+      "downloads": null,
+      "mentions": 0,
+      "updated_at": "2026-07-19T02:36:22Z"
+    }
+  },
+  {
+    "slug": "forecasting-acute-childhood-malnutrition-in-kenya-using-machine-learni",
+    "name": "Forecasting acute childhood malnutrition in Kenya using machine learning and diverse sets of indicators",
+    "featured": true,
+    "impact_statement": "Helps Kenyan health decision-makers anticipate where acute child malnutrition will rise across sub-counties so interventions can be targeted before crises escalate.",
+    "summary": "A spatio-temporal machine learning framework that forecasts acute malnutrition risk among under-5 children for each sub-county in Kenya. It combines routine clinical indicators from the national DHIS2 health system with satellite-derived signals such as gross primary productivity to predict moderate, severe, and aggregated cases across multiple time horizons.",
+    "themes": [
+      "health-life-sciences",
+      "geospatial-earth-observation"
+    ],
+    "science_tags": [
+      "Public Health",
+      "Food Security",
+      "Geospatial",
+      "Public Policy"
+    ],
+    "partner": "Kenya Ministry of Health",
+    "lab_leads": [
+      "Girmaw Abebe Tadesse",
+      "Caleb Robinson",
+      "Rahul Dodhia"
+    ],
+    "year": 2025,
+    "deliverables": [
+      {
+        "type": "paper",
+        "url": "https://doi.org/10.1371/journal.pone.0322959",
+        "host": "doi",
+        "doi": "10.1371/journal.pone.0322959"
+      }
+    ],
+    "viz": {
+      "geo": {
+        "lat": 0.0236,
+        "lon": 37.9062,
+        "approximate": true
+      },
+      "scale": "population"
+    },
+    "metrics": {
+      "stars": null,
+      "citations": 6,
+      "downloads": null,
+      "mentions": 3,
+      "updated_at": "2026-07-19T03:21:47Z"
+    }
+  },
+  {
+    "slug": "global-renewables-watch-a-temporal-dataset-of-solar-and-wind-energy-de",
+    "name": "Global Renewables Watch: A Temporal Dataset of Solar and Wind Energy Derived from Satellite Imagery",
+    "featured": true,
+    "impact_statement": "Maps where and when the world builds solar and wind power so policymakers and researchers can measure and accelerate progress toward clean energy and sustainable development goals.",
+    "summary": "Global Renewables Watch is a global, quarterly temporal dataset of commercial solar PV farms and onshore wind turbines derived from high-resolution satellite imagery spanning Q4 2017 to Q2 2024. Deep learning segmentation models were run across more than 13 trillion pixels to detect 375,197 wind turbines and 86,410 solar PV installations, each tagged with an estimated construction date and preceding land use. Country-level capacity estimates aggregated from these detections match IRENA's 2023 figures with r2 of 0.96 for solar PV and 0.93 for onshore wind.",
+    "themes": [
+      "geospatial-earth-observation"
+    ],
+    "science_tags": [
+      "Geospatial",
+      "Computer Vision",
+      "Public Policy"
+    ],
+    "partner": "The Nature Conservancy",
+    "lab_leads": [
+      "Caleb Robinson",
+      "Anthony Ortiz",
+      "Rahul Dodhia"
+    ],
+    "year": 2025,
+    "deliverables": [
+      {
+        "type": "code",
+        "url": "https://github.com/microsoft/global-renewables-watch",
+        "host": "github",
+        "repo": {
+          "owner": "microsoft",
+          "name": "global-renewables-watch"
+        }
+      },
+      {
+        "type": "paper",
+        "url": "https://arxiv.org/abs/2503.14860",
+        "host": "arxiv"
+      },
+      {
+        "type": "website",
+        "url": "https://www.globalrenewableswatch.org/",
+        "host": "website"
+      }
+    ],
+    "metrics": {
+      "stars": 170,
+      "citations": null,
+      "downloads": null,
+      "mentions": 9,
+      "updated_at": "2026-07-20T09:18:51Z"
+    }
+  },
+  {
+    "slug": "mapping-global-floods-with-10-years-of-satellite-radar-data",
+    "name": "Mapping global floods with 10 years of satellite radar data",
+    "featured": true,
+    "impact_statement": "Delivers a decade-long, cloud-free global map of flood extent that pinpoints historically flood-prone communities and supports real-time disaster response.",
+    "summary": "A deep learning model detects flood extent from Sentinel-1 radar imagery, which penetrates clouds and works day or night, applied to 10 years of global SAR data. The resulting longitudinal dataset identifies historically flood-prone areas, was used to flag vulnerable communities in Ethiopia, supported real-time response to the May 2024 Kenya floods, and suggests a possible upward trend in global flood extent.",
+    "themes": [
+      "geospatial-earth-observation"
+    ],
+    "science_tags": [
+      "Geospatial",
+      "Computer Vision",
+      "Disaster Response"
+    ],
+    "partner": "International Organization for Migration",
+    "lab_leads": [
+      "Kevin White",
+      "Simone Fobi Nsutezo"
+    ],
+    "year": 2025,
+    "deliverables": [
+      {
+        "type": "code",
+        "url": "https://github.com/microsoft/ai4g-flood",
+        "host": "github",
+        "repo": {
+          "owner": "microsoft",
+          "name": "ai4g-flood"
+        }
+      },
+      {
+        "type": "paper",
+        "url": "https://doi.org/10.1038/s41467-025-60973-1",
+        "host": "doi",
+        "doi": "10.1038/s41467-025-60973-1"
+      },
+      {
+        "type": "dataset",
+        "url": "https://huggingface.co/datasets/ai-for-good-lab/ai4g-flood-dataset",
+        "host": "huggingface",
+        "hf_id": "ai-for-good-lab/ai4g-flood-dataset"
+      }
+    ],
+    "viz": {
+      "geo": {
+        "lat": 5,
+        "lon": 39,
+        "approximate": true
+      }
+    },
+    "metrics": {
+      "stars": 64,
+      "citations": 58,
+      "downloads": 451399,
+      "mentions": 1,
+      "updated_at": "2026-07-20T09:18:51Z"
+    }
+  },
+  {
+    "slug": "project-sparrow-and-the-future-of-conservation-technology",
+    "name": "Project SPARROW and the Future of Conservation Technology",
+    "featured": true,
+    "impact_statement": "Protects fragile remote ecosystems by enabling continuous, autonomous wildlife monitoring where power and connectivity are scarce, streaming real-time conservation insights to the people who safeguard them",
+    "summary": "SPARROW is an open-source hardware and software platform that combines solar energy, edge AI, and satellite communication for continuous, autonomous biodiversity monitoring in remote environments. Each node runs on-device deep learning over visual, acoustic, and environmental sensors and transmits summarized results over Low-Earth-Orbit satellite or GSM networks. Deployed across tropical, temperate, and montane ecosystems in Colombia, Peru, Tanzania, and the United States, it sustained 24/7 operation and collected more than two million images and acoustic recordings in its first 190 days.",
+    "themes": [
+      "biodiversity-conservation"
+    ],
+    "science_tags": [
+      "Conservation",
+      "Wildlife Tracking",
+      "Bioacoustics",
+      "Computer Vision"
+    ],
+    "partner": null,
+    "lab_leads": [
+      "Carl Chalmers",
+      "Zhongqi Miao",
+      "Andres Hernandez Celis",
+      "Isai Daniel Chacon Silva",
+      "A. Roman",
+      "Allen Kim",
+      "Meygha Machado",
+      "Amy Michaels",
+      "Daniela Ruiz Lopez",
+      "Catherine Romero",
+      "Rahul Dodhia"
+    ],
+    "year": 2026,
+    "deliverables": [
+      {
+        "type": "code",
+        "url": "https://github.com/microsoft/SPARROW",
+        "host": "github",
+        "repo": {
+          "owner": "microsoft",
+          "name": "SPARROW"
+        }
+      },
+      {
+        "type": "paper",
+        "url": "https://arxiv.org/abs/2606.00108",
+        "host": "arxiv"
+      },
+      {
+        "type": "website",
+        "url": "https://unlocked.microsoft.com/project-sparrow/",
+        "host": "website"
+      },
+      {
+        "type": "video",
+        "url": "https://www.ted.com/talks/juan_m_lavista_ferres_these_ai_devices_protect_nature_in_real_time",
+        "host": "other"
+      }
+    ],
+    "viz": {
+      "geo": {
+        "lat": 4,
+        "lon": -72,
+        "approximate": true
+      }
+    },
+    "metrics": {
+      "stars": 47,
+      "citations": null,
+      "downloads": null,
+      "mentions": 4,
+      "updated_at": "2026-07-20T09:18:51Z"
+    }
+  },
+  {
+    "slug": "rapid-building-damage-assessment-workflow-2023-rolling-fork-mississipp",
+    "name": "Rapid building damage assessment workflow: An implementation for the 2023 Rolling Fork, Mississippi tornado event",
+    "featured": true,
+    "impact_statement": "Gives disaster first responders accurate building damage maps within two hours of a satellite pass so relief efforts can be targeted where they are most needed.",
+    "summary": "A human-in-the-loop workflow for rapidly training building damage assessment models from high-resolution satellite imagery after a natural disaster. Applied with the American Red Cross to the March 2023 tornado in Rolling Fork, Mississippi, it reached 0.86 precision and 0.80 recall on damaged buildings while running end-to-end in under two hours per imagery scene.",
+    "themes": [
+      "geospatial-earth-observation"
+    ],
+    "science_tags": [
+      "Geospatial",
+      "Computer Vision",
+      "Disaster Response"
+    ],
+    "partner": "American Red Cross",
+    "lab_leads": [
+      "Caleb Robinson",
+      "Simone Fobi Nsutezo",
+      "Anthony Ortiz",
+      "Rahul Dodhia",
+      "Cameron Birge"
+    ],
+    "year": 2023,
+    "deliverables": [
+      {
+        "type": "code",
+        "url": "https://github.com/microsoft/building-damage-assessment",
+        "host": "github",
+        "repo": {
+          "owner": "microsoft",
+          "name": "building-damage-assessment"
+        }
+      },
+      {
+        "type": "paper",
+        "url": "https://arxiv.org/abs/2306.12589",
+        "host": "arxiv"
+      }
+    ],
+    "viz": {
+      "geo": {
+        "lat": 32.9057,
+        "lon": -90.8776,
+        "approximate": true
+      }
+    },
+    "metrics": {
+      "stars": 158,
+      "citations": null,
+      "downloads": null,
+      "mentions": 3,
+      "updated_at": "2026-07-19T02:36:22Z"
+    }
+  },
+  {
+    "slug": "tempo-global-temporal-building-density-and-height-estimation-from-sate",
+    "name": "TEMPO: Global Temporal Building Density and Height Estimation from Satellite Imagery",
+    "featured": true,
+    "impact_statement": "Delivers quarterly global maps of building density and height so planners and researchers can track where settlements are growing and inform climate resilience and adaptation efforts.",
+    "summary": "TEMPO is a global, temporally resolved dataset of building density and height derived from quarterly PlanetScope satellite basemaps using a multi-task deep learning model at 37.6-meter resolution. Covering Q1 2018 through Q2 2025, it captures quarterly changes in built settlements with F1 scores of 85 to 88 percent and strong temporal stability, at a fraction of the compute cost of comparable approaches.",
+    "themes": [
+      "geospatial-earth-observation"
+    ],
+    "science_tags": [
+      "Geospatial",
+      "Computer Vision"
+    ],
+    "partner": "Planet Labs",
+    "lab_leads": [
+      "Tammy Glazer",
+      "Gilles Q. Hacheme",
+      "Akram Zaytar",
+      "Girmaw Abebe Tadesse",
+      "Kevin White",
+      "Rahul Dodhia",
+      "Caleb Robinson"
+    ],
+    "year": 2025,
+    "deliverables": [
+      {
+        "type": "code",
+        "url": "https://github.com/microsoft/buildings",
+        "host": "github",
+        "repo": {
+          "owner": "microsoft",
+          "name": "buildings"
+        }
+      },
+      {
+        "type": "paper",
+        "url": "https://arxiv.org/abs/2511.12104",
+        "host": "arxiv"
+      },
+      {
+        "type": "demo",
+        "url": "https://visualizers.aiforgood.ai/buildings/index.html",
+        "host": "visualizer"
+      }
+    ],
+    "metrics": {
+      "stars": 79,
+      "citations": null,
+      "downloads": null,
+      "mentions": 0,
+      "updated_at": "2026-07-19T02:36:22Z"
+    }
+  },
+  {
+    "slug": "torchgeo-deep-learning-with-geospatial-data",
+    "name": "TorchGeo: Deep Learning With Geospatial Data",
+    "featured": true,
+    "impact_statement": "Makes it practical to apply deep learning to satellite and remote sensing imagery, powering work from precision agriculture and disaster monitoring to climate change research.",
+    "summary": "TorchGeo is an open-source Python library that brings geospatial data into the PyTorch deep learning ecosystem. It provides data loaders for benchmark and uncurated remote sensing datasets, geospatial samplers, multispectral transforms, and pre-trained models, handling the coordinate systems, resolutions, and extra spectral bands that make deep learning on satellite imagery hard.",
+    "themes": [
+      "geospatial-earth-observation"
+    ],
+    "science_tags": [
+      "Geospatial",
+      "Computer Vision"
+    ],
+    "partner": null,
+    "lab_leads": [
+      "Caleb Robinson",
+      "Anthony Ortiz"
+    ],
+    "year": 2024,
+    "deliverables": [
+      {
+        "type": "code",
+        "url": "https://github.com/microsoft/torchgeo",
+        "host": "github",
+        "repo": {
+          "owner": "microsoft",
+          "name": "torchgeo"
+        }
+      },
+      {
+        "type": "paper",
+        "url": "https://arxiv.org/abs/2111.08872",
+        "host": "arxiv"
+      },
+      {
+        "type": "paper",
+        "url": "https://doi.org/10.1145/3557915.3560953",
+        "host": "doi",
+        "doi": "10.1145/3557915.3560953"
+      },
+      {
+        "type": "website",
+        "url": "https://torchgeo.readthedocs.io/",
+        "host": "website"
+      },
+      {
+        "type": "blog",
+        "url": "https://pytorch.org/blog/geospatial-deep-learning-with-torchgeo/",
+        "host": "other"
+      }
+    ],
+    "metrics": {
+      "stars": 4115,
+      "citations": 129,
+      "downloads": null,
+      "mentions": 1,
+      "updated_at": "2026-07-20T09:18:51Z"
+    }
+  },
+  {
     "slug": "acoustic-detection-of-regionally-rare-bird-species-through-deep-convol",
     "name": "Acoustic detection of regionally rare bird species through deep convolutional neural networks",
     "featured": false,
@@ -287,63 +790,6 @@
       "citations": 36,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T02:36:22Z"
-    }
-  },
-  {
-    "slug": "ai-powered-wildlife-re-identification-in-conservation",
-    "name": "An accurate, efficient, and accessible AI-powered solution for wildlife re-identification in conservation",
-    "featured": false,
-    "impact_statement": "Lets conservationists re-identify individual giraffes and other wildlife across repeat surveys far faster and cheaper, supporting population monitoring of endangered species.",
-    "summary": "GIRAFFE (Generalized Image-based Re-identification using AI for Fauna Feature Extraction) is an AI system that automates re-identification of individual giraffes from field photos using local feature matching, with a user interface that lets technical and non-technical users curate large datasets and analyze repeat surveys. Validated on real Masai giraffe datasets, it exceeds 0.9 accuracy across nine standard metrics, runs roughly 120 times faster than baseline methods with a 132-fold cost improvement, and is designed to extend to other species.",
-    "themes": [
-      "biodiversity-conservation"
-    ],
-    "science_tags": [
-      "Computer Vision",
-      "Conservation",
-      "Wildlife Tracking"
-    ],
-    "partner": "Wild Nature Institute",
-    "lab_leads": [
-      "Shahrzad Gholami",
-      "Caleb Robinson",
-      "Rahul Dodhia"
-    ],
-    "year": 2026,
-    "deliverables": [
-      {
-        "type": "code",
-        "url": "https://github.com/microsoft/giraffe-identification-ai-tool",
-        "host": "github",
-        "repo": {
-          "owner": "microsoft",
-          "name": "giraffe-identification-ai-tool"
-        }
-      },
-      {
-        "type": "paper",
-        "url": "https://doi.org/10.1038/s41598-026-54115-w",
-        "host": "doi",
-        "doi": "10.1038/s41598-026-54115-w"
-      }
-    ],
-    "viz": {
-      "geo": {
-        "lat": -4,
-        "lon": 36,
-        "approximate": true
-      },
-      "taxa": [
-        "Masai giraffe",
-        "Giraffe"
-      ]
-    },
-    "metrics": {
-      "stars": 14,
-      "citations": 0,
-      "downloads": null,
-      "mentions": 5,
       "updated_at": "2026-07-19T02:36:22Z"
     }
   },
@@ -2234,60 +2680,6 @@
     }
   },
   {
-    "slug": "fields-of-the-world-agricultural-field-boundary-segmentation",
-    "name": "Fields of The World: A Machine Learning Benchmark Dataset for Global Agricultural Field Boundary Segmentation",
-    "featured": false,
-    "impact_statement": "Gives agricultural monitoring a large, openly available benchmark for automatically mapping crop field boundaries from satellite imagery across 24 countries, enabling scalable food security and land use assessments.",
-    "summary": "Fields of The World (FTW) is a benchmark dataset for agricultural field instance segmentation spanning 24 countries across four continents, with 70,462 samples pairing instance and semantic segmentation masks with multi-date, multi-spectral Sentinel-2 imagery. It is an order of magnitude larger than prior datasets and ships baseline models that show stronger zero-shot and fine-tuning performance in held-out countries.",
-    "themes": [
-      "geospatial-earth-observation"
-    ],
-    "science_tags": [
-      "Geospatial",
-      "Computer Vision",
-      "Food Security"
-    ],
-    "partner": "Arizona State University",
-    "lab_leads": [
-      "Caleb Robinson",
-      "Rahul Dodhia"
-    ],
-    "year": 2025,
-    "deliverables": [
-      {
-        "type": "code",
-        "url": "https://github.com/fieldsoftheworld/ftw-baselines",
-        "host": "github",
-        "repo": {
-          "owner": "fieldsoftheworld",
-          "name": "ftw-baselines"
-        }
-      },
-      {
-        "type": "paper",
-        "url": "https://arxiv.org/abs/2409.16252",
-        "host": "arxiv"
-      },
-      {
-        "type": "dataset",
-        "url": "https://source.coop/kerner-lab/fields-of-the-world",
-        "host": "other"
-      },
-      {
-        "type": "website",
-        "url": "https://fieldsofthe.world/",
-        "host": "website"
-      }
-    ],
-    "metrics": {
-      "stars": 155,
-      "citations": null,
-      "downloads": null,
-      "mentions": 0,
-      "updated_at": "2026-07-19T02:36:22Z"
-    }
-  },
-  {
     "slug": "flavars-multimodal-foundational-language-and-vision-alignment-model-fo",
     "name": "FLAVARS: A Multimodal Foundational Language and Vision Alignment Model for Remote Sensing",
     "featured": false,
@@ -2411,53 +2803,6 @@
       "downloads": null,
       "mentions": 0,
       "updated_at": "2026-07-19T02:36:22Z"
-    }
-  },
-  {
-    "slug": "forecasting-acute-childhood-malnutrition-in-kenya-using-machine-learni",
-    "name": "Forecasting acute childhood malnutrition in Kenya using machine learning and diverse sets of indicators",
-    "featured": false,
-    "impact_statement": "Helps Kenyan health decision-makers anticipate where acute child malnutrition will rise across sub-counties so interventions can be targeted before crises escalate.",
-    "summary": "A spatio-temporal machine learning framework that forecasts acute malnutrition risk among under-5 children for each sub-county in Kenya. It combines routine clinical indicators from the national DHIS2 health system with satellite-derived signals such as gross primary productivity to predict moderate, severe, and aggregated cases across multiple time horizons.",
-    "themes": [
-      "health-life-sciences",
-      "geospatial-earth-observation"
-    ],
-    "science_tags": [
-      "Public Health",
-      "Food Security",
-      "Geospatial",
-      "Public Policy"
-    ],
-    "partner": "Kenya Ministry of Health",
-    "lab_leads": [
-      "Girmaw Abebe Tadesse",
-      "Caleb Robinson",
-      "Rahul Dodhia"
-    ],
-    "year": 2025,
-    "deliverables": [
-      {
-        "type": "paper",
-        "url": "https://doi.org/10.1371/journal.pone.0322959",
-        "host": "doi",
-        "doi": "10.1371/journal.pone.0322959"
-      }
-    ],
-    "viz": {
-      "geo": {
-        "lat": 0.0236,
-        "lon": 37.9062,
-        "approximate": true
-      },
-      "scale": "population"
-    },
-    "metrics": {
-      "stars": null,
-      "citations": 6,
-      "downloads": null,
-      "mentions": 3,
-      "updated_at": "2026-07-19T03:21:47Z"
     }
   },
   {
@@ -2624,56 +2969,6 @@
       "downloads": null,
       "mentions": 10,
       "updated_at": "2026-07-19T03:21:47Z"
-    }
-  },
-  {
-    "slug": "global-renewables-watch-a-temporal-dataset-of-solar-and-wind-energy-de",
-    "name": "Global Renewables Watch: A Temporal Dataset of Solar and Wind Energy Derived from Satellite Imagery",
-    "featured": false,
-    "impact_statement": "Maps where and when the world builds solar and wind power so policymakers and researchers can measure and accelerate progress toward clean energy and sustainable development goals.",
-    "summary": "Global Renewables Watch is a global, quarterly temporal dataset of commercial solar PV farms and onshore wind turbines derived from high-resolution satellite imagery spanning Q4 2017 to Q2 2024. Deep learning segmentation models were run across more than 13 trillion pixels to detect 375,197 wind turbines and 86,410 solar PV installations, each tagged with an estimated construction date and preceding land use. Country-level capacity estimates aggregated from these detections match IRENA's 2023 figures with r2 of 0.96 for solar PV and 0.93 for onshore wind.",
-    "themes": [
-      "geospatial-earth-observation"
-    ],
-    "science_tags": [
-      "Geospatial",
-      "Computer Vision",
-      "Public Policy"
-    ],
-    "partner": "The Nature Conservancy",
-    "lab_leads": [
-      "Caleb Robinson",
-      "Anthony Ortiz",
-      "Rahul Dodhia"
-    ],
-    "year": 2025,
-    "deliverables": [
-      {
-        "type": "code",
-        "url": "https://github.com/microsoft/global-renewables-watch",
-        "host": "github",
-        "repo": {
-          "owner": "microsoft",
-          "name": "global-renewables-watch"
-        }
-      },
-      {
-        "type": "paper",
-        "url": "https://arxiv.org/abs/2503.14860",
-        "host": "arxiv"
-      },
-      {
-        "type": "website",
-        "url": "https://www.globalrenewableswatch.org/",
-        "host": "website"
-      }
-    ],
-    "metrics": {
-      "stars": 170,
-      "citations": null,
-      "downloads": null,
-      "mentions": 9,
-      "updated_at": "2026-07-20T09:18:51Z"
     }
   },
   {
@@ -3616,64 +3911,6 @@
       "stars": 3,
       "citations": 7,
       "downloads": null,
-      "mentions": 1,
-      "updated_at": "2026-07-20T09:18:51Z"
-    }
-  },
-  {
-    "slug": "mapping-global-floods-with-10-years-of-satellite-radar-data",
-    "name": "Mapping global floods with 10 years of satellite radar data",
-    "featured": false,
-    "impact_statement": "Delivers a decade-long, cloud-free global map of flood extent that pinpoints historically flood-prone communities and supports real-time disaster response.",
-    "summary": "A deep learning model detects flood extent from Sentinel-1 radar imagery, which penetrates clouds and works day or night, applied to 10 years of global SAR data. The resulting longitudinal dataset identifies historically flood-prone areas, was used to flag vulnerable communities in Ethiopia, supported real-time response to the May 2024 Kenya floods, and suggests a possible upward trend in global flood extent.",
-    "themes": [
-      "geospatial-earth-observation"
-    ],
-    "science_tags": [
-      "Geospatial",
-      "Computer Vision",
-      "Disaster Response"
-    ],
-    "partner": "International Organization for Migration",
-    "lab_leads": [
-      "Kevin White",
-      "Simone Fobi Nsutezo"
-    ],
-    "year": 2025,
-    "deliverables": [
-      {
-        "type": "code",
-        "url": "https://github.com/microsoft/ai4g-flood",
-        "host": "github",
-        "repo": {
-          "owner": "microsoft",
-          "name": "ai4g-flood"
-        }
-      },
-      {
-        "type": "paper",
-        "url": "https://doi.org/10.1038/s41467-025-60973-1",
-        "host": "doi",
-        "doi": "10.1038/s41467-025-60973-1"
-      },
-      {
-        "type": "dataset",
-        "url": "https://huggingface.co/datasets/ai-for-good-lab/ai4g-flood-dataset",
-        "host": "huggingface",
-        "hf_id": "ai-for-good-lab/ai4g-flood-dataset"
-      }
-    ],
-    "viz": {
-      "geo": {
-        "lat": 5,
-        "lon": 39,
-        "approximate": true
-      }
-    },
-    "metrics": {
-      "stars": 64,
-      "citations": 58,
-      "downloads": 451399,
       "mentions": 1,
       "updated_at": "2026-07-20T09:18:51Z"
     }
@@ -4733,77 +4970,6 @@
     }
   },
   {
-    "slug": "project-sparrow-and-the-future-of-conservation-technology",
-    "name": "Project SPARROW and the Future of Conservation Technology",
-    "featured": false,
-    "impact_statement": "Protects fragile remote ecosystems by enabling continuous, autonomous wildlife monitoring where power and connectivity are scarce, streaming real-time conservation insights to the people who safeguard them",
-    "summary": "SPARROW is an open-source hardware and software platform that combines solar energy, edge AI, and satellite communication for continuous, autonomous biodiversity monitoring in remote environments. Each node runs on-device deep learning over visual, acoustic, and environmental sensors and transmits summarized results over Low-Earth-Orbit satellite or GSM networks. Deployed across tropical, temperate, and montane ecosystems in Colombia, Peru, Tanzania, and the United States, it sustained 24/7 operation and collected more than two million images and acoustic recordings in its first 190 days.",
-    "themes": [
-      "biodiversity-conservation"
-    ],
-    "science_tags": [
-      "Conservation",
-      "Wildlife Tracking",
-      "Bioacoustics",
-      "Computer Vision"
-    ],
-    "partner": null,
-    "lab_leads": [
-      "Carl Chalmers",
-      "Zhongqi Miao",
-      "Andres Hernandez Celis",
-      "Isai Daniel Chacon Silva",
-      "A. Roman",
-      "Allen Kim",
-      "Meygha Machado",
-      "Amy Michaels",
-      "Daniela Ruiz Lopez",
-      "Catherine Romero",
-      "Rahul Dodhia"
-    ],
-    "year": 2026,
-    "deliverables": [
-      {
-        "type": "code",
-        "url": "https://github.com/microsoft/SPARROW",
-        "host": "github",
-        "repo": {
-          "owner": "microsoft",
-          "name": "SPARROW"
-        }
-      },
-      {
-        "type": "paper",
-        "url": "https://arxiv.org/abs/2606.00108",
-        "host": "arxiv"
-      },
-      {
-        "type": "website",
-        "url": "https://unlocked.microsoft.com/project-sparrow/",
-        "host": "website"
-      },
-      {
-        "type": "video",
-        "url": "https://www.ted.com/talks/juan_m_lavista_ferres_these_ai_devices_protect_nature_in_real_time",
-        "host": "other"
-      }
-    ],
-    "viz": {
-      "geo": {
-        "lat": 4,
-        "lon": -72,
-        "approximate": true
-      }
-    },
-    "metrics": {
-      "stars": 47,
-      "citations": null,
-      "downloads": null,
-      "mentions": 4,
-      "updated_at": "2026-07-20T09:18:51Z"
-    }
-  },
-  {
     "slug": "prompt-validation-large-language-models-ophthalmology-education-reply",
     "name": "Prompt Validation in Large Language Models for Ophthalmology Education: Reply",
     "featured": false,
@@ -5108,60 +5274,6 @@
       "downloads": null,
       "mentions": 1,
       "updated_at": "2026-07-20T09:18:51Z"
-    }
-  },
-  {
-    "slug": "rapid-building-damage-assessment-workflow-2023-rolling-fork-mississipp",
-    "name": "Rapid building damage assessment workflow: An implementation for the 2023 Rolling Fork, Mississippi tornado event",
-    "featured": false,
-    "impact_statement": "Gives disaster first responders accurate building damage maps within two hours of a satellite pass so relief efforts can be targeted where they are most needed.",
-    "summary": "A human-in-the-loop workflow for rapidly training building damage assessment models from high-resolution satellite imagery after a natural disaster. Applied with the American Red Cross to the March 2023 tornado in Rolling Fork, Mississippi, it reached 0.86 precision and 0.80 recall on damaged buildings while running end-to-end in under two hours per imagery scene.",
-    "themes": [
-      "geospatial-earth-observation"
-    ],
-    "science_tags": [
-      "Geospatial",
-      "Computer Vision",
-      "Disaster Response"
-    ],
-    "partner": "American Red Cross",
-    "lab_leads": [
-      "Caleb Robinson",
-      "Simone Fobi Nsutezo",
-      "Anthony Ortiz",
-      "Rahul Dodhia",
-      "Cameron Birge"
-    ],
-    "year": 2023,
-    "deliverables": [
-      {
-        "type": "code",
-        "url": "https://github.com/microsoft/building-damage-assessment",
-        "host": "github",
-        "repo": {
-          "owner": "microsoft",
-          "name": "building-damage-assessment"
-        }
-      },
-      {
-        "type": "paper",
-        "url": "https://arxiv.org/abs/2306.12589",
-        "host": "arxiv"
-      }
-    ],
-    "viz": {
-      "geo": {
-        "lat": 32.9057,
-        "lon": -90.8776,
-        "approximate": true
-      }
-    },
-    "metrics": {
-      "stars": 158,
-      "citations": null,
-      "downloads": null,
-      "mentions": 3,
-      "updated_at": "2026-07-19T02:36:22Z"
     }
   },
   {
@@ -5802,59 +5914,6 @@
     }
   },
   {
-    "slug": "tempo-global-temporal-building-density-and-height-estimation-from-sate",
-    "name": "TEMPO: Global Temporal Building Density and Height Estimation from Satellite Imagery",
-    "featured": false,
-    "impact_statement": "Delivers quarterly global maps of building density and height so planners and researchers can track where settlements are growing and inform climate resilience and adaptation efforts.",
-    "summary": "TEMPO is a global, temporally resolved dataset of building density and height derived from quarterly PlanetScope satellite basemaps using a multi-task deep learning model at 37.6-meter resolution. Covering Q1 2018 through Q2 2025, it captures quarterly changes in built settlements with F1 scores of 85 to 88 percent and strong temporal stability, at a fraction of the compute cost of comparable approaches.",
-    "themes": [
-      "geospatial-earth-observation"
-    ],
-    "science_tags": [
-      "Geospatial",
-      "Computer Vision"
-    ],
-    "partner": "Planet Labs",
-    "lab_leads": [
-      "Tammy Glazer",
-      "Gilles Q. Hacheme",
-      "Akram Zaytar",
-      "Girmaw Abebe Tadesse",
-      "Kevin White",
-      "Rahul Dodhia",
-      "Caleb Robinson"
-    ],
-    "year": 2025,
-    "deliverables": [
-      {
-        "type": "code",
-        "url": "https://github.com/microsoft/buildings",
-        "host": "github",
-        "repo": {
-          "owner": "microsoft",
-          "name": "buildings"
-        }
-      },
-      {
-        "type": "paper",
-        "url": "https://arxiv.org/abs/2511.12104",
-        "host": "arxiv"
-      },
-      {
-        "type": "demo",
-        "url": "https://visualizers.aiforgood.ai/buildings/index.html",
-        "host": "visualizer"
-      }
-    ],
-    "metrics": {
-      "stars": 79,
-      "citations": null,
-      "downloads": null,
-      "mentions": 0,
-      "updated_at": "2026-07-19T02:36:22Z"
-    }
-  },
-  {
     "slug": "temporal-cluster-matching-change-detection-structures-satellite",
     "name": "Temporal Cluster Matching for Change Detection of Structures from Satellite Imagery",
     "featured": false,
@@ -5983,65 +6042,6 @@
     "metrics": {
       "stars": null,
       "citations": 5,
-      "downloads": null,
-      "mentions": 1,
-      "updated_at": "2026-07-20T09:18:51Z"
-    }
-  },
-  {
-    "slug": "torchgeo-deep-learning-with-geospatial-data",
-    "name": "TorchGeo: Deep Learning With Geospatial Data",
-    "featured": false,
-    "impact_statement": "Makes it practical to apply deep learning to satellite and remote sensing imagery, powering work from precision agriculture and disaster monitoring to climate change research.",
-    "summary": "TorchGeo is an open-source Python library that brings geospatial data into the PyTorch deep learning ecosystem. It provides data loaders for benchmark and uncurated remote sensing datasets, geospatial samplers, multispectral transforms, and pre-trained models, handling the coordinate systems, resolutions, and extra spectral bands that make deep learning on satellite imagery hard.",
-    "themes": [
-      "geospatial-earth-observation"
-    ],
-    "science_tags": [
-      "Geospatial",
-      "Computer Vision"
-    ],
-    "partner": null,
-    "lab_leads": [
-      "Caleb Robinson",
-      "Anthony Ortiz"
-    ],
-    "year": 2024,
-    "deliverables": [
-      {
-        "type": "code",
-        "url": "https://github.com/microsoft/torchgeo",
-        "host": "github",
-        "repo": {
-          "owner": "microsoft",
-          "name": "torchgeo"
-        }
-      },
-      {
-        "type": "paper",
-        "url": "https://arxiv.org/abs/2111.08872",
-        "host": "arxiv"
-      },
-      {
-        "type": "paper",
-        "url": "https://doi.org/10.1145/3557915.3560953",
-        "host": "doi",
-        "doi": "10.1145/3557915.3560953"
-      },
-      {
-        "type": "website",
-        "url": "https://torchgeo.readthedocs.io/",
-        "host": "website"
-      },
-      {
-        "type": "blog",
-        "url": "https://pytorch.org/blog/geospatial-deep-learning-with-torchgeo/",
-        "host": "other"
-      }
-    ],
-    "metrics": {
-      "stars": 4115,
-      "citations": 129,
       "downloads": null,
       "mentions": 1,
       "updated_at": "2026-07-20T09:18:51Z"
