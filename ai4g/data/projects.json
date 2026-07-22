@@ -13,7 +13,15 @@
       "Conservation",
       "Wildlife Tracking"
     ],
-    "partner": "Wild Nature Institute",
+    "partners": [
+      {
+        "slug": "university-of-zurich",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W7162865187"
+        }
+      }
+    ],
     "lab_leads": [
       "Shahrzad Gholami",
       "Caleb Robinson",
@@ -70,7 +78,22 @@
       "Computer Vision",
       "Food Security"
     ],
-    "partner": "Arizona State University",
+    "partners": [
+      {
+        "slug": "arizona-state-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://arxiv.org/pdf/2409.16252"
+        }
+      },
+      {
+        "slug": "washington-university-in-st-louis",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://arxiv.org/pdf/2409.16252"
+        }
+      }
+    ],
     "lab_leads": [
       "Caleb Robinson",
       "Rahul Dodhia"
@@ -126,7 +149,22 @@
       "Geospatial",
       "Public Policy"
     ],
-    "partner": "Kenya Ministry of Health",
+    "partners": [
+      {
+        "slug": "amref-health-africa",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4410359364"
+        }
+      },
+      {
+        "slug": "university-of-southern-california",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4410359364"
+        }
+      }
+    ],
     "lab_leads": [
       "Girmaw Abebe Tadesse",
       "Caleb Robinson",
@@ -171,7 +209,22 @@
       "Computer Vision",
       "Public Policy"
     ],
-    "partner": "The Nature Conservancy",
+    "partners": [
+      {
+        "slug": "planet-labs-pbc-united-states",
+        "evidence": {
+          "kind": "project-source",
+          "url": "https://news.microsoft.com/source/2022/09/22/microsoft-planet-and-the-nature-conservancy-launch-the-global-renewables-watch/"
+        }
+      },
+      {
+        "slug": "the-nature-conservancy",
+        "evidence": {
+          "kind": "project-source",
+          "url": "https://news.microsoft.com/source/2022/09/22/microsoft-planet-and-the-nature-conservancy-launch-the-global-renewables-watch/"
+        }
+      }
+    ],
     "lab_leads": [
       "Caleb Robinson",
       "Anthony Ortiz",
@@ -221,7 +274,15 @@
       "Computer Vision",
       "Disaster Response"
     ],
-    "partner": "International Organization for Migration",
+    "partners": [
+      {
+        "slug": "university-of-wisconsinmadison",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4411885971"
+        }
+      }
+    ],
     "lab_leads": [
       "Kevin White",
       "Simone Fobi Nsutezo"
@@ -280,7 +341,7 @@
       "Bioacoustics",
       "Computer Vision"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Carl Chalmers",
       "Zhongqi Miao",
@@ -350,7 +411,15 @@
       "Computer Vision",
       "Disaster Response"
     ],
-    "partner": "American Red Cross",
+    "partners": [
+      {
+        "slug": "american-red-cross",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openaccess.thecvf.com/content/ICCV2023W/AIHADR/html/Robinson_Rapid_Building_Damage_Assessment_Workflow_An_Implementation_for_the_2023_ICCVW_2023_paper.html"
+        }
+      }
+    ],
     "lab_leads": [
       "Caleb Robinson",
       "Simone Fobi Nsutezo",
@@ -403,7 +472,15 @@
       "Geospatial",
       "Computer Vision"
     ],
-    "partner": "Planet Labs",
+    "partners": [
+      {
+        "slug": "planet-labs-pbc-united-states",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://arxiv.org/pdf/2511.12104.pdf"
+        }
+      }
+    ],
     "lab_leads": [
       "Tammy Glazer",
       "Gilles Q. Hacheme",
@@ -456,7 +533,15 @@
       "Geospatial",
       "Computer Vision"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "university-of-illinois-urbana-champaign",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4309651987"
+        }
+      }
+    ],
     "lab_leads": [
       "Caleb Robinson",
       "Anthony Ortiz"
@@ -516,7 +601,7 @@
       "Conservation",
       "Wildlife Tracking"
     ],
-    "partner": "Wildlife Acoustics",
+    "partners": [],
     "lab_leads": [
       "Ming Zhong",
       "Rahul Dodhia"
@@ -563,7 +648,15 @@
       "Conservation",
       "Wildlife Tracking"
     ],
-    "partner": "NOAA Alaska Fisheries Science Center",
+    "partners": [
+      {
+        "slug": "universidad-de-los-andes-02mhbdp94",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W7163918601"
+        }
+      }
+    ],
     "lab_leads": [
       "Manuel Castellote",
       "Rahul Dodhia",
@@ -621,7 +714,7 @@
       "Digital Inclusion",
       "Public Policy"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Amit Misra"
     ],
@@ -654,7 +747,7 @@
       "Conservation",
       "Computer Vision"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Will Fein",
       "Amit Misra",
@@ -715,7 +808,7 @@
       "Computer Vision",
       "Public Health"
     ],
-    "partner": "Asociación Para Evitar la Ceguera en México",
+    "partners": [],
     "lab_leads": [
       "Anthony Ortiz",
       "Rahul Dodhia"
@@ -753,7 +846,36 @@
       "Computer Vision",
       "Public Health"
     ],
-    "partner": "Novartis Foundation",
+    "partners": [
+      {
+        "slug": "fundacao-oswaldo-cruz",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4210559367"
+        }
+      },
+      {
+        "slug": "novartis-foundation",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4210559367"
+        }
+      },
+      {
+        "slug": "university-of-aberdeen",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4210559367"
+        }
+      },
+      {
+        "slug": "university-of-basel",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4210559367"
+        }
+      }
+    ],
     "lab_leads": [
       "Yixi Xu",
       "Anusua Trivedi",
@@ -809,7 +931,15 @@
       "Conservation",
       "Public Policy"
     ],
-    "partner": "The Nature Conservancy",
+    "partners": [
+      {
+        "slug": "the-nature-conservancy",
+        "evidence": {
+          "kind": "organization-source",
+          "url": "https://blog.nature.org/science-brief/using-artificial-intelligence-to-understand-solar-energys-impact-in-india/"
+        }
+      }
+    ],
     "lab_leads": [
       "Anthony Ortiz",
       "Caleb Robinson",
@@ -860,7 +990,7 @@
     "science_tags": [
       "Data Privacy"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Mayana Pereira",
       "Sumit Mukherjee",
@@ -895,7 +1025,15 @@
       "Computer Vision",
       "Public Health"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "university-of-british-columbia",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4389666702"
+        }
+      }
+    ],
     "lab_leads": [
       "Yixi Xu",
       "Rahul Dodhia"
@@ -932,7 +1070,15 @@
     "science_tags": [
       "Computer Vision"
     ],
-    "partner": "BC Cancer",
+    "partners": [
+      {
+        "slug": "university-of-british-columbia",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4362531944"
+        }
+      }
+    ],
     "lab_leads": [
       "Yixi Xu",
       "Anthony Ortiz",
@@ -980,7 +1126,7 @@
       "Computer Vision",
       "Digital Inclusion"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Felipe Oviedo"
     ],
@@ -1019,7 +1165,7 @@
       "other"
     ],
     "science_tags": [],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Caleb Robinson",
       "Siyu Yang",
@@ -1063,7 +1209,22 @@
       "Conservation",
       "Wildlife Tracking"
     ],
-    "partner": "NOAA Fisheries",
+    "partners": [
+      {
+        "slug": "national-oceanic-and-atmospheric-administration",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W3012651379"
+        }
+      },
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W3012651379"
+        }
+      }
+    ],
     "lab_leads": [
       "Ming Zhong",
       "Manuel Castellote",
@@ -1123,7 +1284,22 @@
       "Computer Vision",
       "Public Health"
     ],
-    "partner": "Johns Hopkins University",
+    "partners": [
+      {
+        "slug": "johns-hopkins-medicine",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4416352825"
+        }
+      },
+      {
+        "slug": "johns-hopkins-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4416352825"
+        }
+      }
+    ],
     "lab_leads": [
       "Felipe Oviedo",
       "Rahul Dodhia"
@@ -1161,7 +1337,7 @@
       "Computer Vision",
       "Public Health"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Anusua Trivedi",
       "Rahul Dodhia"
@@ -1201,7 +1377,36 @@
       "Conservation",
       "Wildlife Tracking"
     ],
-    "partner": "NOAA Fisheries",
+    "partners": [
+      {
+        "slug": "british-antarctic-survey",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4324055448"
+        }
+      },
+      {
+        "slug": "united-states-naval-research-laboratory",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4324055448"
+        }
+      },
+      {
+        "slug": "university-of-edinburgh",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4324055448"
+        }
+      },
+      {
+        "slug": "university-of-minnesota",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4324055448"
+        }
+      }
+    ],
     "lab_leads": [
       "Caleb Robinson",
       "Anthony Ortiz"
@@ -1262,7 +1467,7 @@
       "Conservation",
       "Computer Vision"
     ],
-    "partner": "Sieve Analytics",
+    "partners": [],
     "lab_leads": [
       "Ming Zhong",
       "Rahul Dodhia"
@@ -1320,7 +1525,15 @@
       "Computer Vision",
       "Conservation"
     ],
-    "partner": "Kenya Wildlife Trust",
+    "partners": [
+      {
+        "slug": "smithsonian-national-zoo-conservation-biology-institute",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://arxiv.org/pdf/2403.02736.pdf"
+        }
+      }
+    ],
     "lab_leads": [
       "Akram Zaytar",
       "Caleb Robinson",
@@ -1364,7 +1577,15 @@
       "Public Health",
       "Public Policy"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4307033730"
+        }
+      }
+    ],
     "lab_leads": [
       "Md Nasir",
       "Sumit Mukherjee",
@@ -1408,7 +1629,22 @@
     "science_tags": [
       "Computer Vision"
     ],
-    "partner": "American Academy of Ophthalmology",
+    "partners": [
+      {
+        "slug": "american-academy-of-ophthalmology",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4413470221"
+        }
+      },
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4413470221"
+        }
+      }
+    ],
     "lab_leads": [
       "Shahrzad Gholami",
       "Rahul Dodhia"
@@ -1446,7 +1682,36 @@
       "Computer Vision",
       "Public Health"
     ],
-    "partner": "University of Washington School of Medicine",
+    "partners": [
+      {
+        "slug": "fred-hutch-cancer-center",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4412453420"
+        }
+      },
+      {
+        "slug": "michigan-state-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4412453420"
+        }
+      },
+      {
+        "slug": "technische-universitat-berlin",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4412453420"
+        }
+      },
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4412453420"
+        }
+      }
+    ],
     "lab_leads": [
       "Felipe Oviedo",
       "Yixi Xu",
@@ -1493,7 +1758,15 @@
     "science_tags": [
       "Public Health"
     ],
-    "partner": "Regenstrief Institute",
+    "partners": [
+      {
+        "slug": "indiana-university-bloomington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W3155918475"
+        }
+      }
+    ],
     "lab_leads": [
       "Sumit Mukherjee"
     ],
@@ -1538,7 +1811,7 @@
       "Wildlife Tracking",
       "Computer Vision"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Zhongqi Miao",
       "Caleb Robinson",
@@ -1593,7 +1866,15 @@
       "Public Health",
       "Public Policy"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4205922037"
+        }
+      }
+    ],
     "lab_leads": [
       "Anusua Trivedi"
     ],
@@ -1630,7 +1911,7 @@
       "Bioacoustics",
       "Conservation"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Rahul Dodhia"
     ],
@@ -1675,7 +1956,15 @@
       "Conservation",
       "Computer Vision"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "university-of-southern-california",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W3195409179"
+        }
+      }
+    ],
     "lab_leads": [
       "Ming Zhong",
       "Shahrzad Gholami"
@@ -1731,7 +2020,15 @@
       "Computer Vision",
       "Public Health"
     ],
-    "partner": "University of British Columbia",
+    "partners": [
+      {
+        "slug": "university-of-british-columbia",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4410068821"
+        }
+      }
+    ],
     "lab_leads": [
       "Felipe Oviedo",
       "Rahul Dodhia"
@@ -1769,7 +2066,7 @@
       "Geospatial",
       "Computer Vision"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Akram Zaytar",
       "Caleb Robinson",
@@ -1815,7 +2112,22 @@
       "Computer Vision",
       "Public Health"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "massachusetts-general-hospital",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4302760599"
+        }
+      },
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4302760599"
+        }
+      }
+    ],
     "lab_leads": [
       "Anusua Trivedi",
       "Caleb Robinson",
@@ -1864,7 +2176,29 @@
       "Public Health",
       "Public Policy"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "seattle-children-s-hospital",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://doi.org/10.1542/pedsos.2024-000364"
+        }
+      },
+      {
+        "slug": "university-of-auckland",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4410280849"
+        }
+      },
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4410280849"
+        }
+      }
+    ],
     "lab_leads": [
       "Darren Tanner"
     ],
@@ -1905,7 +2239,22 @@
     "science_tags": [
       "Public Policy"
     ],
-    "partner": "Princeton University",
+    "partners": [
+      {
+        "slug": "princeton-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4403918373"
+        }
+      },
+      {
+        "slug": "universidade-de-brasilia",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4403918373"
+        }
+      }
+    ],
     "lab_leads": [
       "Lucas Augusto Meyer",
       "Mayana Pereira",
@@ -1948,7 +2297,7 @@
       "Computer Vision",
       "Conservation"
     ],
-    "partner": "Princeton University",
+    "partners": [],
     "lab_leads": [
       "Girmaw Abebe Tadesse",
       "Caleb Robinson",
@@ -1989,7 +2338,15 @@
       "other"
     ],
     "science_tags": [],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "massachusetts-institute-of-technology",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4361001679"
+        }
+      }
+    ],
     "lab_leads": [
       "Felipe Oviedo"
     ],
@@ -2023,7 +2380,22 @@
       "Protein Modeling",
       "Computational Biology"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "massachusetts-institute-of-technology",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4399849668"
+        }
+      },
+      {
+        "slug": "seoul-national-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4399849668"
+        }
+      }
+    ],
     "lab_leads": [
       "Rahul Dodhia"
     ],
@@ -2070,7 +2442,7 @@
       "Computer Vision",
       "Disaster Response"
     ],
-    "partner": "Netherlands Red Cross (510)",
+    "partners": [],
     "lab_leads": [
       "Shahrzad Gholami",
       "Caleb Robinson",
@@ -2121,7 +2493,7 @@
       "Conservation",
       "Wildlife Tracking"
     ],
-    "partner": "Smithsonian Conservation Biology Institute",
+    "partners": [],
     "lab_leads": [
       "Caleb Robinson",
       "Anthony Ortiz"
@@ -2167,7 +2539,22 @@
       "Conservation",
       "Wildlife Tracking"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "centre-national-de-la-recherche-scientifique",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W3158167879"
+        }
+      },
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W3158167879"
+        }
+      }
+    ],
     "lab_leads": [
       "Ming Zhong",
       "Rahul Dodhia"
@@ -2221,7 +2608,7 @@
       "Data Privacy",
       "Public Policy"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Mayana Pereira",
       "Sumit Mukherjee",
@@ -2256,7 +2643,7 @@
       "Geospatial",
       "Computer Vision"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Girmaw Abebe Tadesse",
       "Caleb Robinson",
@@ -2302,7 +2689,7 @@
       "Computer Vision",
       "Disaster Response"
     ],
-    "partner": "SEEDS India",
+    "partners": [],
     "lab_leads": [
       "Md Nasir",
       "Rahul Dodhia"
@@ -2348,7 +2735,15 @@
       "Computer Vision",
       "Public Health"
     ],
-    "partner": "University of Washington",
+    "partners": [
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4226416231"
+        }
+      }
+    ],
     "lab_leads": [
       "Anthony Ortiz",
       "Anusua Trivedi",
@@ -2396,7 +2791,7 @@
     "science_tags": [
       "Public Policy"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Felipe Oviedo",
       "Allen Kim"
@@ -2437,7 +2832,7 @@
       "Computer Vision",
       "Food Security"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Girmaw Abebe Tadesse",
       "Caleb Robinson",
@@ -2481,7 +2876,29 @@
       "Public Health",
       "Public Policy"
     ],
-    "partner": "Brown School of Public Health",
+    "partners": [
+      {
+        "slug": "brigham-and-women-s-hospital",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4281388843"
+        }
+      },
+      {
+        "slug": "brown-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://api.openalex.org/works/W4281388843"
+        }
+      },
+      {
+        "slug": "harvard-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4281388843"
+        }
+      }
+    ],
     "lab_leads": [
       "Ming Zhong",
       "Rahul Dodhia",
@@ -2526,7 +2943,29 @@
     "science_tags": [
       "Public Health"
     ],
-    "partner": "Johns Hopkins University",
+    "partners": [
+      {
+        "slug": "johns-hopkins-medicine",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4402206038"
+        }
+      },
+      {
+        "slug": "johns-hopkins-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4402206038"
+        }
+      },
+      {
+        "slug": "new-york-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4402206038"
+        }
+      }
+    ],
     "lab_leads": [
       "Felipe Oviedo",
       "Caleb Robinson",
@@ -2566,7 +3005,15 @@
       "Computer Vision",
       "Public Policy"
     ],
-    "partner": "World Bank",
+    "partners": [
+      {
+        "slug": "world-bank",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Robinson_Fast_Building_Segmentation_From_Satellite_Imagery_and_Few_Local_Labels_CVPRW_2022_paper.pdf"
+        }
+      }
+    ],
     "lab_leads": [
       "Caleb Robinson",
       "Anthony Ortiz",
@@ -2618,7 +3065,15 @@
       "Computer Vision",
       "Public Health"
     ],
-    "partner": "University of British Columbia",
+    "partners": [
+      {
+        "slug": "university-of-british-columbia",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://arxiv.org/pdf/2101.07235"
+        }
+      }
+    ],
     "lab_leads": [
       "Sumit Mukherjee",
       "Caleb Robinson",
@@ -2655,7 +3110,15 @@
     "science_tags": [
       "Public Health"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "university-of-auckland",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4392886311"
+        }
+      }
+    ],
     "lab_leads": [
       "Darren Tanner"
     ],
@@ -2692,7 +3155,7 @@
       "Geospatial",
       "Computer Vision"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Simone Fobi Nsutezo",
       "Anthony Ortiz",
@@ -2729,7 +3192,22 @@
       "Public Policy",
       "Disaster Response"
     ],
-    "partner": "Catholic Relief Services",
+    "partners": [
+      {
+        "slug": "catholic-relief-services",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4312900939"
+        }
+      },
+      {
+        "slug": "world-bank",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4312900939"
+        }
+      }
+    ],
     "lab_leads": [
       "Shahrzad Gholami",
       "Cameron Birge"
@@ -2776,7 +3254,7 @@
       "Public Health",
       "Public Policy"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Sumit Mukherjee"
     ],
@@ -2818,7 +3296,22 @@
       "Computer Vision",
       "Public Health"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "the-university-of-queensland",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4362521443"
+        }
+      },
+      {
+        "slug": "the-university-of-sydney",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4362521443"
+        }
+      }
+    ],
     "lab_leads": [
       "Yixi Xu",
       "Rahul Dodhia"
@@ -2856,7 +3349,7 @@
       "Geospatial",
       "Computer Vision"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Akram Zaytar",
       "Girmaw Abebe Tadesse"
@@ -2891,7 +3384,7 @@
       "Computer Vision",
       "Disaster Response"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Gilles Hacheme",
       "Girmaw Abebe Tadesse",
@@ -2937,7 +3430,7 @@
       "Computer Vision",
       "Conservation"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Zhongqi Miao",
       "Rahul Dodhia"
@@ -2984,7 +3477,15 @@
       "Public Health",
       "Computer Vision"
     ],
-    "partner": "Welthungerhilfe",
+    "partners": [
+      {
+        "slug": "welthungerhilfe",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W3159061365"
+        }
+      }
+    ],
     "lab_leads": [
       "Anusua Trivedi",
       "Cameron Birge",
@@ -3036,7 +3537,15 @@
       "Geospatial",
       "Computer Vision"
     ],
-    "partner": "Planet Labs",
+    "partners": [
+      {
+        "slug": "planet-labs-pbc-united-states",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W7162629303"
+        }
+      }
+    ],
     "lab_leads": [
       "Allen Kim"
     ],
@@ -3086,7 +3595,7 @@
       "Computational Biology",
       "Public Health"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Felipe Oviedo"
     ],
@@ -3122,7 +3631,7 @@
     "science_tags": [
       "Data Privacy"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Lucas Augusto Meyer"
     ],
@@ -3154,7 +3663,7 @@
     "science_tags": [
       "Computer Vision"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Thomas Roca",
       "A. Roman",
@@ -3195,7 +3704,15 @@
     "science_tags": [
       "Public Policy"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "carter-center",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W3083833619"
+        }
+      }
+    ],
     "lab_leads": [
       "Anusua Trivedi",
       "Rahul Dodhia"
@@ -3230,7 +3747,7 @@
       "Computer Vision",
       "Public Health"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Anusua Trivedi",
       "Rahul Dodhia"
@@ -3264,7 +3781,7 @@
       "other"
     ],
     "science_tags": [],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Felipe Oviedo"
     ],
@@ -3299,7 +3816,15 @@
       "Public Policy",
       "Conservation"
     ],
-    "partner": "The Nature Conservancy",
+    "partners": [
+      {
+        "slug": "the-nature-conservancy",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4394617293"
+        }
+      }
+    ],
     "lab_leads": [
       "Anthony Ortiz",
       "Caleb Robinson"
@@ -3340,7 +3865,22 @@
     "science_tags": [
       "Public Health"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "harvard-t-h-chan-school-of-public-health",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4385295442"
+        }
+      },
+      {
+        "slug": "harvard-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4385295442"
+        }
+      }
+    ],
     "lab_leads": [
       "Md Nasir"
     ],
@@ -3374,7 +3914,22 @@
       "health-life-sciences"
     ],
     "science_tags": [],
-    "partner": "American Academy of Ophthalmology",
+    "partners": [
+      {
+        "slug": "american-academy-of-ophthalmology",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4415261201"
+        }
+      },
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4415261201"
+        }
+      }
+    ],
     "lab_leads": [
       "Shahrzad Gholami",
       "Rahul Dodhia"
@@ -3409,7 +3964,15 @@
       "Computer Vision",
       "Public Health"
     ],
-    "partner": "University of Washington",
+    "partners": [
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4413056021"
+        }
+      }
+    ],
     "lab_leads": [
       "Md Nasir",
       "Yixi Xu",
@@ -3448,7 +4011,15 @@
       "Public Health",
       "Public Policy"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "yale-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4401652874"
+        }
+      }
+    ],
     "lab_leads": [
       "Mayana Pereira"
     ],
@@ -3486,7 +4057,7 @@
       "Computer Vision",
       "Food Security"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Girmaw Abebe Tadesse",
       "Caleb Robinson",
@@ -3529,7 +4100,22 @@
       "Public Health",
       "Public Policy"
     ],
-    "partner": "Change Healthcare",
+    "partners": [
+      {
+        "slug": "kaiser-permanente",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4312115064"
+        }
+      },
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4312115064"
+        }
+      }
+    ],
     "lab_leads": [
       "Sumit Mukherjee",
       "Yixi Xu"
@@ -3566,7 +4152,7 @@
     "science_tags": [
       "Data Privacy"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Yixi Xu",
       "Sumit Mukherjee"
@@ -3601,7 +4187,15 @@
       "Computer Vision",
       "Conservation"
     ],
-    "partner": "International Centre for Integrated Mountain Development (ICIMOD)",
+    "partners": [
+      {
+        "slug": "international-centre-for-integrated-mountain-development",
+        "evidence": {
+          "kind": "project-source",
+          "url": "https://lila.science/datasets/hkh-glacier-mapping"
+        }
+      }
+    ],
     "lab_leads": [
       "Anthony Ortiz"
     ],
@@ -3661,7 +4255,15 @@
       "Public Policy",
       "Geospatial"
     ],
-    "partner": "Evans School Policy Analysis and Research group (University of Washington)",
+    "partners": [
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4412582187"
+        }
+      }
+    ],
     "lab_leads": [
       "Shahrzad Gholami",
       "Rahul Dodhia"
@@ -3717,7 +4319,7 @@
     "science_tags": [
       "Computer Vision"
     ],
-    "partner": "Global Emancipation Network",
+    "partners": [],
     "lab_leads": [
       "Sumit Mukherjee",
       "A. Roman"
@@ -3751,7 +4353,36 @@
       "Public Health",
       "Public Policy"
     ],
-    "partner": "Novartis Foundation",
+    "partners": [
+      {
+        "slug": "cornell-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4402802098"
+        }
+      },
+      {
+        "slug": "new-york-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4402802098"
+        }
+      },
+      {
+        "slug": "novartis-foundation",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4402802098"
+        }
+      },
+      {
+        "slug": "weill-cornell-medicine",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4402802098"
+        }
+      }
+    ],
     "lab_leads": [
       "Darren Tanner"
     ],
@@ -3795,7 +4426,15 @@
       "Food Security",
       "Public Policy"
     ],
-    "partner": "The Nature Conservancy",
+    "partners": [
+      {
+        "slug": "the-nature-conservancy",
+        "evidence": {
+          "kind": "project-source",
+          "url": "https://arxiv.org/html/2507.08605v1"
+        }
+      }
+    ],
     "lab_leads": [
       "Akram Zaytar",
       "Girmaw Abebe Tadesse",
@@ -3838,7 +4477,36 @@
       "Computer Vision",
       "Public Health"
     ],
-    "partner": "Lowy Medical Research Institute",
+    "partners": [
+      {
+        "slug": "queen-s-university-belfast",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4406337061"
+        }
+      },
+      {
+        "slug": "scripps-research-institute",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4406337061"
+        }
+      },
+      {
+        "slug": "university-of-lausanne",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://api.openalex.org/works/W4406337061"
+        }
+      },
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4406337061"
+        }
+      }
+    ],
     "lab_leads": [
       "Shahrzad Gholami",
       "Rahul Dodhia"
@@ -3877,7 +4545,36 @@
       "Computer Vision",
       "Disaster Response"
     ],
-    "partner": "International Centre for Integrated Mountain Development (ICIMOD)",
+    "partners": [
+      {
+        "slug": "international-centre-for-integrated-mountain-development",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4313034610"
+        }
+      },
+      {
+        "slug": "new-york-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4313034610"
+        }
+      },
+      {
+        "slug": "united-nations-university-institute-for-water-environment-and-health",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4313034610"
+        }
+      },
+      {
+        "slug": "university-of-wisconsinmadison",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4313034610"
+        }
+      }
+    ],
     "lab_leads": [
       "Anthony Ortiz",
       "Rahul Dodhia"
@@ -3931,7 +4628,7 @@
       "Public Health",
       "Public Policy"
     ],
-    "partner": "Stanford RegLab",
+    "partners": [],
     "lab_leads": [
       "Caleb Robinson"
     ],
@@ -3986,7 +4683,15 @@
       "Computer Vision",
       "Disaster Response"
     ],
-    "partner": "USA for UNHCR",
+    "partners": [
+      {
+        "slug": "humanitarian-openstreetmap-team",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4409917555"
+        }
+      }
+    ],
     "lab_leads": [
       "Amrita Gupta",
       "Anthony Ortiz",
@@ -4035,7 +4740,29 @@
     "science_tags": [
       "Public Health"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "seattle-children-s-hospital",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4366603482"
+        }
+      },
+      {
+        "slug": "university-of-auckland",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4366603482"
+        }
+      },
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4366603482"
+        }
+      }
+    ],
     "lab_leads": [
       "Anusua Trivedi"
     ],
@@ -4072,7 +4799,22 @@
       "Public Health",
       "Public Policy"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "university-of-auckland",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4401076381"
+        }
+      },
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4401076381"
+        }
+      }
+    ],
     "lab_leads": [
       "Darren Tanner"
     ],
@@ -4115,7 +4857,15 @@
       "Public Health",
       "Computational Biology"
     ],
-    "partner": "PATH",
+    "partners": [
+      {
+        "slug": "program-for-appropriate-technology-in-health",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4410357777"
+        }
+      }
+    ],
     "lab_leads": [
       "Md Nasir",
       "Shahrzad Gholami",
@@ -4158,7 +4908,29 @@
     "science_tags": [
       "Computer Vision"
     ],
-    "partner": "Northwestern University and WITNESS",
+    "partners": [
+      {
+        "slug": "bar-ilan-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W7153135439"
+        }
+      },
+      {
+        "slug": "northwestern-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W7153135439"
+        }
+      },
+      {
+        "slug": "witness",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W7153135439"
+        }
+      }
+    ],
     "lab_leads": [
       "Pengce Wang"
     ],
@@ -4205,7 +4977,15 @@
     "science_tags": [
       "Public Health"
     ],
-    "partner": "University of Washington",
+    "partners": [
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4303645608"
+        }
+      }
+    ],
     "lab_leads": [
       "Yixi Xu",
       "Anusua Trivedi"
@@ -4244,7 +5024,15 @@
       "Conservation",
       "Wildlife Tracking"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "university-of-pittsburgh",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4408029904"
+        }
+      }
+    ],
     "lab_leads": [
       "Zhongqi Miao",
       "Rahul Dodhia"
@@ -4294,7 +5082,7 @@
       "Conservation",
       "Wildlife Tracking"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Zhongqi Miao",
       "Andrés Hernández",
@@ -4336,7 +5124,57 @@
       "Conservation",
       "Computer Vision"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "harvard-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://api.openalex.org/works/W4413741796"
+        }
+      },
+      {
+        "slug": "massachusetts-institute-of-technology",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4413741796"
+        }
+      },
+      {
+        "slug": "nanyang-technological-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4413741796"
+        }
+      },
+      {
+        "slug": "universidad-de-los-andes-02mhbdp94",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4413741796"
+        }
+      },
+      {
+        "slug": "university-of-british-columbia",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4413741796"
+        }
+      },
+      {
+        "slug": "university-of-southern-california",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4413741796"
+        }
+      },
+      {
+        "slug": "yale-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4413741796"
+        }
+      }
+    ],
     "lab_leads": [
       "Zhongqi Miao",
       "Andres Hernandez Celis",
@@ -4381,7 +5219,7 @@
       "Bioacoustics",
       "Conservation"
     ],
-    "partner": "Sieve Analytics",
+    "partners": [],
     "lab_leads": [
       "Ming Zhong",
       "Rahul Dodhia"
@@ -4441,7 +5279,7 @@
       "other"
     ],
     "science_tags": [],
-    "partner": "GitHub",
+    "partners": [],
     "lab_leads": [
       "A. Roman",
       "Caleb Robinson"
@@ -4483,7 +5321,7 @@
     "science_tags": [
       "Public Policy"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "A. Roman",
       "Caleb Robinson"
@@ -4526,7 +5364,7 @@
       "Geospatial",
       "Computer Vision"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Akram Zaytar",
       "Caleb Robinson",
@@ -4577,7 +5415,7 @@
       "Wildlife Tracking",
       "Geospatial"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Zhongqi Miao",
       "Caleb Robinson",
@@ -4635,7 +5473,7 @@
       "Wildlife Tracking",
       "Geospatial"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Zhongqi Miao",
       "Caleb Robinson",
@@ -4691,7 +5529,7 @@
       "Computer Vision",
       "Public Policy"
     ],
-    "partner": "USA for UNHCR",
+    "partners": [],
     "lab_leads": [
       "Simone Fobi Nsutezo",
       "Amrita Gupta",
@@ -4743,7 +5581,22 @@
       "Protein Modeling",
       "Computational Biology"
     ],
-    "partner": "Washington University in St. Louis",
+    "partners": [
+      {
+        "slug": "university-of-pennsylvania",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4319915662"
+        }
+      },
+      {
+        "slug": "washington-university-in-st-louis",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4319915662"
+        }
+      }
+    ],
     "lab_leads": [
       "Felipe Oviedo"
     ],
@@ -4801,7 +5654,15 @@
       "Computer Vision",
       "Public Policy"
     ],
-    "partner": "Stanford University",
+    "partners": [
+      {
+        "slug": "stanford-university",
+        "evidence": {
+          "kind": "project-source",
+          "url": "https://impact.stanford.edu/article/mapping-industrial-poultry-operations-scale-deep-learning-and-aerial-imagery"
+        }
+      }
+    ],
     "lab_leads": [
       "Caleb Robinson"
     ],
@@ -4852,7 +5713,7 @@
       "Computer Vision",
       "Public Policy"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Simone Fobi",
       "Caleb Robinson",
@@ -4895,7 +5756,7 @@
       "Public Health",
       "Public Policy"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Rahul Dodhia"
     ],
@@ -4932,7 +5793,7 @@
       "Data Privacy",
       "Computer Vision"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Sumit Mukherjee",
       "Yixi Xu",
@@ -4979,7 +5840,15 @@
       "health-life-sciences"
     ],
     "science_tags": [],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W7131626412"
+        }
+      }
+    ],
     "lab_leads": [
       "Shahrzad Gholami"
     ],
@@ -5017,7 +5886,15 @@
       "Conservation",
       "Computer Vision"
     ],
-    "partner": "Alexander von Humboldt Biological Resources Research Institute",
+    "partners": [
+      {
+        "slug": "universidad-de-los-andes-02mhbdp94",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://api.openalex.org/works/W7165049755"
+        }
+      }
+    ],
     "lab_leads": [
       "Daniela Ruiz",
       "Zhongqi Miao",
@@ -5073,7 +5950,7 @@
       "Bioacoustics",
       "Conservation"
     ],
-    "partner": "Instituto de Investigación de Recursos Biológicos Alexander von Humboldt",
+    "partners": [],
     "lab_leads": [
       "Daniela Ruiz",
       "Zhongqi Miao",
@@ -5135,7 +6012,7 @@
       "Computer Vision",
       "Wildlife Tracking"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Zhongqi Miao",
       "Rahul Dodhia"
@@ -5187,7 +6064,85 @@
     "science_tags": [
       "Public Health"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "cleveland-clinic",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4310103540"
+        }
+      },
+      {
+        "slug": "dana-farber-cancer-institute",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4310103540"
+        }
+      },
+      {
+        "slug": "fred-hutch-cancer-center",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4310103540"
+        }
+      },
+      {
+        "slug": "harvard-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4310103540"
+        }
+      },
+      {
+        "slug": "massachusetts-general-hospital",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4310103540"
+        }
+      },
+      {
+        "slug": "northwestern-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4310103540"
+        }
+      },
+      {
+        "slug": "stanford-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4310103540"
+        }
+      },
+      {
+        "slug": "university-of-miami",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4310103540"
+        }
+      },
+      {
+        "slug": "university-of-pennsylvania",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4310103540"
+        }
+      },
+      {
+        "slug": "university-of-utah",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4310103540"
+        }
+      },
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4310103540"
+        }
+      }
+    ],
     "lab_leads": [
       "Shahrzad Gholami",
       "Rahul Dodhia"
@@ -5225,7 +6180,50 @@
       "Protein Modeling",
       "Computational Biology"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "howard-hughes-medical-institute",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4408010982"
+        }
+      },
+      {
+        "slug": "massachusetts-institute-of-technology",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4408010982"
+        }
+      },
+      {
+        "slug": "seoul-national-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4408010982"
+        }
+      },
+      {
+        "slug": "university-of-pennsylvania",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4408010982"
+        }
+      },
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4408010982"
+        }
+      },
+      {
+        "slug": "washington-university-in-st-louis",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4408010982"
+        }
+      }
+    ],
     "lab_leads": [
       "Yixi Xu",
       "Rahul Dodhia"
@@ -5289,7 +6287,7 @@
       "Computer Vision",
       "Public Health"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Yixi Xu",
       "Rahul Dodhia"
@@ -5326,7 +6324,7 @@
       "Computer Vision",
       "Public Health"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Anusua Trivedi",
       "Rahul Dodhia"
@@ -5363,7 +6361,7 @@
       "Geospatial",
       "Computer Vision"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Caleb Robinson",
       "Rahul Dodhia"
@@ -5405,7 +6403,29 @@
     "science_tags": [
       "Public Health"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "seattle-children-s-hospital",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://doi.org/10.1371/journal.pone.0289405"
+        }
+      },
+      {
+        "slug": "university-of-auckland",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4386282405"
+        }
+      },
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4386282405"
+        }
+      }
+    ],
     "lab_leads": [
       "Darren Tanner"
     ],
@@ -5441,7 +6461,22 @@
     "science_tags": [
       "Public Health"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "fred-hutch-cancer-center",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://www.medrxiv.org/content/10.1101/2021.12.08.21267483v2"
+        }
+      },
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4200251237"
+        }
+      }
+    ],
     "lab_leads": [
       "Sumit Mukherjee",
       "Md Nasir"
@@ -5478,7 +6513,7 @@
     "science_tags": [
       "Public Health"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Anusua Trivedi",
       "Sumit Mukherjee"
@@ -5522,7 +6557,15 @@
       "Geospatial",
       "Conservation"
     ],
-    "partner": "The Nature Conservancy",
+    "partners": [
+      {
+        "slug": "the-nature-conservancy",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4388636941"
+        }
+      }
+    ],
     "lab_leads": [
       "Anthony Ortiz",
       "Caleb Robinson",
@@ -5565,7 +6608,15 @@
       "Geospatial",
       "Computer Vision"
     ],
-    "partner": "Iconem",
+    "partners": [
+      {
+        "slug": "planet-labs-pbc-united-states",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openaccess.thecvf.com/content/WACV2026W/GeoCV/html/Tadesse_Satellite-Based_Detection_of_Looted_Archaeological_Sites_Using_Machine_Learning_WACVW_2026_paper.html"
+        }
+      }
+    ],
     "lab_leads": [
       "Girmaw Abebe Tadesse"
     ],
@@ -5614,7 +6665,22 @@
       "Computer Vision",
       "Public Health"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "johns-hopkins-medicine",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W7128090219"
+        }
+      },
+      {
+        "slug": "johns-hopkins-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W7128090219"
+        }
+      }
+    ],
     "lab_leads": [
       "Felipe Oviedo",
       "Rahul Dodhia"
@@ -5652,7 +6718,7 @@
       "Geospatial",
       "Computer Vision"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Caleb Robinson",
       "Anthony Ortiz",
@@ -5709,7 +6775,36 @@
       "Computer Vision",
       "Public Health"
     ],
-    "partner": "Lowy Medical Research Institute",
+    "partners": [
+      {
+        "slug": "queen-s-university-belfast",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4391655332"
+        }
+      },
+      {
+        "slug": "scripps-research-institute",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4391655332"
+        }
+      },
+      {
+        "slug": "university-of-lausanne",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4391655332"
+        }
+      },
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4391655332"
+        }
+      }
+    ],
     "lab_leads": [
       "Shahrzad Gholami",
       "Rahul Dodhia"
@@ -5747,7 +6842,7 @@
       "Geospatial",
       "Food Security"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Akram Zaytar",
       "Girmaw Abebe Tadesse",
@@ -5800,7 +6895,36 @@
       "Conservation",
       "Wildlife Tracking"
     ],
-    "partner": "Wild Nature Institute",
+    "partners": [
+      {
+        "slug": "kyoto-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W3202464220"
+        }
+      },
+      {
+        "slug": "pennsylvania-state-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W3202464220"
+        }
+      },
+      {
+        "slug": "university-of-washington",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W3202464220"
+        }
+      },
+      {
+        "slug": "university-of-zurich",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W3202464220"
+        }
+      }
+    ],
     "lab_leads": [
       "Md Nasir"
     ],
@@ -5844,7 +6968,7 @@
       "Public Policy",
       "Public Health"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Mayana Pereira"
     ],
@@ -5881,7 +7005,29 @@
       "Geospatial",
       "Food Security"
     ],
-    "partner": "NASA Harvest",
+    "partners": [
+      {
+        "slug": "centro-internacional-de-mejoramiento-de-maiz-y-trigo",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W7166840820"
+        }
+      },
+      {
+        "slug": "international-institute-for-applied-systems-analysis",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W7166840820"
+        }
+      },
+      {
+        "slug": "nasa-harvest",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://eartharxiv.org/repository/object/12498/download/22291/"
+        }
+      }
+    ],
     "lab_leads": [
       "Akram Zaytar",
       "Caleb Robinson",
@@ -5927,7 +7073,7 @@
       "Computer Vision",
       "Public Policy"
     ],
-    "partner": "Stanford RegLab",
+    "partners": [],
     "lab_leads": [
       "Caleb Robinson",
       "Anthony Ortiz"
@@ -5976,7 +7122,22 @@
     "science_tags": [
       "Computer Vision"
     ],
-    "partner": "University of British Columbia",
+    "partners": [
+      {
+        "slug": "simon-fraser-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4220672073"
+        }
+      },
+      {
+        "slug": "university-of-british-columbia",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4220672073"
+        }
+      }
+    ],
     "lab_leads": [
       "Yixi Xu",
       "Anthony Ortiz"
@@ -6015,7 +7176,7 @@
       "Public Policy",
       "Geospatial"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Mayana Pereira",
       "Lucia Ronchi Darre",
@@ -6059,7 +7220,15 @@
     "science_tags": [
       "Computer Vision"
     ],
-    "partner": "BC Cancer Research Centre",
+    "partners": [
+      {
+        "slug": "university-of-british-columbia",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://jnm.snmjournals.org/content/62/supplement_1/36"
+        }
+      }
+    ],
     "lab_leads": [
       "Yixi Xu",
       "Anthony Ortiz"
@@ -6097,7 +7266,7 @@
       "Digital Inclusion",
       "Public Policy"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Mayana Pereira",
       "Rahul Dodhia"
@@ -6147,7 +7316,7 @@
       "Public Health",
       "Public Policy"
     ],
-    "partner": "Health Choice Network",
+    "partners": [],
     "lab_leads": [
       "Md Nasir",
       "Sumit Mukherjee"
@@ -6193,7 +7362,15 @@
     "science_tags": [
       "Public Policy"
     ],
-    "partner": null,
+    "partners": [
+      {
+        "slug": "princeton-university",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4380487351"
+        }
+      }
+    ],
     "lab_leads": [
       "Mayana Pereira",
       "Rahul Dodhia"
@@ -6229,7 +7406,7 @@
       "Computer Vision",
       "Food Security"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Gilles Hacheme",
       "Akram Zaytar",
@@ -6273,7 +7450,7 @@
       "Geospatial",
       "Disaster Response"
     ],
-    "partner": null,
+    "partners": [],
     "lab_leads": [
       "Shahrzad Gholami",
       "Jane Wang"
@@ -6315,7 +7492,15 @@
       "Bioacoustics",
       "Conservation"
     ],
-    "partner": "University of Pittsburgh",
+    "partners": [
+      {
+        "slug": "university-of-pittsburgh",
+        "evidence": {
+          "kind": "author-affiliation",
+          "url": "https://openalex.org/W4385411717"
+        }
+      }
+    ],
     "lab_leads": [
       "Zhongqi Miao",
       "Rahul Dodhia"

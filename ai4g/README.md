@@ -13,6 +13,8 @@ root-absolute references to these with the configured `base` (default `/ai4g/`).
   metadata.
 - `featured/` — optimized local visuals for the featured-project map callouts, with source and
   license metadata in `../../data/featured-projects.json`.
+- `partners/` — optimized official partner logos, with source, credit, rights, and fallback review
+  metadata in `../../data/partners.json`.
 
 There is intentionally no project `robots.txt`: under the planned custom-domain subpath, only
 `https://akramz.space/robots.txt` is authoritative, and that personal-site file stays unchanged until

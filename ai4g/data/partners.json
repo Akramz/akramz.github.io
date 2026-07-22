@@ -1,0 +1,1569 @@
+[
+  {
+    "slug": "american-academy-of-ophthalmology",
+    "name": "American Academy of Ophthalmology",
+    "aliases": [
+      "AAO",
+      "AAOO"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I1333742007",
+      "ror": "https://ror.org/02858hr49"
+    },
+    "mission": "It protects sight and empowers lives through advocacy, education, research, and professional leadership in ophthalmology.",
+    "website_url": "https://www.aao.org/",
+    "mission_source_url": "https://www.aao.org/about/who-we-are/overview",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use.",
+      "Registry alias corrected from the apparent AAOO typo to the official AAO abbreviation."
+    ]
+  },
+  {
+    "slug": "american-red-cross",
+    "name": "American Red Cross",
+    "aliases": [
+      "American National Red Cross",
+      "ARC"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I1343864894",
+      "ror": "https://ror.org/0284e2q78"
+    },
+    "mission": "The American Red Cross prevents and alleviates human suffering in emergencies by mobilizing volunteers and donor generosity.",
+    "website_url": "https://www.redcross.org/",
+    "mission_source_url": "https://www.redcross.org/about-us/who-we-are/mission-and-values.html",
+    "logo": null,
+    "review": [
+      "Logo review needed: no verified rights-cleared official logo source found."
+    ]
+  },
+  {
+    "slug": "amref-health-africa",
+    "name": "Amref Health Africa",
+    "aliases": [
+      "African Medical and Research Foundation",
+      "Amref"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I4210094393",
+      "ror": "https://ror.org/00qpv3w06"
+    },
+    "mission": "It drives community-led, people-centered primary health care systems while addressing the social drivers of health.",
+    "website_url": "https://amref.org/",
+    "mission_source_url": "https://amref.org/vision-and-mission/",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "arizona-state-university",
+    "name": "Arizona State University",
+    "aliases": [
+      "ASU"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I55732556",
+      "ror": "https://ror.org/03efmqc40"
+    },
+    "mission": "ASU is a public research university committed to excellence, access, and impact, measured by who it includes and how they succeed.",
+    "website_url": "https://www.asu.edu/",
+    "mission_source_url": "https://www.asu.edu/about/charter-mission",
+    "logo": null,
+    "review": [
+      "Logo review needed: no verified rights-cleared official logo source found."
+    ]
+  },
+  {
+    "slug": "bar-ilan-university",
+    "name": "Bar-Ilan University",
+    "aliases": [
+      "BIU",
+      "جامعة بار إيلان"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I13955877",
+      "ror": "https://ror.org/03kgsv495"
+    },
+    "mission": "It encourages tolerance, free inquiry, and dialogue while serving as a multicultural research university.",
+    "website_url": "https://www.biu.ac.il/en",
+    "mission_source_url": "https://www.biu.ac.il/en/about-bar-ilan",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use.",
+      "The official site is bot-protected here, so the URLs could not be fully reach-checked directly."
+    ]
+  },
+  {
+    "slug": "brigham-and-women-s-hospital",
+    "name": "Brigham and Women's Hospital",
+    "aliases": [
+      "BWH",
+      "The Brigham"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I1283280774",
+      "ror": "https://ror.org/04b6nzv94"
+    },
+    "mission": "It maintains and restores health through compassionate care, scientific discovery, and education.",
+    "website_url": "https://www.brighamandwomens.org/",
+    "mission_source_url": "https://give.brighamandwomens.org/vision-and-mission/",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "british-antarctic-survey",
+    "name": "British Antarctic Survey",
+    "aliases": [
+      "BAS"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I1319328641",
+      "ror": "https://ror.org/01rhff309"
+    },
+    "mission": "It uncovers the secrets of the polar regions and helps global society adapt to environmental change.",
+    "website_url": "https://www.bas.ac.uk/",
+    "mission_source_url": "https://www.bas.ac.uk/about/who-we-are/",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "brown-university",
+    "name": "Brown University",
+    "aliases": [
+      "Brown School of Public Health",
+      "School of Public Health, Brown University"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I27804330",
+      "ror": "https://ror.org/05gq02987"
+    },
+    "mission": "Brown is a student-centered research university where rigorous scholarship and collaboration are meant to serve the public good.",
+    "website_url": "https://www.brown.edu/",
+    "mission_source_url": "https://www.brown.edu/about/mission",
+    "logo": null,
+    "review": [
+      "Logo review needed: no verified rights-cleared official logo source found."
+    ]
+  },
+  {
+    "slug": "carter-center",
+    "name": "The Carter Center",
+    "aliases": [],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I1292524976",
+      "ror": "https://ror.org/030mbxz29"
+    },
+    "mission": "It works with partners to wage peace, fight disease, and build hope through human rights, conflict resolution, and health programs.",
+    "website_url": "https://www.cartercenter.org/",
+    "mission_source_url": "https://www.cartercenter.org/about/mission-and-vision/",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "catholic-relief-services",
+    "name": "Catholic Relief Services",
+    "aliases": [
+      "CRS"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I1313865045",
+      "ror": "https://ror.org/05xm0ec82"
+    },
+    "mission": "It assists poor and vulnerable people overseas through human development, emergency response, disease and poverty work, and solidarity with the global church.",
+    "website_url": "https://www.crs.org/",
+    "mission_source_url": "https://onboarding.crs.org/wp-content/uploads/2018/08/Mission-Statement-Document.pdf",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use.",
+      "The official site blocks automated fetch here, so the mission was sourced from the reachable mission statement PDF."
+    ]
+  },
+  {
+    "slug": "centre-national-de-la-recherche-scientifique",
+    "name": "Centre national de la recherche scientifique",
+    "aliases": [
+      "CNRS",
+      "French National Centre for Scientific Research"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I1294671590",
+      "ror": "https://ror.org/02feahw73"
+    },
+    "mission": "It mobilizes every field of science to tackle today’s global challenges and turn research into knowledge and innovation.",
+    "website_url": "https://www.cnrs.fr/",
+    "mission_source_url": "https://www.cnrs.fr/en/le-cnrs/missions",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "centro-internacional-de-mejoramiento-de-maiz-y-trigo",
+    "name": "Centro Internacional de Mejoramiento de Maíz y Trigo",
+    "aliases": [
+      "CIMMYT",
+      "International Maize and Wheat Improvement Center"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I21740220",
+      "ror": "https://ror.org/03gvhpa76"
+    },
+    "mission": "It advances science and innovation to build a food and nutrition secure world.",
+    "website_url": "https://www.cimmyt.org/",
+    "mission_source_url": "https://www.cimmyt.org/about/our-strategy/",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "cleveland-clinic",
+    "name": "Cleveland Clinic",
+    "aliases": [],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I1316902750",
+      "ror": "https://ror.org/03xjacd83"
+    },
+    "mission": "It provides care, research, and education to improve health and serve patients at the highest standard.",
+    "website_url": "https://my.clevelandclinic.org/",
+    "mission_source_url": "https://my.clevelandclinic.org/about/overview/who-we-are/mission-vision-values",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "cornell-university",
+    "name": "Cornell University",
+    "aliases": [
+      "CU",
+      "Universidad Cornell"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I205783295",
+      "ror": "https://ror.org/05bnh6r87"
+    },
+    "mission": "It discovers, preserves, and shares knowledge while educating global citizens and serving communities near and far.",
+    "website_url": "https://www.cornell.edu/",
+    "mission_source_url": "https://www.cornell.edu/about/mission.cfm",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "dana-farber-cancer-institute",
+    "name": "Dana-Farber Cancer Institute",
+    "aliases": [],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I4210117453",
+      "ror": "https://ror.org/02jzgtq86"
+    },
+    "mission": "It provides equitable cancer care while advancing understanding, diagnosis, treatment, cure, and prevention.",
+    "website_url": "https://www.dana-farber.org/",
+    "mission_source_url": "https://www.dana-farber.org/about/mission-values",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "fred-hutch-cancer-center",
+    "name": "Fred Hutch Cancer Center",
+    "aliases": [
+      "FHCRC",
+      "Fred Hutch",
+      "Fred Hutchinson Cancer Center",
+      "Fred Hutchinson Cancer Research Center",
+      "The Hutch"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I4210089486",
+      "ror": "https://ror.org/007ps6h72"
+    },
+    "mission": "Fred Hutch unites innovative research and compassionate care to prevent and eliminate cancer and infectious disease.",
+    "website_url": "https://www.fredhutch.org",
+    "mission_source_url": "https://www.fredhutch.org/en/about/about-the-hutch/mission-values.html",
+    "logo": null,
+    "review": [
+      "Logo not verified for local identification use."
+    ]
+  },
+  {
+    "slug": "fundacao-oswaldo-cruz",
+    "name": "Fundação Oswaldo Cruz",
+    "aliases": [
+      "FIOCRUZ",
+      "Oswaldo Cruz Foundation"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I52325",
+      "ror": "https://ror.org/04jhswv08"
+    },
+    "mission": "Fiocruz produces, shares, and applies knowledge and technologies to strengthen Brazil's unified health system and improve health, quality of life, equity, and the right to health.",
+    "website_url": "https://portal.fiocruz.br",
+    "mission_source_url": "https://portal.fiocruz.br/en/institutional-profile",
+    "logo": null,
+    "review": [
+      "Logo not verified for local identification use."
+    ]
+  },
+  {
+    "slug": "harvard-t-h-chan-school-of-public-health",
+    "name": "Harvard T.H. Chan School of Public Health",
+    "aliases": [
+      "Department of Social and Behavioral Sciences, Harvard T.H. Chan School of Public Health, Boston, MA, USA"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": null,
+      "ror": null
+    },
+    "mission": "It improves health and promotes equity so everyone can thrive.",
+    "website_url": "https://www.hsph.harvard.edu/",
+    "mission_source_url": "https://www.hsph.harvard.edu/about/mission-and-vision/",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. The mission page redirects to http in automated fetch, so the official HTTPS URL was retained."
+    ]
+  },
+  {
+    "slug": "harvard-university",
+    "name": "Harvard University",
+    "aliases": [
+      "Harvard University, Cambridge",
+      "Harvard University, Cambridge, Massachusetts, USA",
+      "Universidad de Harvard"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I136199984",
+      "ror": "https://ror.org/03vek6s52"
+    },
+    "mission": "Harvard educates citizens and citizen-leaders through the transformative power of a liberal arts and sciences education.",
+    "website_url": "https://www.harvard.edu",
+    "mission_source_url": "https://college.harvard.edu/about/mission-vision-history",
+    "logo": null,
+    "review": [
+      "Logo not verified for local identification use."
+    ]
+  },
+  {
+    "slug": "howard-hughes-medical-institute",
+    "name": "Howard Hughes Medical Institute",
+    "aliases": [
+      "HHMI",
+      "Instituto Médico Howard Hughes"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I1344073410",
+      "ror": "https://ror.org/006w34k90"
+    },
+    "mission": "HHMI uses scientific research, learning, and outreach to improve human health, grow scientific capacity, and welcome everyone into science.",
+    "website_url": "https://www.hhmi.org",
+    "mission_source_url": "https://www.hhmi.org/our-approach",
+    "logo": null,
+    "review": [
+      "Logo not verified for local identification use."
+    ]
+  },
+  {
+    "slug": "humanitarian-openstreetmap-team",
+    "name": "Humanitarian OpenStreetMap Team",
+    "aliases": [
+      "HOT"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I4210117329",
+      "ror": "https://ror.org/02dxhv267"
+    },
+    "mission": "HOT uses open mapping to support disaster response, climate resilience, public health, and displacement work in the places that need it most.",
+    "website_url": "https://hotosm.org/",
+    "mission_source_url": "https://hotosm.org/en/who-we-are/",
+    "logo": null,
+    "review": [
+      "Logo not verified for local identification use."
+    ]
+  },
+  {
+    "slug": "indiana-university-bloomington",
+    "name": "Indiana University Bloomington",
+    "aliases": [
+      "IU",
+      "IU Bloomington",
+      "Universidad de Indiana Bloomington",
+      "Université de l'Indiana à Bloomington"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I4210119109",
+      "ror": "https://ror.org/02k40bc56"
+    },
+    "mission": "IU Bloomington aims to be a world-class leader in education, research, and impact.",
+    "website_url": "https://bloomington.iu.edu",
+    "mission_source_url": "https://bloomington.iu.edu/about/strategic-plan/",
+    "logo": null,
+    "review": [
+      "Logo not verified for local identification use."
+    ]
+  },
+  {
+    "slug": "international-centre-for-integrated-mountain-development",
+    "name": "International Centre for Integrated Mountain Development",
+    "aliases": [
+      "ICIMOD",
+      "ICIMOD: International Centre for Integrated Mountain Development",
+      "Integrated Centre for Mountain Development",
+      "International Center for Integrated Mountain Development (ICIMOD)",
+      "International Centre for Integrated Mountain Development (ICIMOD)",
+      "International Centre for Integrated Mountain Development Nepal",
+      "Intl. Ctr. for Integrated Mt. Devmt."
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I110210549",
+      "ror": "https://ror.org/024brep87"
+    },
+    "mission": "ICIMOD advances regional cooperation and mountain solutions for the Hindu Kush Himalaya through work on climate, ecosystems, water, livelihoods, and resilience.",
+    "website_url": "https://www.icimod.org",
+    "mission_source_url": "https://www.icimod.org/who-we-are/vision-mission/",
+    "logo": null,
+    "review": [
+      "Logo not verified for local identification use."
+    ]
+  },
+  {
+    "slug": "international-institute-for-applied-systems-analysis",
+    "name": "International Institute for Applied Systems Analysis",
+    "aliases": [
+      "IIASA",
+      "Internationales Institut Fuer Angewandte Systemanalyse"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I1317774081",
+      "ror": "https://ror.org/02wfhk785"
+    },
+    "mission": "IIASA provides insight and guidance to policymakers by finding solutions to global problems through applied systems analysis.",
+    "website_url": "https://iiasa.ac.at",
+    "mission_source_url": "https://iiasa.ac.at/institute",
+    "logo": null,
+    "review": [
+      "Logo not verified for local identification use.",
+      "Direct access to the official IIASA institute page returned 403 here, so the website and mission source could not be fully reach-checked."
+    ]
+  },
+  {
+    "slug": "johns-hopkins-medicine",
+    "name": "Johns Hopkins Medicine",
+    "aliases": [],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I2799853436",
+      "ror": "https://ror.org/037zgn354"
+    },
+    "mission": "Johns Hopkins Medicine works to improve the health of the community and the world through excellence in education, research, and clinical care.",
+    "website_url": "https://www.hopkinsmedicine.org/",
+    "mission_source_url": "https://www.hopkinsmedicine.org/about/mission.html",
+    "logo": null,
+    "review": [
+      "Official logo not claimed because local-use rights were not verified.",
+      "Official website and mission page returned 403 in this environment, so verify the canonical Johns Hopkins pages manually."
+    ]
+  },
+  {
+    "slug": "johns-hopkins-university",
+    "name": "Johns Hopkins University",
+    "aliases": [
+      "JHU",
+      "Johns Hopkins University Hub"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I145311948",
+      "ror": "https://ror.org/00za53h95"
+    },
+    "mission": "JHU educates students, advances original research, and brings the benefits of discovery to the world.",
+    "website_url": "https://hub.jhu.edu/",
+    "mission_source_url": "https://hub.jhu.edu/hopkins-history-faq/",
+    "logo": null,
+    "review": [
+      "Official logo not claimed because local-use rights were not verified.",
+      "The main jhu.edu site returned 403 in this environment, so I used Johns Hopkins Hub as the reachable official university portal."
+    ]
+  },
+  {
+    "slug": "kaiser-permanente",
+    "name": "Kaiser Permanente",
+    "aliases": [
+      "KP"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I1343052199",
+      "ror": "https://ror.org/00t60zh31"
+    },
+    "mission": "Kaiser Permanente delivers high-quality, affordable care while improving the health of its members and the communities it serves.",
+    "website_url": "https://www.kaiserpermanente.org/",
+    "mission_source_url": "https://about.kaiserpermanente.org/who-we-are/our-mission",
+    "logo": null,
+    "review": [
+      "Official logo not claimed because local-use rights were not verified."
+    ]
+  },
+  {
+    "slug": "kyoto-university",
+    "name": "Kyoto University",
+    "aliases": [
+      "Kyōto daigaku",
+      "京都大学"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I22299242",
+      "ror": "https://ror.org/02kpeqv85"
+    },
+    "mission": "Kyoto University sustains academic freedom and advances research, education, and coexistence with the broader human and ecological community.",
+    "website_url": "https://www.kyoto-u.ac.jp/en/",
+    "mission_source_url": "https://www.kyoto-u.ac.jp/en/about/profile/ideals",
+    "logo": null,
+    "review": [
+      "Official logo not claimed because local-use rights were not verified."
+    ]
+  },
+  {
+    "slug": "massachusetts-general-hospital",
+    "name": "Massachusetts General Hospital",
+    "aliases": [
+      "Mass General",
+      "MGH"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I4210087915",
+      "ror": "https://ror.org/002pd6e78"
+    },
+    "mission": "Mass General combines collaboration, research, education, and patient care to stay at the forefront of medicine for its communities.",
+    "website_url": "https://www.massgeneral.org/",
+    "mission_source_url": "https://www.massgeneral.org/about",
+    "logo": null,
+    "review": [
+      "Official logo not claimed because local-use rights were not verified."
+    ]
+  },
+  {
+    "slug": "massachusetts-institute-of-technology",
+    "name": "Massachusetts Institute of Technology",
+    "aliases": [
+      "Instituto Tecnológico de Massachusetts",
+      "MIT"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I63966007",
+      "ror": "https://ror.org/042nb2s44"
+    },
+    "mission": "MIT advances knowledge and educates students to help meet the world’s great challenges.",
+    "website_url": "https://www.mit.edu/",
+    "mission_source_url": "https://www.mit.edu/about/mission-statement/",
+    "logo": null,
+    "review": [
+      "Official logo not claimed because local-use rights were not verified."
+    ]
+  },
+  {
+    "slug": "michigan-state-university",
+    "name": "Michigan State University",
+    "aliases": [
+      "MSU",
+      "Université d’État du michigan"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I87216513",
+      "ror": "https://ror.org/05hs6h993"
+    },
+    "mission": "MSU advances knowledge and transforms lives through education, research, outreach, and engagement for communities everywhere.",
+    "website_url": "https://msu.edu/",
+    "mission_source_url": "https://trustees.msu.edu/about/mission",
+    "logo": null,
+    "review": [
+      "Official logo not claimed because local-use rights were not verified."
+    ]
+  },
+  {
+    "slug": "nanyang-technological-university",
+    "name": "Nanyang Technological University",
+    "aliases": [
+      "NTU",
+      "Universiti Teknologi Nanyang",
+      "நன்யாங் தொழில்நுட்பப் பல்கலைக்கழகம்",
+      "南洋理工大学"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I172675005",
+      "ror": "https://ror.org/02e7b5302"
+    },
+    "mission": "NTU nurtures leaders and creates societal impact through education, research, and service.",
+    "website_url": "https://www.ntu.edu.sg/",
+    "mission_source_url": "https://www.ntu.edu.sg/about-us",
+    "logo": null,
+    "review": [
+      "Official logo not claimed because local-use rights were not verified."
+    ]
+  },
+  {
+    "slug": "nasa-harvest",
+    "name": "NASA Harvest",
+    "aliases": [],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": null,
+      "ror": null
+    },
+    "mission": "It broadens the use of Earth observations for food supply applications, market stability, and crop monitoring worldwide.",
+    "website_url": "https://nasaharvest.org/",
+    "mission_source_url": "https://www.nasaharvest.org/about-us",
+    "logo": null,
+    "review": [
+      "Official logo not claimed."
+    ]
+  },
+  {
+    "slug": "national-oceanic-and-atmospheric-administration",
+    "name": "National Oceanic and Atmospheric Administration",
+    "aliases": [
+      "Administración Nacional Oceánica y Atmosférica",
+      "National Oceanic & Atmospheric Administration",
+      "National Oceanographic and Atmospheric Administration",
+      "NOAA",
+      "U.S. Department of Commerce Oceanic and Atmospheric Administration",
+      "U.S. Department of Commerce. National Oceanic and Atmospheric Administration",
+      "U.S. Dept. of Commerce National Oceanic and Atmospheric Administration",
+      "U.S. DOC National Oceanic and Atmospheric Administration",
+      "U.S. National Oceanic & Atmospheric Administration",
+      "U.S. National Oceanic and Atmospheric Administration",
+      "U.S. National Oceanographic and Atmospheric Administration",
+      "U.S. National Oceanographic Atmospheric Administration",
+      "U.S. Oceanic and Atmospheric Administration",
+      "United States Department of Commerce National Oceanic and Atmospheric Administration",
+      "United States Department of Commerce Oceanic and Atmospheric Administration",
+      "United States Dept. of Commerce National Oceanic and Atmospheric Administration",
+      "United States National Oceanic & Atmospheric Administration",
+      "United States National Oceanic and Atmospheric Administration",
+      "United States National Oceanographic and Atmospheric Administration",
+      "United States National Oceanographic Atmospheric Administration",
+      "United States Oceanic and Atmospheric Administration"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I1308126019",
+      "ror": "https://ror.org/02z5nhe81"
+    },
+    "mission": "NOAA understands and predicts changes in climate, weather, ocean, and coasts, then shares that knowledge to conserve marine ecosystems.",
+    "website_url": "https://www.noaa.gov/",
+    "mission_source_url": "https://www.noaa.gov/about-our-agency",
+    "logo": null,
+    "review": [
+      "Official logo not claimed because local-use rights were not verified.",
+      "Official NOAA pages returned 403 in this environment, so verify the canonical URLs manually."
+    ]
+  },
+  {
+    "slug": "new-york-university",
+    "name": "New York University",
+    "aliases": [
+      "NYU",
+      "Universidad de Nueva York",
+      "Université de New York"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I57206974",
+      "ror": "https://ror.org/0190ak572"
+    },
+    "mission": "NYU thrives across great cities and academic fields as a global platform for learning, teaching, research, and innovation.",
+    "website_url": "https://www.nyu.edu/",
+    "mission_source_url": "https://bulletins.nyu.edu/nyu/about/",
+    "logo": null,
+    "review": [
+      "Official logo not claimed because local-use rights were not verified."
+    ]
+  },
+  {
+    "slug": "northwestern-university",
+    "name": "Northwestern University",
+    "aliases": [
+      "NU"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I111979921",
+      "ror": "https://ror.org/000e0be47"
+    },
+    "mission": "It pairs excellent teaching and innovative research with the personal and intellectual growth of students in a diverse academic community.",
+    "website_url": "https://www.northwestern.edu",
+    "mission_source_url": "https://www.northwestern.edu/about/",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "novartis-foundation",
+    "name": "Novartis Foundation",
+    "aliases": [
+      "Novartis Foundation for Sustainable Development"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I51153154",
+      "ror": "https://ror.org/04f9t1x17"
+    },
+    "mission": "It uses data, AI, and partnerships to improve the health of urban populations and narrow health disparities.",
+    "website_url": "https://www.novartisfoundation.org/",
+    "mission_source_url": "https://www.novartisfoundation.org/about-us",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "pennsylvania-state-university",
+    "name": "The Pennsylvania State University",
+    "aliases": [
+      "Penn State",
+      "Pennsylvania State University",
+      "PSU"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I130769515",
+      "ror": "https://ror.org/04p491231"
+    },
+    "mission": "It serves students and communities through integrated teaching, research, and service across resident and distance learning programs.",
+    "website_url": "https://www.psu.edu",
+    "mission_source_url": "https://www.psu.edu/about/mission-and-values",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "planet-labs-pbc-united-states",
+    "name": "Planet Labs PBC",
+    "aliases": [
+      "Cosmogia",
+      "Cosmogia, Inc.",
+      "PL",
+      "Planet",
+      "Planet Labs",
+      "Planet Labs, Inc."
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": null,
+      "ror": "https://ror.org/04zrf9x98"
+    },
+    "mission": "Planet images Earth every day and makes global change visible, accessible, and actionable.",
+    "website_url": "https://www.planet.com",
+    "mission_source_url": "https://www.planet.com/",
+    "logo": null,
+    "review": [
+      "Logo review needed: no official brand or usage rights page verified."
+    ]
+  },
+  {
+    "slug": "princeton-university",
+    "name": "Princeton University",
+    "aliases": [
+      "College of New Jersey"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I20089843",
+      "ror": "https://ror.org/00hx57361"
+    },
+    "mission": "It advances learning through scholarship, research, and teaching, with a special commitment to undergraduate and doctoral education and service to the nation and world.",
+    "website_url": "https://www.princeton.edu",
+    "mission_source_url": "https://www.princeton.edu/meet-princeton/mission-statement",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "program-for-appropriate-technology-in-health",
+    "name": "PATH",
+    "aliases": [
+      "Program for Appropriate Technology in Health"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I1304598786",
+      "ror": "https://ror.org/02ycvrx49"
+    },
+    "mission": "It advances health equity through innovation and partnerships so good health reaches the people who need it most.",
+    "website_url": "https://www.path.org/",
+    "mission_source_url": "https://www.path.org/who-we-are/mission-and-strategy/",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "queen-s-university-belfast",
+    "name": "Queen's University Belfast",
+    "aliases": [
+      "QUB",
+      "Queen's University of Belfast"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I126231945",
+      "ror": "https://ror.org/00hswnk62"
+    },
+    "mission": "It aims to be a global research-intensive university that delivers outstanding teaching and research for society locally and globally.",
+    "website_url": "https://www.qub.ac.uk",
+    "mission_source_url": "https://www.qub.ac.uk/about/Strategy2030/",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "scripps-research-institute",
+    "name": "Scripps Research Institute",
+    "aliases": [
+      "TSRI"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I123431417",
+      "ror": "https://ror.org/02dxx6824"
+    },
+    "mission": "It expands bioscience knowledge and turns it into discoveries and training that improve human wellbeing.",
+    "website_url": "https://www.scripps.edu/",
+    "mission_source_url": "https://www.scripps.edu/about/",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "seattle-children-s-hospital",
+    "name": "Seattle Children's Hospital",
+    "aliases": [],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I4210109034",
+      "ror": null
+    },
+    "mission": "It provides hope, care, and cures so every child can live the healthiest and most fulfilling life possible.",
+    "website_url": "https://www.seattlechildrens.org",
+    "mission_source_url": "https://www.seattlechildrens.org/about/mission-vision-values/",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "seoul-national-university",
+    "name": "Seoul National University",
+    "aliases": [
+      "Seoul Daehakgyo",
+      "SNU"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I139264467",
+      "ror": "https://ror.org/04h9pn542"
+    },
+    "mission": "It cultivates innovative leaders and advances science to address humanity’s challenges and create public value.",
+    "website_url": "https://www.snu.ac.kr",
+    "mission_source_url": "https://en.snu.ac.kr/about/overview/vision",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "simon-fraser-university",
+    "name": "Simon Fraser University",
+    "aliases": [
+      "SFU"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I18014758",
+      "ror": "https://ror.org/0213rcc28"
+    },
+    "mission": "It uses the power of knowledge, advocacy, and engagement to improve lives as Canada’s engaged university.",
+    "website_url": "https://www.sfu.ca/",
+    "mission_source_url": "https://www.sfu.ca/",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "smithsonian-national-zoo-conservation-biology-institute",
+    "name": "Smithsonian's National Zoo and Conservation Biology Institute",
+    "aliases": [
+      "Smithsonian National Zoo & Conservation Biology Institute",
+      "Smithsonian National Zoo and Conservation Biology Institute"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": null,
+      "ror": null
+    },
+    "mission": "The National Zoo and Conservation Biology Institute saves species through science, knowledge sharing, and conservation experiences.",
+    "website_url": "https://nationalzoo.si.edu",
+    "mission_source_url": "https://nationalzoo.si.edu/about",
+    "logo": null,
+    "review": [
+      "Logo review needed: no official brand or usage rights page verified."
+    ]
+  },
+  {
+    "slug": "stanford-university",
+    "name": "Stanford University",
+    "aliases": [
+      "Leland Stanford Junior University"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I97018004",
+      "ror": "https://ror.org/00f54p054"
+    },
+    "mission": "It fosters free inquiry, open discussion, and cross-disciplinary work so students and researchers can serve humanity.",
+    "website_url": "https://www.stanford.edu",
+    "mission_source_url": "https://www.stanford.edu/about",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "technische-universitat-berlin",
+    "name": "Technische Universität Berlin",
+    "aliases": [
+      "Berlin Institute of Technology",
+      "Technical University of Berlin",
+      "TU Berlin",
+      "TUB"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I4577782",
+      "ror": "https://ror.org/03v4gjf40"
+    },
+    "mission": "It develops ideas for the future in service of society through research, teaching, and innovation.",
+    "website_url": "https://www.tu.berlin",
+    "mission_source_url": "https://www.tu.berlin/en/",
+    "logo": null,
+    "review": [
+      "Official logo not claimed. No official rights statement was verified for local identification use."
+    ]
+  },
+  {
+    "slug": "the-nature-conservancy",
+    "name": "The Nature Conservancy",
+    "aliases": [
+      "TNC"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I1280640908",
+      "ror": "https://ror.org/0563w1497"
+    },
+    "mission": "We work with communities to protect the lands and waters that sustain life.",
+    "website_url": "https://www.nature.org/",
+    "mission_source_url": "https://www.nature.org/en-us/about-us/who-we-are/",
+    "logo": null,
+    "review": [
+      "Logo not claimed; no rights-verified brand page was reviewed."
+    ]
+  },
+  {
+    "slug": "the-university-of-queensland",
+    "name": "The University of Queensland",
+    "aliases": [
+      "University of Queensland",
+      "UQ"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I165143802",
+      "ror": "https://ror.org/00rqy9422"
+    },
+    "mission": "We provide knowledge leadership and work with partners and communities to create a better world.",
+    "website_url": "https://www.uq.edu.au",
+    "mission_source_url": "https://about.uq.edu.au/",
+    "logo": null,
+    "review": [
+      "Logo not claimed; no rights-verified brand page was reviewed."
+    ]
+  },
+  {
+    "slug": "the-university-of-sydney",
+    "name": "The University of Sydney",
+    "aliases": [
+      "Sydney University",
+      "University of Sydney",
+      "USYD"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I129604602",
+      "ror": "https://ror.org/0384j8v12"
+    },
+    "mission": "We produce leaders and equip them to serve our communities at every level.",
+    "website_url": "https://www.sydney.edu.au",
+    "mission_source_url": "https://www.sydney.edu.au/about-us.html",
+    "logo": null,
+    "review": [
+      "Logo not claimed; no rights-verified brand page was reviewed."
+    ]
+  },
+  {
+    "slug": "united-nations-university-institute-for-water-environment-and-health",
+    "name": "United Nations University Institute for Water, Environment, and Health",
+    "aliases": [
+      "UNU-INWEH"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I4210132586",
+      "ror": "https://ror.org/03d8jqg89"
+    },
+    "mission": "We advance water, environment, and health solutions for global impact.",
+    "website_url": "https://unu.edu/inweh",
+    "mission_source_url": "https://unu.edu/inweh/about-unu-inweh",
+    "logo": null,
+    "review": [
+      "Logo not claimed; no rights-verified brand page was reviewed."
+    ]
+  },
+  {
+    "slug": "united-states-naval-research-laboratory",
+    "name": "United States Naval Research Laboratory",
+    "aliases": [
+      "Laboratorio de Investigación Naval de los Estados Unidos",
+      "NRL"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I1288214837",
+      "ror": "https://ror.org/04d23a975"
+    },
+    "mission": "We operate as the Navy’s full-spectrum corporate laboratory and turn multidisciplinary research into maritime technologies.",
+    "website_url": "https://www.nrl.navy.mil/",
+    "mission_source_url": "https://www.nrl.navy.mil/About-Us/",
+    "logo": null,
+    "review": [
+      "Logo not claimed; the official NRL site could not be locally fetched, so the mission page was sourced from the official About NRL citation."
+    ]
+  },
+  {
+    "slug": "universidad-de-los-andes-02mhbdp94",
+    "name": "Universidad de Los Andes (Colombia)",
+    "aliases": [
+      "Uniandes",
+      "University of Los Andes"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I162096671",
+      "ror": "https://ror.org/02mhbdp94"
+    },
+    "mission": "We foster academic excellence, critical and ethical formation, and an innovative spirit grounded in pluralism and respect.",
+    "website_url": "https://www.uniandes.edu.co/",
+    "mission_source_url": "https://www.uniandes.edu.co/es/la-universidad/historia-mision-y-simbolos",
+    "logo": null,
+    "review": [
+      "Logo not claimed; no rights-verified brand page was reviewed."
+    ]
+  },
+  {
+    "slug": "universidade-de-brasilia",
+    "name": "Universidade de Brasília",
+    "aliases": [
+      "UnB",
+      "University of Brasília"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I150729083",
+      "ror": "https://ror.org/02xfp8v59"
+    },
+    "mission": "We create, integrate, and share knowledge while forming citizens committed to ethics, social responsibility, and sustainable development.",
+    "website_url": "https://www.unb.br",
+    "mission_source_url": "https://www.unb.br/institucional/a-unb",
+    "logo": null,
+    "review": [
+      "Logo not claimed; no rights-verified brand page was reviewed."
+    ]
+  },
+  {
+    "slug": "university-of-aberdeen",
+    "name": "University of Aberdeen",
+    "aliases": [
+      "Prifysgol Aberdeen"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I195460627",
+      "ror": "https://ror.org/016476m91"
+    },
+    "mission": "We lead in teaching, learning, and discovery while building on a 500-year academic tradition.",
+    "website_url": "https://www.abdn.ac.uk",
+    "mission_source_url": "https://www.abdn.ac.uk/about/",
+    "logo": null,
+    "review": [
+      "Logo not claimed; no rights-verified brand page was reviewed."
+    ]
+  },
+  {
+    "slug": "university-of-auckland",
+    "name": "University of Auckland",
+    "aliases": [
+      "UoA",
+      "Waipapa Taumata Rau"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I154130895",
+      "ror": "https://ror.org/03b94tp07"
+    },
+    "mission": "We educate a large, diverse student body and pursue research that makes a difference for New Zealand.",
+    "website_url": "https://www.auckland.ac.nz/en.html",
+    "mission_source_url": "https://www.auckland.ac.nz/en/about-us/about-the-university.html",
+    "logo": null,
+    "review": [
+      "Logo not claimed; no rights-verified brand page was reviewed."
+    ]
+  },
+  {
+    "slug": "university-of-basel",
+    "name": "University of Basel",
+    "aliases": [
+      "Università di Basilea",
+      "Universität Basel",
+      "Université de Bâle"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I1850255",
+      "ror": "https://ror.org/02s6k3f65"
+    },
+    "mission": "We pursue excellent research, research-oriented teaching, and responsible, sustainable action in an internationally networked university.",
+    "website_url": "https://www.unibas.ch/en",
+    "mission_source_url": "https://www.unibas.ch/en/Jobs-and-Careers/Organization-and-Culture/Organization-and-Mission-Statement.html",
+    "logo": null,
+    "review": [
+      "Logo not claimed; no rights-verified brand page was reviewed."
+    ]
+  },
+  {
+    "slug": "university-of-british-columbia",
+    "name": "University of British Columbia",
+    "aliases": [
+      "Data Science Institute, University of British Columbia",
+      "UBC",
+      "Université de la colombie-britannique"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I141945490",
+      "ror": "https://ror.org/03rmrcq20"
+    },
+    "mission": "We are a global centre for teaching, learning, and research with campuses in Vancouver and the Okanagan.",
+    "website_url": "https://www.ubc.ca/",
+    "mission_source_url": "https://www.ubc.ca/about/",
+    "logo": null,
+    "review": [
+      "Logo not claimed; no rights-verified brand page was reviewed."
+    ]
+  },
+  {
+    "slug": "university-of-edinburgh",
+    "name": "University of Edinburgh",
+    "aliases": [
+      "Oilthigh Dhùn Èideann"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I98677209",
+      "ror": "https://ror.org/01nrxwf90"
+    },
+    "mission": "We use our graduates and partner knowledge to make the world a better place.",
+    "website_url": "https://www.ed.ac.uk",
+    "mission_source_url": "https://www.ed.ac.uk/about/mission-governance",
+    "logo": null,
+    "review": [
+      "Logo not claimed; no rights-verified brand page was reviewed."
+    ]
+  },
+  {
+    "slug": "university-of-illinois-urbana-champaign",
+    "name": "University of Illinois Urbana-Champaign",
+    "aliases": [
+      "UIUC",
+      "Universidad de Illinois en Urbana-Champaign",
+      "University of Illinois",
+      "Université de l'Illinois à Urbana-Champaign"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I157725225",
+      "ror": "https://ror.org/047426m28"
+    },
+    "mission": "We bring innovation, community, and discovery to world-class learning, research, and public impact.",
+    "website_url": "https://illinois.edu",
+    "mission_source_url": "https://illinois.edu/about/",
+    "logo": null,
+    "review": [
+      "Logo not claimed; no rights-verified brand page was reviewed."
+    ]
+  },
+  {
+    "slug": "university-of-lausanne",
+    "name": "University of Lausanne",
+    "aliases": [
+      "Schola Lausannensis",
+      "UNIL",
+      "Università di Losanna",
+      "Universität Lausanne",
+      "Université de Lausanne"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I97565354",
+      "ror": "https://ror.org/019whta54"
+    },
+    "mission": "We combine excellent research, interdisciplinary teaching, and an engaged university community.",
+    "website_url": "https://www.unil.ch/unil/fr/home.html",
+    "mission_source_url": "https://www.unil.ch/unil/fr/home/menuinst/universite/vision-strategique.html",
+    "logo": null,
+    "review": [
+      "Logo not claimed; no rights-verified brand page was reviewed."
+    ]
+  },
+  {
+    "slug": "university-of-miami",
+    "name": "University of Miami",
+    "aliases": [
+      "U Miami",
+      "UM",
+      "Universidad de Miami",
+      "Université de miami"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I145608581",
+      "ror": "https://ror.org/02dgjyy92"
+    },
+    "mission": "We are a vibrant research university committed to teaching, learning, discovery, and service in a diverse community.",
+    "website_url": "https://welcome.miami.edu/",
+    "mission_source_url": "https://welcome.miami.edu/about-um/index.html",
+    "logo": null,
+    "review": [
+      "Logo not claimed; no rights-verified brand page was reviewed."
+    ]
+  },
+  {
+    "slug": "university-of-minnesota",
+    "name": "University of Minnesota Twin Cities",
+    "aliases": [
+      "University of Minnesota",
+      "University of Minnesota, Twin Cities"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I130238516",
+      "ror": "https://ror.org/017zqws13"
+    },
+    "mission": "We seek new knowledge to change how people work and live while preparing students to meet major challenges.",
+    "website_url": "https://twin-cities.umn.edu/",
+    "mission_source_url": "https://twin-cities.umn.edu/about-us",
+    "logo": null,
+    "review": [
+      "Logo not claimed; the official page brands the campus as University of Minnesota Twin Cities."
+    ]
+  },
+  {
+    "slug": "university-of-pennsylvania",
+    "name": "University of Pennsylvania",
+    "aliases": [
+      "UPenn"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I79576946",
+      "ror": "https://ror.org/00b30xv10"
+    },
+    "mission": "Penn advances discovery and opportunity through intellectual rigor, broad learning, and service to society.",
+    "website_url": "https://www.upenn.edu/",
+    "mission_source_url": "https://www.upenn.edu/about",
+    "logo": null,
+    "review": [
+      "Official logo not verified for local use."
+    ]
+  },
+  {
+    "slug": "university-of-pittsburgh",
+    "name": "University of Pittsburgh",
+    "aliases": [],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I170201317",
+      "ror": "https://ror.org/01an3r305"
+    },
+    "mission": "Pitt advances learning through teaching, research, and public service that benefit Pennsylvania and the wider world.",
+    "website_url": "https://www.pitt.edu/",
+    "mission_source_url": "https://www.facultyhandbook.pitt.edu/university-mission-statement",
+    "logo": null,
+    "review": [
+      "Official logo not verified for local use."
+    ]
+  },
+  {
+    "slug": "university-of-southern-california",
+    "name": "University of Southern California",
+    "aliases": [
+      "USC"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I1174212",
+      "ror": "https://ror.org/03taz7m60"
+    },
+    "mission": "USC guides its community with unifying values that promote integrity, respect, accountability, diversity, and excellence.",
+    "website_url": "https://usc.edu/",
+    "mission_source_url": "https://www.usc.edu/we-are-usc/the-university/values/",
+    "logo": null,
+    "review": [
+      "Official logo not verified for local use."
+    ]
+  },
+  {
+    "slug": "university-of-utah",
+    "name": "University of Utah",
+    "aliases": [
+      "University of Deseret",
+      "UU"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I223532165",
+      "ror": "https://ror.org/03r0ha626"
+    },
+    "mission": "The University of Utah drives societal impact through education, discovery, and community engagement.",
+    "website_url": "https://www.utah.edu/",
+    "mission_source_url": "https://brand.utah.edu/branding/mission-vision-and-values/",
+    "logo": null,
+    "review": [
+      "Official logo not verified for local use."
+    ]
+  },
+  {
+    "slug": "university-of-washington",
+    "name": "University of Washington",
+    "aliases": [],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I201448701",
+      "ror": "https://ror.org/00cvxb145"
+    },
+    "mission": "The University of Washington preserves, advances, and disseminates knowledge while preparing diverse students to lead.",
+    "website_url": "https://www.washington.edu/",
+    "mission_source_url": "https://www.washington.edu/about/visionvalues/",
+    "logo": null,
+    "review": [
+      "Official logo not verified for local use."
+    ]
+  },
+  {
+    "slug": "university-of-wisconsinmadison",
+    "name": "University of Wisconsin–Madison",
+    "aliases": [
+      "UW–Madison"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I135310074",
+      "ror": "https://ror.org/01y2jtd41"
+    },
+    "mission": "The University of Wisconsin–Madison provides a learning environment where faculty, staff, and students discover, preserve, and transmit knowledge to improve life for all.",
+    "website_url": "https://www.wisc.edu/",
+    "mission_source_url": "https://www.wisc.edu/about/mission/",
+    "logo": null,
+    "review": [
+      "Official logo not verified for local use."
+    ]
+  },
+  {
+    "slug": "university-of-zurich",
+    "name": "University of Zurich",
+    "aliases": [
+      "UZH"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I202697423",
+      "ror": "https://ror.org/02crff812"
+    },
+    "mission": "UZH is a social space for free and open science and research grounded in academic freedom and responsibility.",
+    "website_url": "https://www.uzh.ch/de.html",
+    "mission_source_url": "https://www.students.uzh.ch/en/new/preparing/values.html",
+    "logo": null,
+    "review": [
+      "Official logo not verified for local use."
+    ]
+  },
+  {
+    "slug": "washington-university-in-st-louis",
+    "name": "Washington University in St. Louis",
+    "aliases": [
+      "Washington University in St Louis",
+      "WUSTL"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I204465549",
+      "ror": "https://ror.org/01yc7t268"
+    },
+    "mission": "WashU acts in service of truth through leadership formation, discovery, and patient care for the betterment of its region and the world.",
+    "website_url": "https://washu.edu/",
+    "mission_source_url": "https://washu.edu/about-washu/our-mission-and-vision/",
+    "logo": null,
+    "review": [
+      "Official logo not verified for local use."
+    ]
+  },
+  {
+    "slug": "weill-cornell-medicine",
+    "name": "Weill Cornell Medicine",
+    "aliases": [
+      "WCM"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I4387153466",
+      "ror": "https://ror.org/02r109517"
+    },
+    "mission": "Weill Cornell Medicine delivers exemplary care, groundbreaking discovery, and medical education rooted in putting patients first.",
+    "website_url": "https://weillcornell.org/",
+    "mission_source_url": "https://weillcornell.org/about_us",
+    "logo": null,
+    "review": [
+      "Official logo not verified for local use."
+    ]
+  },
+  {
+    "slug": "welthungerhilfe",
+    "name": "Welthungerhilfe",
+    "aliases": [
+      "Child Growth Monitor, Welthungerhilfe",
+      "WHH"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": null,
+      "ror": null
+    },
+    "mission": "Welthungerhilfe fights hunger and poverty by helping people help themselves.",
+    "website_url": "https://www.welthungerhilfe.org",
+    "mission_source_url": "https://www.welthungerhilfe.org/about-us/",
+    "logo": null,
+    "review": [
+      "Logo review needed: no official brand or usage rights page verified."
+    ]
+  },
+  {
+    "slug": "witness",
+    "name": "Witness",
+    "aliases": [],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I4210140258",
+      "ror": "https://ror.org/03hensb66"
+    },
+    "mission": "WITNESS helps people use video and audiovisual technology to document the truth and defend human rights.",
+    "website_url": "https://www.witness.org/",
+    "mission_source_url": "https://www.witness.org/about/",
+    "logo": null,
+    "review": [
+      "Official logo not verified for local use."
+    ]
+  },
+  {
+    "slug": "world-bank",
+    "name": "World Bank Group",
+    "aliases": [
+      "World Bank"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I1334329717",
+      "ror": "https://ror.org/00ae7jd04"
+    },
+    "mission": "The World Bank Group works to end extreme poverty and boost shared prosperity on a livable planet.",
+    "website_url": "https://www.worldbank.org/ext/en/home",
+    "mission_source_url": "https://www.worldbank.org/ext/en/who-we-are",
+    "logo": null,
+    "review": [
+      "Official logo not verified for local use."
+    ]
+  },
+  {
+    "slug": "yale-university",
+    "name": "Yale University",
+    "aliases": [
+      "Collegiate School",
+      "Yale College"
+    ],
+    "visibility": "public",
+    "external_ids": {
+      "openalex": "https://openalex.org/I32971472",
+      "ror": "https://ror.org/03v76x132"
+    },
+    "mission": "Yale creates, disseminates, and preserves knowledge through research and teaching.",
+    "website_url": "https://www.yale.edu/",
+    "mission_source_url": "https://www.yale.edu/mission-statement",
+    "logo": null,
+    "review": [
+      "Official logo not verified for local use."
+    ]
+  }
+]
