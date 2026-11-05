@@ -1,0 +1,229 @@
+start: 2016
+
+code:
+  - name: "wispr-cli"
+    url: "https://github.com/Akramz/wispr-cli"
+    desc: "Wispr Flow meetings & notes for agents."
+    public: "2026-11-05"
+    stars: 0
+    total: 2
+    last: "2026-11-05"
+    weeks: [["2026-11-05", 2]]
+  - name: "dotfiles"
+    url: "https://github.com/Akramz/dotfiles"
+    desc: "My OS + coding-agent setup."
+    public: "2026-10-17"
+    stars: 2
+    total: 45
+    last: "2026-11-05"
+    weeks: [["2026-10-17", 1], ["2026-10-19", 22], ["2026-10-26", 18], ["2026-11-02", 4]]
+  - name: "AI for (Public) Goods"
+    url: "/ai4g/"
+    desc: "Catalog of AI for public-good projects."
+    public: "2026-07-19"
+    stars: 0
+    total: 25
+    last: "2026-11-05"
+    weeks: [["2026-07-19", 14], ["2026-07-20", 5], ["2026-08-03", 3], ["2026-10-26", 1], ["2026-11-02", 2]]
+  - name: "PaPPI"
+    url: "https://github.com/microsoft/PaPPI"
+    desc: "Audit crop-map accuracy when field labels are biased."
+    public: "2026-10-07"
+    stars: 6
+    total: 12
+    last: "2026-11-03"
+    weeks: [["2026-10-26", 9], ["2026-11-02", 3]]
+  - name: "rice-irrigation-mapping-s1s2"
+    url: "https://github.com/microsoft/rice-irrigation-mapping-s1s2"
+    desc: "Rice irrigation mapping from Sentinel-1/2."
+    public: "2025-10-16"
+    stars: 13
+    total: 3
+    last: "2026-11-02"
+    weeks: [["2025-10-27", 1], ["2026-11-02", 2]]
+  - name: "pytorch-cloud-geotiff-optimization"
+    url: "https://github.com/microsoft/pytorch-cloud-geotiff-optimization"
+    desc: "Fast GPU training on cloud GeoTIFFs."
+    public: "2025-06-06"
+    stars: 60
+    total: 4
+    last: "2026-11-02"
+    weeks: [["2025-06-06", 1], ["2026-08-24", 1], ["2026-11-02", 2]]
+  - name: "nxmndr"
+    url: "https://github.com/microsoft/nxmndr"
+    desc: "Geospatial AI inference server."
+    public: "2026-03-26"
+    stars: 4
+    total: 9
+    last: "2026-11-02"
+    weeks: [["2026-03-26", 1], ["2026-10-05", 2], ["2026-10-12", 1], ["2026-10-19", 3], ["2026-11-02", 2]]
+  - name: "html-explain"
+    url: "https://github.com/Akramz/html-explain"
+    desc: "Explain systems as diagrams you annotate."
+    public: "2026-11-01"
+    stars: 2
+    total: 10
+    last: "2026-11-02"
+    weeks: [["2026-11-01", 9], ["2026-11-02", 1]]
+  - name: "template"
+    url: "https://github.com/Akramz/template"
+    desc: "Agent-ready Python research repos."
+    public: "2026-10-27"
+    stars: 1
+    total: 2
+    last: "2026-10-30"
+    weeks: [["2026-10-27", 2]]
+  - name: "mpc"
+    url: "https://github.com/Akramz/mpc"
+    desc: "Let AI agents read Planetary Computer data."
+    public: "2026-10-28"
+    stars: 1
+    total: 8
+    last: "2026-10-28"
+    weeks: [["2026-10-28", 8]]
+  - name: "ccai-food-security-tutorial"
+    url: "https://github.com/Akramz/ccai-food-security-tutorial"
+    desc: "Climate Change AI food-security tutorial."
+    public: "2026-07-14"
+    stars: 4
+    total: 5
+    last: "2026-09-07"
+    weeks: [["2026-07-14", 4], ["2026-09-07", 1]]
+  - name: "buildings"
+    url: "https://github.com/microsoft/buildings"
+    desc: "Global building density & height maps."
+    public: "2025-11-12"
+    stars: 85
+    total: 6
+    last: "2025-11-22"
+    weeks: [["2025-11-17", 6]]
+  - name: "Sims"
+    url: "https://github.com/microsoft/Sims"
+    desc: "Interactive geospatial feature discovery."
+    public: "2024-09-12"
+    stars: 51
+    total: 22
+    last: "2025-10-31"
+    weeks: [["2024-11-11", 2], ["2025-01-20", 14], ["2025-02-24", 2], ["2025-10-27", 4]]
+  - name: "AFRIC_GeoAI_workshop"
+    url: "https://github.com/Akramz/AFRIC_GeoAI_workshop"
+    desc: "AFRIC 2 GeoAI workshop notebooks."
+    public: "2025-06-04"
+    stars: 0
+    total: 4
+    last: "2025-06-08"
+    weeks: [["2025-06-04", 4]]
+  - name: "data-centric-satellite-segmentation"
+    url: "https://github.com/microsoft/data-centric-satellite-segmentation"
+    desc: "Sample EO training data under a budget."
+    public: "2025-03-19"
+    stars: 57
+    total: 1
+    last: "2025-04-10"
+    weeks: [["2025-04-07", 1]]
+  - name: "building-damage-assessment"
+    url: "https://github.com/microsoft/building-damage-assessment"
+    desc: "Map post-disaster damaged buildings."
+    public: "2024-09-30"
+    stars: 165
+    total: 1
+    last: "2024-10-31"
+    weeks: [["2024-10-28", 1]]
+  - name: "vllm-satim-labeling"
+    url: "https://github.com/GeoAIAfrica/vllm-satim-labeling"
+    desc: "Vision-LLM satellite labeling challenge."
+    public: "2024-08-23"
+    stars: 1
+    total: 9
+    last: "2024-09-06"
+    weeks: [["2024-08-23", 4], ["2024-08-26", 1], ["2024-09-02", 4]]
+  - name: "interactive_geospatial_mapping"
+    url: "https://github.com/GeoAIAfrica/interactive_geospatial_mapping"
+    desc: "AMLD 2024 geospatial workshop."
+    public: "2024-02-27"
+    stars: 21
+    total: 17
+    last: "2024-03-28"
+    weeks: [["2024-02-27", 13], ["2024-03-25", 4]]
+  - name: "indaba-pracs-2023"
+    url: "https://github.com/deep-learning-indaba/indaba-pracs-2023"
+    desc: "Deep Learning Indaba 2023 practicals."
+    public: "2023-06-15"
+    stars: 141
+    total: 12
+    last: "2023-09-07"
+    weeks: [["2023-08-07", 1], ["2023-08-14", 3], ["2023-09-04", 8]]
+  - name: "satellite-data-manipulation-for-ml"
+    url: "https://github.com/Akramz/satellite-data-manipulation-for-ml"
+    desc: "Tiles + polygons to a CV dataset."
+    public: "2023-04-22"
+    stars: 4
+    total: 4
+    last: "2023-04-22"
+    weeks: [["2023-04-22", 4]]
+  - name: "jupyter_plz"
+    url: "https://github.com/Akramz/jupyter_plz"
+    desc: "Copilot for Jupyter notebooks."
+    public: "2022-12-30"
+    stars: 29
+    total: 15
+    last: "2023-03-06"
+    weeks: [["2022-12-30", 1], ["2023-01-23", 2], ["2023-02-06", 8], ["2023-03-06", 4]]
+  - name: "end-to-end-gee"
+    url: "https://github.com/Akramz/end-to-end-gee"
+    desc: "End-to-end Google Earth Engine, in notebooks."
+    public: "2021-06-19"
+    stars: 78
+    total: 13
+    last: "2021-06-25"
+    weeks: [["2021-06-19", 4], ["2021-06-21", 9]]
+
+papers:
+  - title: "Sequence to Sequence Weather Forecasting with Long Short-Term Memory Recurrent Neural Networks"
+    citations: 420
+    venue: "IJCA"
+    kind: journal
+    date: "2016-06-01"
+    url: "/assets/papers/2016-weather-forecasting-lstms.pdf"
+  - title: "Satellite Imagery Noising with Generative Adversarial Networks"
+    citations: 6
+    venue: "IJCINI"
+    kind: journal
+    date: "2020-07-01"
+    url: "/assets/papers/2020-satellite-imagery-noising-gans.pdf"
+  - title: "Bootstrapping Rare Object Detection in High-Resolution Satellite Imagery"
+    citations: 0
+    venue: "ICLR workshop"
+    kind: workshop
+    date: "2024-03-05"
+    url: "/assets/papers/2024-labeling-rare-objects-satellite.pdf"
+  - title: "TEMPO: Global Temporal Building Density and Height Estimation from Satellite Imagery"
+    citations: 4
+    venue: "arXiv"
+    kind: preprint
+    date: "2025-11-15"
+    url: "/assets/papers/2025-detecting-buildings-3-months.pdf"
+  - title: "Core-Set Selection for Data-Efficient Land Cover Segmentation"
+    citations: 3
+    venue: "IEEE Access"
+    kind: journal
+    date: "2026-01-30"
+    url: "/assets/papers/2026-smaller-datasets-same-performance.pdf"
+  - title: "GeoAI Agency Primitives"
+    citations: 0
+    venue: "ICLR workshop"
+    kind: workshop
+    date: "2026-04-02"
+    url: "/assets/papers/2026-llm-tools-geospatial.pdf"
+  - title: "Survey Protocol Cards for Crop Maps"
+    citations: 0
+    venue: "IEEE GRSL"
+    kind: journal
+    date: "2026-07-03"
+    url: "/assets/papers/2026-survey-protocol-cards-crop-maps.pdf"
+  - title: "Crop Mapping Evaluation under Sampling Bias"
+    citations: 0
+    venue: "arXiv"
+    kind: preprint
+    date: "2026-10-31"
+    url: "/assets/papers/2026-crop-map-evaluation-sampling-bias.pdf"
