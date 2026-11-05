@@ -14,6 +14,7 @@ entries:
       - title: "<a href='https://github.com/microsoft/data-centric-satellite-segmentation' target='_blank'>Dataset sampling strategies for EO training under budget.</a>"
       - title: "<a href='https://github.com/microsoft/pytorch-cloud-geotiff-optimization' target='_blank'>Improve your GPU usage when training on satellite imagery</a>"
       - title: "<a href='https://github.com/microsoft/PaPPI' target='_blank'>Audit crop-map accuracy when field labels are biased.</a>"
+      - title: "Daily tools: <a href='https://github.com/Akramz/dotfiles' target='_blank'>dotfiles</a> (agent setup), <a href='https://github.com/Akramz/template' target='_blank'>template</a> (research repos), <a href='https://github.com/Akramz/mpc' target='_blank'>mpc</a> (satellite data)."
 
   - title: research
     entries:
