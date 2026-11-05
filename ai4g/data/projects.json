@@ -58,10 +58,10 @@
     },
     "metrics": {
       "stars": 14,
-      "citations": 0,
+      "citations": 1,
       "downloads": null,
       "mentions": 5,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-09-07T11:53:40Z"
     }
   },
   {
@@ -126,11 +126,11 @@
       }
     ],
     "metrics": {
-      "stars": 156,
+      "stars": 164,
       "citations": null,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-27T09:56:08Z"
+      "updated_at": "2026-11-02T15:01:54Z"
     }
   },
   {
@@ -189,10 +189,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 5,
+      "citations": 7,
       "downloads": null,
       "mentions": 3,
-      "updated_at": "2026-07-27T09:56:08Z"
+      "updated_at": "2026-09-14T12:09:16Z"
     }
   },
   {
@@ -253,11 +253,11 @@
       }
     ],
     "metrics": {
-      "stars": 170,
+      "stars": 178,
       "citations": null,
       "downloads": null,
       "mentions": 9,
-      "updated_at": "2026-07-20T09:18:51Z"
+      "updated_at": "2026-10-26T12:28:05Z"
     }
   },
   {
@@ -319,11 +319,11 @@
       }
     },
     "metrics": {
-      "stars": 64,
-      "citations": 48,
-      "downloads": 465875,
+      "stars": 72,
+      "citations": 80,
+      "downloads": 637415,
       "mentions": 1,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-11-02T15:01:54Z"
     }
   },
   {
@@ -390,11 +390,11 @@
       }
     },
     "metrics": {
-      "stars": 52,
+      "stars": 71,
       "citations": null,
       "downloads": null,
       "mentions": 4,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-11-02T15:01:54Z"
     }
   },
   {
@@ -452,11 +452,11 @@
       }
     },
     "metrics": {
-      "stars": 160,
+      "stars": 165,
       "citations": null,
       "downloads": null,
       "mentions": 3,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-10-12T14:45:21Z"
     }
   },
   {
@@ -513,11 +513,11 @@
       }
     ],
     "metrics": {
-      "stars": 81,
+      "stars": 85,
       "citations": null,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-10-12T14:45:21Z"
     }
   },
   {
@@ -580,11 +580,11 @@
       }
     ],
     "metrics": {
-      "stars": 4128,
-      "citations": 54,
+      "stars": 4224,
+      "citations": 57,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-11-02T15:01:54Z"
     }
   },
   {
@@ -628,10 +628,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 57,
+      "citations": 58,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-11-02T15:01:54Z"
     }
   },
   {
@@ -827,10 +827,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 14,
+      "citations": 23,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-10-19T12:30:20Z"
     }
   },
   {
@@ -908,11 +908,11 @@
       "scale": "individual"
     },
     "metrics": {
-      "stars": 5,
-      "citations": 36,
+      "stars": 6,
+      "citations": 34,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-10-12T14:45:21Z"
     }
   },
   {
@@ -1052,10 +1052,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 0,
+      "citations": 1,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-10-26T12:28:05Z"
     }
   },
   {
@@ -1106,11 +1106,11 @@
       "scale": "tissue"
     },
     "metrics": {
-      "stars": 4,
-      "citations": 40,
+      "stars": 5,
+      "citations": 42,
       "downloads": null,
       "mentions": null,
-      "updated_at": "2026-07-19T02:11:21Z"
+      "updated_at": "2026-10-12T14:45:21Z"
     }
   },
   {
@@ -1148,11 +1148,11 @@
       }
     ],
     "metrics": {
-      "stars": 43,
+      "stars": 46,
       "citations": null,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-20T09:18:51Z"
+      "updated_at": "2026-09-28T13:14:02Z"
     }
   },
   {
@@ -1264,11 +1264,11 @@
       ]
     },
     "metrics": {
-      "stars": 44,
-      "citations": 98,
+      "stars": 45,
+      "citations": 101,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-10-12T14:45:21Z"
     }
   },
   {
@@ -1318,10 +1318,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 2,
+      "citations": 3,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-08-17T06:59:04Z"
     }
   },
   {
@@ -1446,11 +1446,11 @@
       ]
     },
     "metrics": {
-      "stars": 38,
-      "citations": 26,
+      "stars": 41,
+      "citations": 29,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-10-12T14:45:21Z"
     }
   },
   {
@@ -1507,7 +1507,7 @@
       "citations": 189,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-10-19T12:30:20Z"
     }
   },
   {
@@ -1611,10 +1611,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 8,
+      "citations": 7,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T02:49:36Z"
+      "updated_at": "2026-10-12T14:45:21Z"
     }
   },
   {
@@ -1663,10 +1663,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 2,
+      "citations": 4,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-09-14T12:09:16Z"
     }
   },
   {
@@ -1740,10 +1740,10 @@
     },
     "metrics": {
       "stars": 14,
-      "citations": 15,
+      "citations": 19,
       "downloads": null,
       "mentions": 4,
-      "updated_at": "2026-07-27T09:56:08Z"
+      "updated_at": "2026-10-26T12:28:05Z"
     }
   },
   {
@@ -1790,10 +1790,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 9,
+      "citations": 18,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-27T09:56:08Z"
+      "updated_at": "2026-10-19T12:30:20Z"
     }
   },
   {
@@ -1846,11 +1846,11 @@
       ]
     },
     "metrics": {
-      "stars": 16,
+      "stars": 20,
       "citations": 0,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-27T09:56:08Z"
+      "updated_at": "2026-10-19T12:30:20Z"
     }
   },
   {
@@ -2000,11 +2000,11 @@
       ]
     },
     "metrics": {
-      "stars": 21,
-      "citations": 150,
+      "stars": 22,
+      "citations": 133,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-10-26T12:28:05Z"
     }
   },
   {
@@ -2047,10 +2047,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 0,
+      "citations": 1,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-10-26T12:28:05Z"
     }
   },
   {
@@ -2092,11 +2092,11 @@
       }
     ],
     "metrics": {
-      "stars": 6,
+      "stars": 7,
       "citations": null,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-10-26T12:28:05Z"
     }
   },
   {
@@ -2156,11 +2156,11 @@
       "scale": "organ"
     },
     "metrics": {
-      "stars": 25,
+      "stars": 26,
       "citations": 28,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-27T09:56:08Z"
+      "updated_at": "2026-11-02T15:01:54Z"
     }
   },
   {
@@ -2277,10 +2277,10 @@
     ],
     "metrics": {
       "stars": null,
-      "citations": 6,
+      "citations": 7,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-08-24T07:02:17Z"
     }
   },
   {
@@ -2361,10 +2361,10 @@
     ],
     "metrics": {
       "stars": null,
-      "citations": null,
+      "citations": 4,
       "downloads": null,
       "mentions": 2,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-08-17T06:59:04Z"
     }
   },
   {
@@ -2421,11 +2421,11 @@
       "scale": "molecular"
     },
     "metrics": {
-      "stars": 48,
-      "citations": 83,
+      "stars": 47,
+      "citations": 85,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-10-19T12:30:20Z"
     }
   },
   {
@@ -2470,11 +2470,11 @@
       }
     ],
     "metrics": {
-      "stars": 77,
-      "citations": 19,
+      "stars": 79,
+      "citations": 21,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-11-02T15:01:54Z"
     }
   },
   {
@@ -2589,10 +2589,10 @@
     },
     "metrics": {
       "stars": 7,
-      "citations": 34,
+      "citations": 35,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-27T09:56:08Z"
+      "updated_at": "2026-10-26T12:28:05Z"
     }
   },
   {
@@ -2668,11 +2668,11 @@
       }
     ],
     "metrics": {
-      "stars": 34,
+      "stars": 36,
       "citations": null,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-09-28T13:14:02Z"
     }
   },
   {
@@ -2773,10 +2773,10 @@
     },
     "metrics": {
       "stars": 4,
-      "citations": 43,
+      "citations": 44,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-27T09:56:08Z"
+      "updated_at": "2026-10-12T14:45:21Z"
     }
   },
   {
@@ -2857,10 +2857,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 0,
+      "citations": 1,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-10-26T12:28:05Z"
     }
   },
   {
@@ -2925,10 +2925,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 6,
+      "citations": 16,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-07-20T09:18:51Z"
+      "updated_at": "2026-11-02T15:01:54Z"
     }
   },
   {
@@ -2985,10 +2985,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 8,
+      "citations": 10,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-10-12T14:45:21Z"
     }
   },
   {
@@ -3044,11 +3044,11 @@
       }
     },
     "metrics": {
-      "stars": 294,
+      "stars": 296,
       "citations": null,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-10-12T14:45:21Z"
     }
   },
   {
@@ -3235,10 +3235,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 20,
+      "citations": 25,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-27T09:56:08Z"
+      "updated_at": "2026-10-26T12:28:05Z"
     }
   },
   {
@@ -3280,7 +3280,7 @@
       "citations": 8,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-11-02T15:01:54Z"
     }
   },
   {
@@ -3330,10 +3330,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 35,
+      "citations": 36,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-10-12T14:45:21Z"
     }
   },
   {
@@ -3410,11 +3410,11 @@
       }
     ],
     "metrics": {
-      "stars": 82,
+      "stars": 84,
       "citations": null,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-09-28T13:14:02Z"
     }
   },
   {
@@ -3458,10 +3458,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 0,
+      "citations": 1,
       "downloads": null,
       "mentions": 10,
-      "updated_at": "2026-07-19T03:21:47Z"
+      "updated_at": "2026-09-14T12:09:16Z"
     }
   },
   {
@@ -3517,11 +3517,11 @@
       "scale": "individual"
     },
     "metrics": {
-      "stars": 84,
+      "stars": 83,
       "citations": null,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-08-10T07:45:52Z"
     }
   },
   {
@@ -3575,11 +3575,11 @@
       }
     },
     "metrics": {
-      "stars": 1,
+      "stars": 2,
       "citations": 0,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-07-19T03:28:24Z"
+      "updated_at": "2026-10-05T13:56:35Z"
     }
   },
   {
@@ -3731,7 +3731,7 @@
       "citations": 3,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-27T09:56:08Z"
+      "updated_at": "2026-10-26T12:28:05Z"
     }
   },
   {
@@ -3847,10 +3847,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 33,
+      "citations": 42,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-10-26T12:28:05Z"
     }
   },
   {
@@ -3945,10 +3945,10 @@
     ],
     "metrics": {
       "stars": null,
-      "citations": 8,
+      "citations": 13,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-11-02T15:01:54Z"
     }
   },
   {
@@ -3992,10 +3992,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 5,
+      "citations": 6,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-11-02T15:01:54Z"
     }
   },
   {
@@ -4134,10 +4134,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 4,
+      "citations": 5,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-11-02T15:01:54Z"
     }
   },
   {
@@ -4234,11 +4234,11 @@
       }
     },
     "metrics": {
-      "stars": 44,
+      "stars": 45,
       "citations": null,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-10-12T14:45:21Z"
     }
   },
   {
@@ -4301,10 +4301,10 @@
     },
     "metrics": {
       "stars": 0,
-      "citations": 0,
+      "citations": 2,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-09-28T13:14:02Z"
     }
   },
   {
@@ -4405,10 +4405,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 7,
+      "citations": 10,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-11-02T15:01:54Z"
     }
   },
   {
@@ -4528,7 +4528,7 @@
       "citations": 3,
       "downloads": null,
       "mentions": null,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-10-26T12:28:05Z"
     }
   },
   {
@@ -4606,10 +4606,10 @@
     },
     "metrics": {
       "stars": 3,
-      "citations": 7,
+      "citations": 10,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-10-12T14:45:21Z"
     }
   },
   {
@@ -4662,11 +4662,11 @@
       }
     },
     "metrics": {
-      "stars": 38,
+      "stars": 39,
       "citations": null,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-10-05T13:56:35Z"
     }
   },
   {
@@ -4722,10 +4722,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 1,
+      "citations": 2,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-08-17T06:59:04Z"
     }
   },
   {
@@ -4780,10 +4780,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 1,
+      "citations": 3,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-10-26T12:28:05Z"
     }
   },
   {
@@ -4838,10 +4838,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 15,
+      "citations": 16,
       "downloads": null,
       "mentions": 9,
-      "updated_at": "2026-07-19T02:49:36Z"
+      "updated_at": "2026-09-07T11:53:40Z"
     }
   },
   {
@@ -4958,11 +4958,11 @@
       }
     ],
     "metrics": {
-      "stars": 20,
+      "stars": 25,
       "citations": 0,
       "downloads": null,
       "mentions": 2,
-      "updated_at": "2026-07-27T09:56:08Z"
+      "updated_at": "2026-11-02T15:01:54Z"
     }
   },
   {
@@ -5007,7 +5007,7 @@
       "citations": 15,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-20T09:18:51Z"
+      "updated_at": "2026-10-19T12:30:20Z"
     }
   },
   {
@@ -5062,10 +5062,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 15,
+      "citations": 19,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-27T09:56:08Z"
+      "updated_at": "2026-10-26T12:28:05Z"
     }
   },
   {
@@ -5200,10 +5200,10 @@
     ],
     "metrics": {
       "stars": null,
-      "citations": 10,
+      "citations": 21,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-10-19T12:30:20Z"
     }
   },
   {
@@ -5262,11 +5262,11 @@
       ]
     },
     "metrics": {
-      "stars": 50,
-      "citations": 94,
+      "stars": 52,
+      "citations": 106,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-11-02T15:01:54Z"
     }
   },
   {
@@ -5302,11 +5302,11 @@
       }
     ],
     "metrics": {
-      "stars": 33,
+      "stars": 34,
       "citations": null,
       "downloads": null,
       "mentions": 3,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-10-05T13:56:35Z"
     }
   },
   {
@@ -5392,11 +5392,11 @@
       }
     ],
     "metrics": {
-      "stars": 59,
+      "stars": 60,
       "citations": null,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-10-05T13:56:35Z"
     }
   },
   {
@@ -5450,11 +5450,11 @@
       ]
     },
     "metrics": {
-      "stars": 16,
+      "stars": 20,
       "citations": 0,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-27T09:56:08Z"
+      "updated_at": "2026-10-19T12:30:20Z"
     }
   },
   {
@@ -5508,11 +5508,11 @@
       ]
     },
     "metrics": {
-      "stars": 16,
+      "stars": 20,
       "citations": null,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-27T09:56:08Z"
+      "updated_at": "2026-10-19T12:30:20Z"
     }
   },
   {
@@ -5633,11 +5633,11 @@
       "scale": "molecular"
     },
     "metrics": {
-      "stars": 101,
-      "citations": 211,
+      "stars": 102,
+      "citations": 219,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-11-02T15:01:54Z"
     }
   },
   {
@@ -5692,11 +5692,11 @@
       }
     },
     "metrics": {
-      "stars": 38,
+      "stars": 39,
       "citations": 1,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-10-05T13:56:35Z"
     }
   },
   {
@@ -5823,11 +5823,11 @@
       }
     ],
     "metrics": {
-      "stars": 36,
-      "citations": 37,
+      "stars": 37,
+      "citations": 38,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-10-05T13:56:35Z"
     }
   },
   {
@@ -6045,11 +6045,11 @@
       ]
     },
     "metrics": {
-      "stars": 11,
+      "stars": 17,
       "citations": null,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T03:28:24Z"
+      "updated_at": "2026-10-19T12:30:20Z"
     }
   },
   {
@@ -6161,10 +6161,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 6,
+      "citations": 5,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-10-26T12:28:05Z"
     }
   },
   {
@@ -6268,10 +6268,10 @@
     },
     "metrics": {
       "stars": 46,
-      "citations": 20,
+      "citations": 47,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-10-19T12:30:20Z"
     }
   },
   {
@@ -6384,11 +6384,11 @@
       }
     ],
     "metrics": {
-      "stars": 19,
+      "stars": 18,
       "citations": null,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-08-24T07:02:17Z"
     }
   },
   {
@@ -6443,10 +6443,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 11,
+      "citations": 12,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-07-27T09:56:08Z"
+      "updated_at": "2026-08-24T07:02:17Z"
     }
   },
   {
@@ -6495,10 +6495,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 2,
+      "citations": 1,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-07-19T03:21:47Z"
+      "updated_at": "2026-10-26T12:28:05Z"
     }
   },
   {
@@ -6589,10 +6589,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 7,
+      "citations": 8,
       "downloads": null,
       "mentions": null,
-      "updated_at": "2026-07-19T02:11:21Z"
+      "updated_at": "2026-10-26T12:28:05Z"
     }
   },
   {
@@ -6755,11 +6755,11 @@
       }
     },
     "metrics": {
-      "stars": 75,
+      "stars": 77,
       "citations": null,
-      "downloads": 1288,
+      "downloads": 2770,
       "mentions": 2,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-11-02T15:01:54Z"
     }
   },
   {
@@ -6875,11 +6875,11 @@
       }
     },
     "metrics": {
-      "stars": 50,
+      "stars": 51,
       "citations": null,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-09-28T13:14:02Z"
     }
   },
   {
@@ -6949,10 +6949,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 21,
+      "citations": 22,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-11-02T15:01:54Z"
     }
   },
   {
@@ -7103,11 +7103,11 @@
       }
     },
     "metrics": {
-      "stars": 22,
+      "stars": 23,
       "citations": null,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T02:36:22Z"
+      "updated_at": "2026-10-05T13:56:35Z"
     }
   },
   {
@@ -7156,10 +7156,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 20,
+      "citations": 29,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T02:49:36Z"
+      "updated_at": "2026-10-19T12:30:20Z"
     }
   },
   {
@@ -7205,7 +7205,7 @@
       "citations": 6,
       "downloads": null,
       "mentions": 1,
-      "updated_at": "2026-08-03T09:50:18Z"
+      "updated_at": "2026-10-12T14:45:21Z"
     }
   },
   {
@@ -7296,11 +7296,11 @@
       }
     },
     "metrics": {
-      "stars": 149,
+      "stars": 150,
       "citations": null,
       "downloads": null,
       "mentions": 3,
-      "updated_at": "2026-07-27T09:56:08Z"
+      "updated_at": "2026-10-05T13:56:35Z"
     }
   },
   {
@@ -7347,7 +7347,7 @@
       "citations": 5,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-20T09:18:51Z"
+      "updated_at": "2026-10-12T14:45:21Z"
     }
   },
   {
@@ -7473,10 +7473,10 @@
     },
     "metrics": {
       "stars": null,
-      "citations": 17,
+      "citations": 14,
       "downloads": null,
       "mentions": 0,
-      "updated_at": "2026-07-19T03:21:47Z"
+      "updated_at": "2026-10-19T12:30:20Z"
     }
   },
   {
