@@ -19,7 +19,7 @@ permalink: /
   a { color: inherit; text-decoration: none; }
   .wrap { max-width: 1480px; margin: 0 auto; padding: 32px 28px; }
   .scroll { overflow-x: auto; }
-  .inner { min-width: 900px; padding: 0 90px 0 24px; }
+  .inner { position: relative; min-width: 900px; padding: 0 90px 0 24px; }
   header { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; padding: 0 0 12px 24px; }
   header h1 { margin: 0; font: bold 24px/1.25 Verdana, sans-serif; }
   header h1 a { color: #222; }
@@ -28,7 +28,7 @@ permalink: /
   #q { width: 360px; font: inherit; font-size: 14px; padding: 7px 12px; border: 1px solid #ccc; border-radius: 6px; outline: none; }
   #q:focus { border-color: var(--fg); }
   .row[hidden], .row.cut { display: none; }
-  #more { display: block; margin: 4px 0 0; padding: 0; border: 0; background: none; font: inherit; font-size: 13px; color: var(--muted); cursor: pointer; }
+  #more { margin: 4px 0 0; padding: 0; border: 0; background: none; font: inherit; font-size: 13px; color: var(--muted); cursor: pointer; }
   #more:hover { color: var(--fg); text-decoration: underline; }
 
   .track { position: relative; }
@@ -62,7 +62,13 @@ permalink: /
   h2 .sq { position: static; display: inline-block; vertical-align: -1px; margin: 0 1px; }
   .l0 { background: #ebedf0; } .l1 { background: #9be9a8; } .l2 { background: #40c463; } .l3 { background: #30a14e; } .l4 { background: #216e39; }
   .icon { bottom: 2px; transform: translateX(-50%); font-size: 12px; line-height: 1; }
-  .label { position: absolute; top: 0; white-space: nowrap; font-size: 13px; line-height: 16px; }
+  .label { position: absolute; top: 13px; z-index: 1; white-space: nowrap; font-size: 13px; line-height: 16px; background: #fff; padding-right: 8px;
+           overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; }
+
+  .axis .track { cursor: crosshair; touch-action: pan-y; user-select: none; }
+  #band { position: absolute; top: 0; bottom: 0; z-index: 2; pointer-events: none; background: rgba(9,105,218,.06);
+          border: 1px dashed rgba(9,105,218,.5); border-width: 0 1px; }
+  #band span { position: sticky; top: 4px; display: block; text-align: center; font-size: 12px; color: #0969da; white-space: nowrap; }
   .label em { color: var(--muted); font-style: normal; }
   .track > :nth-child(1 of .row) .label { color: inherit; font-weight: bold; }
   .track > :nth-child(1 of .row) .label em { font-weight: normal; }
@@ -81,7 +87,7 @@ permalink: /
     .time { display: none; }
     h2 small { display: block; margin: 2px 0 0; }
     .row { height: auto; }
-    .label { position: static; display: block; white-space: normal; padding-bottom: 14px; }
+    .label { position: static; display: block; white-space: normal; padding: 0 0 14px; }
   }
 </style>
 </head>
@@ -96,6 +102,7 @@ permalink: /
       <span class="now">now</span>
       <span class="time">time</span>
     </div></div>
+    <div id="band" hidden><span></span></div>
 
     {%- assign code = d.code | sort: "last" | reverse -%}{%- assign total = 0 -%}
     {%- for p in code -%}{%- assign total = total | plus: p.total -%}{%- endfor -%}
@@ -152,7 +159,7 @@ permalink: /
 {%-if site.goat_counter and jekyll.environment == "production"-%}{%-include goat_counter.html-%}{%-endif-%}
 <script>
   const now = Date.now(), t0 = Date.UTC({{ d.start }}, 0, 1);
-  const x = t => 100 * (1 - Math.pow(Math.max(0, now - t) / (now - t0), 0.55));
+  const K = 0.55, x = t => 100 * (1 - Math.pow(Math.max(0, now - t) / (now - t0), K));
   for (const e of document.querySelectorAll("[data-d]")) e.style.setProperty("--x", x(Date.parse(e.dataset.d)));
 
   const WEEK = 7 * 864e5, PITCH = 13, codeTrack = document.querySelector("#code .track");
@@ -172,7 +179,7 @@ permalink: /
         for (let i = Math.max(0, Math.floor(cell(a))); i < end; i++) v[i] = Math.max(v[i], c);
       }
       let html = "";
-      for (let i = v.findIndex(Boolean), last = v.findLastIndex(Boolean); i >= 0 && i <= last; i++)
+      for (let i = v.findIndex(Boolean); i >= 0 && i < n; i++)
         html += `<i class="sq l${level(v[i])}" style="left:${left + i * PITCH + 1.5}px"></i>`;
       r.insertAdjacentHTML("beforeend", html);
     }
@@ -188,20 +195,51 @@ permalink: /
   }
 
   const q = document.getElementById("q"), rows = [...document.querySelectorAll(".row")];
-  q.addEventListener("input", () => {
+  const span = (d, len) => { const a = Date.parse(d); return [a, a + len]; };
+  const dates = new Map(rows.map(r => [r, weeks.has(r)
+    ? weeks.get(r).filter(w => w[1]).map(w => span(w[0], WEEK))
+    : [...r.querySelectorAll(".icon")].map(e => span(e.dataset.d, 864e5))]));
+  const texts = new Map(rows.map(r => [r, (r.textContent + " " + r.title).toLowerCase()]));
+  let range = null;
+  function filter() {
     const terms = q.value.toLowerCase().split(/\s+/).filter(Boolean);
-    for (const r of rows) {
-      const text = (r.textContent + " " + r.title).toLowerCase();
-      r.hidden = !terms.every(t => text.includes(t));
-    }
+    for (const r of rows)
+      r.hidden = !terms.every(t => texts.get(r).includes(t)) || range && !dates.get(r).some(([a, b]) => a < range[1] && b > range[0]);
     fit();
+  }
+  q.addEventListener("input", filter);
+
+  const axis = document.querySelector(".axis .track"), band = document.getElementById("band"), inner = document.querySelector(".inner");
+  const time = px => now - (now - t0) * Math.pow(1 - Math.min(1, Math.max(0, px / axis.clientWidth)), 1 / K);
+  const ym = t => new Date(t + 15 * 864e5).toISOString().slice(0, 7);
+  let drag = null, axisLeft = 0;
+  function draw(a, b) {
+    const l = Math.max(0, Math.min(a, b)), r = Math.min(axis.clientWidth, Math.max(a, b)), tl = time(l), tr = time(r);
+    const off = axis.getBoundingClientRect().left - inner.getBoundingClientRect().left;
+    Object.assign(band.style, { left: off + l + "px", width: r - l + "px" });
+    band.firstChild.textContent = `${ym(tl)} – ${ym(tr)}`;
+    band.hidden = false;
+    return [tl, tr];
+  }
+  function clear() { if (!range) return; range = null; band.hidden = true; filter(); }
+  axis.addEventListener("pointerdown", e => {
+    if (e.button) return;
+    axis.setPointerCapture(e.pointerId);
+    axisLeft = axis.getBoundingClientRect().left;
+    drag = e.clientX - axisLeft;
   });
+  axis.addEventListener("pointermove", e => {
+    const px = e.clientX - axisLeft;
+    if (drag !== null && Math.abs(px - drag) > 3) range = draw(drag, px), filter();
+  });
+  axis.addEventListener("pointerup", () => drag = null);
+  document.addEventListener("pointerdown", e => { if (!e.target.closest("a, input, button")) clear(); });
 
   const codeRows = [...document.querySelectorAll("#code .row")], more = document.getElementById("more");
   let expanded = false;
   function fit() {
     for (const r of codeRows) r.classList.remove("cut");
-    more.hidden = !!q.value.trim();
+    more.hidden = q.value.trim() || range;
     if (more.hidden) return;
     more.textContent ||= "…";
     const de = document.documentElement;
@@ -216,6 +254,17 @@ permalink: /
   function layout() {
     thin(ys.slice(1).reverse(), nowLabel.getBoundingClientRect().left, ys[0].getBoundingClientRect().right + 8);
     for (const r of document.querySelectorAll("#blog .row")) thin(r.querySelectorAll(".icon"));
+    for (const r of document.querySelectorAll("#papers .row, #blog .row")) {
+      const l = r.querySelector(".label"), icons = [...r.querySelectorAll(".icon")];
+      l.style.left = l.style.maxWidth = "";
+      if (getComputedStyle(l).position === "static") continue;
+      const first = Math.min(...icons.map(e => e.offsetLeft - e.offsetWidth / 2));
+      const last = Math.max(...icons.map(e => e.offsetLeft + e.offsetWidth / 2)) + 10, room = r.clientWidth - last;
+      if (l.offsetWidth <= first) continue;
+      if (room > first) l.style.left = last + "px";
+      l.style.maxWidth = Math.max(first, room) + "px";
+    }
+    if (range) draw(...range.map(t => x(t) * axis.clientWidth / 100));
     fit();
   }
   addEventListener("resize", layout);
@@ -223,6 +272,7 @@ permalink: /
   addEventListener("keydown", e => {
     if (e.key === "/" && document.activeElement !== q) { e.preventDefault(); q.focus(); }
     else if (e.key === "Escape" && document.activeElement === q) { q.value = ""; q.dispatchEvent(new Event("input")); q.blur(); }
+    else if (e.key === "Escape") clear();
   });
   const s = document.querySelector(".scroll");
   s.scrollLeft = s.scrollWidth;
