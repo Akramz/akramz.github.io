@@ -14,7 +14,7 @@ permalink: /
 {%-seo title=false-%}
 <link rel="icon" type="image/svg+xml" href="{{ "/assets/favicon.svg" | relative_url }}">
 <style>
-  :root { --fg: #111; --muted: #888; --line: #eee; --code: #0b6bcb; --papers: #d6336c; --blog: #e67700; }
+  :root { --fg: #111; --muted: #888; --line: #eee; --code: #1a7f37; --papers: #d6336c; --blog: #e67700; }
   body { margin: 0; background: #fff; color: var(--fg); font: 15px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; }
   a { color: inherit; text-decoration: none; }
   .wrap { max-width: 1480px; margin: 0 auto; padding: 32px 28px; }
@@ -58,13 +58,10 @@ permalink: /
   .row { display: block; position: relative; height: 30px; }
   .row:hover .label { text-decoration: underline; }
   .row::before { content: ""; position: absolute; left: 0; right: 0; bottom: 9px; height: 1px; background: var(--line); }
-  .life { bottom: 9px; height: 1px; right: 0; background: currentColor; opacity: .6; }
-  .span { bottom: 9px; height: 2px; width: calc((var(--x2) - var(--x)) * 1%); background: currentColor; opacity: .5; }
-  .mark { bottom: 5px; width: 10px; height: 10px; margin-left: -5px; background: currentColor; box-sizing: border-box; }
-  .diamond { transform: rotate(45deg); }
-  .hollow { background: #fff; border: 1.5px solid currentColor; }
-  .ring { border-radius: 50%; }
-  .bar { bottom: 10px; height: calc(min(var(--h), 13) * 1px + 3px); width: 3px; margin-left: -1px; background: currentColor; }
+  .sq { position: absolute; bottom: 4px; width: 10px; height: 10px; border-radius: 2px; outline: 1px solid rgba(27,31,36,.06); outline-offset: -1px; }
+  h2 .sq { position: static; display: inline-block; vertical-align: -1px; margin: 0 1px; }
+  .l0 { background: #ebedf0; } .l1 { background: #9be9a8; } .l2 { background: #40c463; } .l3 { background: #30a14e; } .l4 { background: #216e39; }
+  .icon { bottom: 2px; transform: translateX(-50%); font-size: 12px; line-height: 1; }
   .label { position: absolute; top: 0; white-space: nowrap; font-size: 13px; line-height: 16px; }
   .label em { color: var(--muted); font-style: normal; }
   .track > :nth-child(1 of .row) .label { color: inherit; font-weight: bold; }
@@ -103,14 +100,11 @@ permalink: /
     {%- assign code = d.code | sort: "last" | reverse -%}{%- assign total = 0 -%}
     {%- for p in code -%}{%- assign total = total | plus: p.total -%}{%- endfor -%}
     <section id="code">
-      <h2>Code<small>{{ d.code.size }} projects · {{ total }} contributions · newest activity first · ◆ made public ▮ contributions per week</small></h2>
+      <h2>Code<small>{{ d.code.size }} projects · {{ total }} contributions · newest activity first · weekly contributions: less <i class="sq l0"></i><i class="sq l1"></i><i class="sq l2"></i><i class="sq l3"></i><i class="sq l4"></i> more</small></h2>
       <div class="track">{{ grid }}
         {%- for p in code -%}
-        <a class="row" href="{{ p.url }}" target="_blank" title="{{ p.desc }}&#10;public {{ p.public }} · last commit {{ p.last }} · {{ p.total }} contributions">
+        <a class="row" href="{{ p.url }}" target="_blank" title="{{ p.desc }}&#10;public {{ p.public }} · last commit {{ p.last }} · {{ p.total }} contributions" data-weeks="{{ p.weeks | jsonify | escape }}">
           <span class="label">{{ p.name }}{% if p.stars > 0 %} <em>★ {{ p.stars }}</em>{% endif %}</span>
-          <span class="span" data-d="{{ p.public }}" data-e="{{ p.weeks.last[0] }}"></span>
-          {%- for w in p.weeks -%}<i class="bar" data-d="{{ w[0] }}" style="--h:{{ w[1] }}" title="week of {{ w[0] }}: {{ w[1] }} contributions"></i>{%- endfor -%}
-          <span class="mark diamond" data-d="{{ p.public }}"></span>
         </a>
         {%- endfor -%}
       </div>
@@ -120,13 +114,12 @@ permalink: /
     {%- assign papers = d.papers | sort: "date" | reverse -%}{%- assign cites = 0 -%}
     {%- for p in papers -%}{%- assign cites = cites | plus: p.citations -%}{%- endfor -%}
     <section id="papers">
-      <h2>Papers<small>{{ d.papers.size }} papers · {{ cites }} citations (Google Scholar) · ■ journal □ workshop ○ preprint</small></h2>
+      <h2>Papers<small>{{ d.papers.size }} papers · {{ cites }} citations (Google Scholar) · 🎉 published</small></h2>
       <div class="track">{{ grid }}
         {%- for p in papers -%}
         <a class="row" href="{{ p.url }}" target="_blank" title="{{ p.venue }} · {{ p.date | slice: 0, 7 }}">
           <span class="label">{{ p.title }} <em>{{ p.venue }} · {{ p.date | slice: 0, 4 }}{% if p.citations > 0 %} · {{ p.citations }} citations{% endif %}</em></span>
-          <span class="life" data-d="{{ p.date }}"></span>
-          <span class="mark{% if p.kind != 'journal' %} hollow{% endif %}{% if p.kind == 'preprint' %} ring{% endif %}" data-d="{{ p.date }}"></span>
+          <span class="icon" data-d="{{ p.date }}">🎉</span>
         </a>
         {%- endfor -%}
       </div>
@@ -135,22 +128,19 @@ permalink: /
     {%- assign reads = site.posts | where_exp: "p", "p.title contains 'Weekly reads'" -%}
     {%- assign r0 = reads.last.date | date: "%Y-%m-%d" -%}
     <section id="blog">
-      <h2>Blog<small>{{ site.posts.size }} posts · ▮ weekly reads (height = length)</small></h2>
+      <h2>Blog<small>{{ site.posts.size }} posts · 📖 post</small></h2>
       <div class="track">{{ grid }}
         {%- for p in site.posts -%}
         {%- if p.title contains 'Weekly reads' -%}{%- if p.url == reads.first.url -%}
         <div class="row">
           <a class="label" href="{{ '/archive.html' | relative_url }}">Weekly reads <em>×{{ reads.size }} · {{ r0 | slice: 0, 4 }}</em></a>
-          <span class="life" data-d="{{ r0 }}"></span>
-          {%- for q in reads -%}<a class="bar" href="{{ q.url | relative_url }}" data-d="{{ q.date | date: '%Y-%m-%d' }}" style="--h:{{ q.content | number_of_words | divided_by: 80 }}" title="{{ q.title }} · {{ q.date | date: '%Y-%m-%d' }}"></a>{%- endfor -%}
-          <span class="mark ring" data-d="{{ r0 }}"></span>
+          {%- for q in reads -%}<a class="icon" href="{{ q.url | relative_url }}" data-d="{{ q.date | date: '%Y-%m-%d' }}" title="{{ q.title }} · {{ q.date | date: '%Y-%m-%d' }}">📖</a>{%- endfor -%}
         </div>
         {%- endif -%}{%- else -%}
         {%- assign pd = p.date | date: "%Y-%m-%d" -%}
         <a class="row" href="{{ p.url | relative_url }}" title="{{ pd }}">
           <span class="label">{{ p.title }} <em>{{ pd | slice: 0, 4 }}</em></span>
-          <span class="life" data-d="{{ pd }}"></span>
-          <span class="mark ring" data-d="{{ pd }}"></span>
+          <span class="icon" data-d="{{ pd }}">📖</span>
         </a>
         {%- endif -%}
         {%- endfor -%}
@@ -162,9 +152,40 @@ permalink: /
 {%-if site.goat_counter and jekyll.environment == "production"-%}{%-include goat_counter.html-%}{%-endif-%}
 <script>
   const now = Date.now(), t0 = Date.UTC({{ d.start }}, 0, 1);
-  const x = s => (100 * (1 - Math.pow(Math.max(0, now - Date.parse(s)) / (now - t0), 0.55))).toFixed(2);
-  for (const e of document.querySelectorAll("[data-d]")) e.style.setProperty("--x", x(e.dataset.d));
-  for (const e of document.querySelectorAll("[data-e]")) e.style.setProperty("--x2", x(e.dataset.e));
+  const x = t => 100 * (1 - Math.pow(Math.max(0, now - t) / (now - t0), 0.55));
+  for (const e of document.querySelectorAll("[data-d]")) e.style.setProperty("--x", x(Date.parse(e.dataset.d)));
+
+  const WEEK = 7 * 864e5, PITCH = 13, codeTrack = document.querySelector("#code .track");
+  const weeks = new Map([...codeTrack.querySelectorAll(".row")].map(r => [r, JSON.parse(r.dataset.weeks)]));
+  const level = v => v >= 8 ? 4 : v >= 4 ? 3 : v >= 2 ? 2 : v ? 1 : 0;
+  let trackW = 0;
+  function squares() {
+    const W = codeTrack.clientWidth;
+    if (W === trackW) return;
+    trackW = W;
+    const n = Math.floor(W / PITCH), left = W - n * PITCH, cell = t => (x(t) * W / 100 - left) / PITCH;
+    for (const [r, ws] of weeks) {
+      r.querySelectorAll(".sq").forEach(e => e.remove());
+      const v = new Array(n).fill(0);
+      for (const [d, c] of ws) {
+        const a = Date.parse(d), end = Math.min(n, Math.ceil(cell(Math.min(a + WEEK, now))));
+        for (let i = Math.max(0, Math.floor(cell(a))); i < end; i++) v[i] = Math.max(v[i], c);
+      }
+      let html = "";
+      for (let i = v.findIndex(Boolean), last = v.findLastIndex(Boolean); i >= 0 && i <= last; i++)
+        html += `<i class="sq l${level(v[i])}" style="left:${left + i * PITCH + 1.5}px"></i>`;
+      r.insertAdjacentHTML("beforeend", html);
+    }
+  }
+  new ResizeObserver(squares).observe(codeTrack);
+
+  function thin(els, right = Infinity, minLeft = -Infinity) {
+    for (const e of els) e.style.visibility = "";
+    for (const e of els) {
+      const b = e.getBoundingClientRect();
+      if (b.right > right - 8 || b.left < minLeft) e.style.visibility = "hidden"; else right = b.left;
+    }
+  }
 
   const q = document.getElementById("q"), rows = [...document.querySelectorAll(".row")];
   q.addEventListener("input", () => {
@@ -192,18 +213,13 @@ permalink: /
   }
   more.addEventListener("click", () => { expanded = !expanded; fit(); });
   const ys = [...document.querySelectorAll(".year")], nowLabel = document.querySelector(".now");
-  function years() {
-    for (const y of ys) y.style.visibility = "";
-    const floor = ys[0].getBoundingClientRect().right + 8;
-    let left = nowLabel.getBoundingClientRect().left;
-    for (const y of ys.slice(1).reverse()) {
-      const r = y.getBoundingClientRect();
-      if (r.right > left - 8 || r.left < floor) y.style.visibility = "hidden"; else left = r.left;
-    }
+  function layout() {
+    thin(ys.slice(1).reverse(), nowLabel.getBoundingClientRect().left, ys[0].getBoundingClientRect().right + 8);
+    for (const r of document.querySelectorAll("#blog .row")) thin(r.querySelectorAll(".icon"));
+    fit();
   }
-  addEventListener("resize", () => { years(); fit(); });
-  years();
-  fit();
+  addEventListener("resize", layout);
+  layout();
   addEventListener("keydown", e => {
     if (e.key === "/" && document.activeElement !== q) { e.preventDefault(); q.focus(); }
     else if (e.key === "Escape" && document.activeElement === q) { q.value = ""; q.dispatchEvent(new Event("input")); q.blur(); }
