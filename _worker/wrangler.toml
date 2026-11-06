@@ -1,0 +1,4 @@
+name = "akramz-space"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+routes = [{ pattern = "akramz.space/*", zone_name = "akramz.space" }]

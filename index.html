@@ -57,10 +57,10 @@ permalink: /
 
   .row { display: block; position: relative; height: 30px; }
   .row:hover .label { text-decoration: underline; }
-  .row::before { content: ""; position: absolute; left: 0; right: 0; top: 20px; height: 1px; background: var(--line); }
-  .life { top: 20px; height: 1px; right: 0; background: currentColor; opacity: .6; }
-  .span { top: 19px; height: 2px; width: calc((var(--x2) - var(--x)) * 1%); background: currentColor; opacity: .5; }
-  .mark { top: 15px; width: 10px; height: 10px; margin-left: -5px; background: currentColor; box-sizing: border-box; }
+  .row::before { content: ""; position: absolute; left: 0; right: 0; bottom: 9px; height: 1px; background: var(--line); }
+  .life { bottom: 9px; height: 1px; right: 0; background: currentColor; opacity: .6; }
+  .span { bottom: 9px; height: 2px; width: calc((var(--x2) - var(--x)) * 1%); background: currentColor; opacity: .5; }
+  .mark { bottom: 5px; width: 10px; height: 10px; margin-left: -5px; background: currentColor; box-sizing: border-box; }
   .diamond { transform: rotate(45deg); }
   .hollow { background: #fff; border: 1.5px solid currentColor; }
   .ring { border-radius: 50%; }
@@ -69,6 +69,23 @@ permalink: /
   .label em { color: var(--muted); font-style: normal; }
   .track > :nth-child(1 of .row) .label { color: inherit; font-weight: bold; }
   .track > :nth-child(1 of .row) .label em { font-weight: normal; }
+
+  footer { margin-top: 28px; padding-top: 10px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+  footer a:hover { color: var(--fg); text-decoration: underline; }
+
+  @media (max-width: 760px) {
+    .wrap { padding: 16px 20px; }
+    .scroll { overflow: visible; }
+    .axis { position: static; }
+    header { grid-template-columns: auto 1fr; gap: 16px; padding: 0 0 8px; }
+    #q { width: 100%; box-sizing: border-box; }
+    .inner { min-width: 0; padding: 0 22px 0 0; }
+    .shaft { right: -18px; }
+    .time { display: none; }
+    h2 small { display: block; margin: 2px 0 0; }
+    .row { height: auto; }
+    .label { position: static; display: block; white-space: normal; padding-bottom: 14px; }
+  }
 </style>
 </head>
 <body>
@@ -97,7 +114,7 @@ permalink: /
         </a>
         {%- endfor -%}
       </div>
-      <button id="more" hidden></button>
+      <button id="more" type="button" hidden></button>
     </section>
 
     {%- assign papers = d.papers | sort: "date" | reverse -%}{%- assign cites = 0 -%}
@@ -139,6 +156,7 @@ permalink: /
         {%- endfor -%}
       </div>
     </section>
+  <footer><a href="{{ '/about/' | relative_url }}">about</a> · <a href="{{ '/contact/' | relative_url }}">contact</a> · <a href="{{ '/privacy/' | relative_url }}">privacy</a> · <a href="{{ '/archive.html' | relative_url }}">archive</a> · <a href="{{ '/feed.xml' | relative_url }}">rss</a> · <a href="{{ '/llms.txt' | relative_url }}">llms.txt</a></footer>
   </div></div>
 </div>
 {%-if site.goat_counter and jekyll.environment == "production"-%}{%-include goat_counter.html-%}{%-endif-%}
@@ -162,17 +180,29 @@ permalink: /
   let expanded = false;
   function fit() {
     for (const r of codeRows) r.classList.remove("cut");
-    more.hidden = true;
-    if (expanded || q.value.trim()) return;
-    let k = codeRows.length;
-    while (document.documentElement.scrollHeight > innerHeight && k > 3) {
-      codeRows[--k].classList.add("cut");
-      more.textContent = `… ${codeRows.length - k} more projects`;
-      more.hidden = false;
+    more.hidden = !!q.value.trim();
+    if (more.hidden) return;
+    more.textContent ||= "…";
+    const de = document.documentElement;
+    let over = de.scrollHeight - de.clientHeight, k = codeRows.length;
+    while (over > 0 && k > 3) over -= codeRows[--k].offsetHeight;
+    if (k === codeRows.length) { more.hidden = true; return; }
+    if (!expanded) for (const r of codeRows.slice(k)) r.classList.add("cut");
+    more.textContent = expanded ? "show fewer" : `… ${codeRows.length - k} more projects`;
+  }
+  more.addEventListener("click", () => { expanded = !expanded; fit(); });
+  const ys = [...document.querySelectorAll(".year")], nowLabel = document.querySelector(".now");
+  function years() {
+    for (const y of ys) y.style.visibility = "";
+    const floor = ys[0].getBoundingClientRect().right + 8;
+    let left = nowLabel.getBoundingClientRect().left;
+    for (const y of ys.slice(1).reverse()) {
+      const r = y.getBoundingClientRect();
+      if (r.right > left - 8 || r.left < floor) y.style.visibility = "hidden"; else left = r.left;
     }
   }
-  more.addEventListener("click", () => { expanded = true; fit(); });
-  addEventListener("resize", fit);
+  addEventListener("resize", () => { years(); fit(); });
+  years();
   fit();
   addEventListener("keydown", e => {
     if (e.key === "/" && document.activeElement !== q) { e.preventDefault(); q.focus(); }

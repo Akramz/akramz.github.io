@@ -125,7 +125,7 @@ hr {
 
 img { max-width: 100%; }
 
-table { width: 100%; border-collapse: collapse; }
+table { width: 100%; border-collapse: collapse; display: block; overflow-x: auto; }
 th, td { border: 1px solid var(--border-color); padding: 0.4rem; }
 
 code {
